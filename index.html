@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>拾级汉语 · Ten-Level Chinese Flashcards (Level 1)</title>
+<meta name="description" content="A clean, Anki-style flashcard app for the Level 1 Integrated Chinese textbook. 16 lessons of vocabulary, sentences, and characters with audio and stroke-order practice. Local-only.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-family='serif'>汉</text></svg>">
+
+<!-- PWA: installable, themed, offline-capable -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#B43A2E" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1A1916" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="拾级 Chinese">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<script>
+  // Register the service worker for offline + install. Relative path so it
+  // works under the GitHub Pages subpath. Failures never block the app.
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    });
+  }
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="topbar" role="banner">
+  <a href="#/" class="brand" aria-label="Go to home">
+    <span class="brand__mark" aria-hidden="true" lang="zh-CN">拾</span>
+    <span class="brand__text">
+      <span class="brand__title">Ten-Level Chinese</span>
+      <span class="brand__sub">Level 1 · Integrated Textbook</span>
+    </span>
+  </a>
+  <nav class="topbar__nav" aria-label="Primary">
+    <a class="creditlink" href="https://husanmavlonov.com" target="_blank" rel="noopener noreferrer" title="Made by Husan Mavlonov">
+      <span class="creditlink__by">by</span>
+      <span class="creditlink__name">husanmavlonov.com</span>
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+    </a>
+    <button id="settingsBtn" class="iconbtn" aria-label="Settings" aria-haspopup="dialog">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+  </nav>
+</header>
+
+<!-- Floating search FAB (bottom-right) + expandable panel -->
+<button id="searchFab" class="searchfab" type="button" aria-label="Search (/)" aria-expanded="false" aria-controls="searchPanel">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+</button>
+<aside id="searchPanel" class="searchpanel" hidden role="dialog" aria-label="Search all cards">
+  <div class="searchpanel__inner">
+    <label class="searchbox searchbox--panel">
+      <svg class="searchbox__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="searchInput" type="search" placeholder="Search 汉字, pinyin, English…" aria-label="Search all cards" autocomplete="off" spellcheck="false">
+      <button type="button" class="searchbox__close" id="searchClose" aria-label="Close search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </label>
+    <div id="searchResults" class="searchresults" role="list" aria-label="Search results" hidden></div>
+    <p class="searchpanel__hint">Type pinyin (with or without tones), Chinese, or English. Press <kbd>/</kbd> to open, <kbd>Esc</kbd> to close.</p>
+  </div>
+</aside>
+
+<main id="main" class="app" tabindex="-1">
+<div id="srAnnounce" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+  <!-- Home view -->
+  <section id="view-home" class="view view--home" hidden>
+    <div class="hero">
+      <div class="hero__eyebrow" lang="zh-CN">拾级汉语 · 综合课本 · 第1级</div>
+      <h1 class="hero__title">Flashcards for every lesson.</h1>
+      <p class="hero__lede" id="heroLede">Vocabulary, sentences, and characters from the Level 1 Integrated Textbook, organised by lesson. Front shows Chinese — flip for pinyin and English.</p>
+      <div class="hero__stats" aria-label="Progress summary">
+        <div class="stat"><span class="stat__num" id="statSeen">0</span><span class="stat__label">cards seen</span></div>
+        <div class="stat"><span class="stat__num" id="statKnown">0</span><span class="stat__label">marked known</span></div>
+        <div class="stat"><span class="stat__num" id="statStreak">0</span><span class="stat__label">day streak</span></div>
+      </div>
+    </div>
+
+    <div class="quickstart" aria-label="Quick study options">
+      <a href="#/queue/due" class="qs qs--due" id="qsDue">
+        <span class="qs__count"><span id="qsDueCount">0</span></span>
+        <span class="qs__body">
+          <span class="qs__label">Due today</span>
+          <span class="qs__hint">spaced review across all lessons</span>
+        </span>
+        <span class="qs__arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="#/queue/weak" class="qs qs--weak" id="qsWeak">
+        <span class="qs__count"><span id="qsWeakCount">0</span></span>
+        <span class="qs__body">
+          <span class="qs__label">Weakest cards</span>
+          <span class="qs__hint">ones you keep marking Again / Hard</span>
+        </span>
+        <span class="qs__arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="#/queue/random" class="qs qs--random">
+        <span class="qs__count">20</span>
+        <span class="qs__body">
+          <span class="qs__label">Random mix</span>
+          <span class="qs__hint">20 cards across the whole textbook</span>
+        </span>
+        <span class="qs__arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="lesson-grid-wrap">
+      <div class="section-head">
+        <h2 class="section-head__title">Lessons</h2>
+        <p class="section-head__hint">Pick a lesson to start studying.</p>
+      </div>
+      <ol id="lessonGrid" class="lesson-grid" role="list"></ol>
+    </div>
+  </section>
+
+  <!-- Lesson detail view -->
+  <section id="view-lesson" class="view view--lesson" hidden>
+    <a href="#/" class="backlink" data-route>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      All lessons
+    </a>
+    <header class="lesson-header">
+      <div class="lesson-header__num" id="lessonNum">第 1 课</div>
+      <h1 class="lesson-header__title" id="lessonTitle" lang="zh-CN">…</h1>
+      <p class="lesson-header__pinyin" id="lessonPinyin">…</p>
+      <p class="lesson-header__english" id="lessonEnglish">…</p>
+    </header>
+
+    <div class="mode-cards" role="list">
+      <a href="#" class="mode-card" data-mode="vocab" role="listitem">
+        <span class="mode-card__icon" aria-hidden="true">语</span>
+        <span class="mode-card__body">
+          <span class="mode-card__title">Vocabulary</span>
+          <span class="mode-card__sub"><span id="cntVocab">0</span> words</span>
+        </span>
+        <span class="mode-card__arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="#" class="mode-card" data-mode="sentences" role="listitem">
+        <span class="mode-card__icon" aria-hidden="true">句</span>
+        <span class="mode-card__body">
+          <span class="mode-card__title">Sentences</span>
+          <span class="mode-card__sub"><span id="cntSentences">0</span> example sentences</span>
+        </span>
+        <span class="mode-card__arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="#" class="mode-card" data-mode="characters" role="listitem">
+        <span class="mode-card__icon" aria-hidden="true">字</span>
+        <span class="mode-card__body">
+          <span class="mode-card__title">Characters · 读写字</span>
+          <span class="mode-card__sub"><span id="cntChars">0</span> hanzi to read, write &amp; trace</span>
+        </span>
+        <span class="mode-card__arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="#" class="mode-card mode-card--test" data-mode="test" role="listitem">
+        <span class="mode-card__icon" aria-hidden="true">测</span>
+        <span class="mode-card__body">
+          <span class="mode-card__title">Test yourself · 测验</span>
+          <span class="mode-card__sub">active recall — type the pinyin, write the hanzi from memory</span>
+        </span>
+        <span class="mode-card__arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <details class="lesson-list-block">
+      <summary>Browse all vocabulary in this lesson</summary>
+      <div class="vocab-table" id="vocabTable" role="list"></div>
+    </details>
+  </section>
+
+  <!-- Study view -->
+  <section id="view-study" class="view view--study" hidden>
+    <header class="study-header">
+      <a href="#" class="backlink" id="studyBack">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Lesson
+      </a>
+      <div class="study-header__meta">
+        <span class="study-header__lesson" id="studyLessonLabel">Lesson 1</span>
+        <span class="study-header__sep" aria-hidden="true">·</span>
+        <span class="study-header__mode" id="studyModeLabel">Vocabulary</span>
+      </div>
+      <div class="study-header__pos" aria-live="polite">
+        <span id="studyPos">1</span> / <span id="studyTotal">0</span>
+      </div>
+    </header>
+
+    <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Deck progress">
+      <div class="progress__bar" id="progressBar" style="width:0%"></div>
+    </div>
+
+    <div class="card-stage" id="cardStage">
+      <button class="card" id="card" type="button" aria-pressed="false">
+        <div class="card__inner">
+          <div class="card__face card__face--front" id="cardFront">
+            <div class="card__chinese" id="cardChinese">汉</div>
+            <div class="card__front-py" id="cardFrontPy" hidden></div>
+            <div class="card__hint" id="cardHint">Tap card or press Space to flip</div>
+          </div>
+          <div class="card__face card__face--back" id="cardBack">
+            <div class="card__pinyin" id="cardPinyin">hàn</div>
+            <div class="card__english" id="cardEnglish">…</div>
+            <div class="card__pos" id="cardPos"></div>
+          </div>
+        </div>
+      </button>
+    </div>
+
+    <!-- Test mode: type the pinyin (vocab) or write the hanzi (characters) -->
+    <div class="test-panel" id="testPanel" hidden>
+      <div class="test-input-row" id="testInputRow">
+        <input id="testInput" type="text" inputmode="latin" autocomplete="off"
+               autocapitalize="off" spellcheck="false" lang="en"
+               placeholder="type the pinyin — tones optional" aria-label="Type the pinyin">
+        <button class="btn btn--primary" id="testCheck" type="button">Check</button>
+      </div>
+      <button class="btn btn--primary test-write-btn" id="testWriteBtn" type="button" hidden>✍︎ Write it from memory</button>
+      <div class="test-result" id="testResult" role="status" aria-live="polite" hidden></div>
+    </div>
+
+    <div class="audio-row">
+      <button class="playbtn" id="audioBtn" type="button" aria-label="Play pronunciation">
+        <span class="playbtn__icon" aria-hidden="true">
+          <svg class="playbtn__svg playbtn__svg--play" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+          <svg class="playbtn__svg playbtn__svg--stop" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <rect x="6" y="6" width="12" height="12" rx="2"/>
+          </svg>
+          <span class="playbtn__eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        </span>
+        <span class="playbtn__label" id="audioLabel">Play pronunciation</span>
+        <kbd class="playbtn__kbd" aria-hidden="true">P</kbd>
+      </button>
+    </div>
+
+    <div class="action-row">
+      <button class="action action--again" id="btnAgain" type="button" data-shortcut="1">
+        <span class="action__label">Again</span>
+        <span class="action__key" aria-hidden="true">1</span>
+      </button>
+      <button class="action action--hard" id="btnHard" type="button" data-shortcut="2">
+        <span class="action__label">Hard</span>
+        <span class="action__key" aria-hidden="true">2</span>
+      </button>
+      <button class="action action--good" id="btnGood" type="button" data-shortcut="3">
+        <span class="action__label">Good</span>
+        <span class="action__key" aria-hidden="true">3</span>
+      </button>
+      <button class="action action--easy" id="btnEasy" type="button" data-shortcut="4">
+        <span class="action__label">Easy</span>
+        <span class="action__key" aria-hidden="true">4</span>
+      </button>
+    </div>
+
+    <nav class="navrow" aria-label="Card navigation">
+      <button class="navrow__btn" id="btnPrev" type="button" aria-label="Previous card">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        Prev
+      </button>
+      <button class="navrow__btn" id="btnShuffle" type="button" aria-pressed="false">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 3h5v5M4 20l16-16M21 16v5h-5M4 4l5 5M15 15l6 6"/></svg>
+        Shuffle
+      </button>
+      <button class="navrow__btn" id="btnReset" type="button">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+        Restart
+      </button>
+      <button class="navrow__btn" id="btnNext" type="button" aria-label="Next card">
+        Next
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+    </nav>
+
+    <div class="legend">
+      <kbd>Space</kbd> flip · <kbd>←</kbd> <kbd>→</kbd> prev/next · <kbd>1</kbd>–<kbd>4</kbd> grade · <kbd>P</kbd> play audio · <kbd>S</kbd> shuffle · <kbd>R</kbd> restart
+    </div>
+
+    <div class="finished" id="finished" hidden>
+      <div class="finished__icon" aria-hidden="true">🌿</div>
+      <h2 class="finished__title" id="finishedTitle">Deck complete</h2>
+      <p class="finished__sub" id="finishedStats">…</p>
+      <div class="finished__actions">
+        <button class="btn btn--primary" id="finishedRedo" type="button" hidden>Redo tricky cards</button>
+        <button class="btn btn--ghost" id="finishedRestart" type="button">Study again</button>
+        <a class="btn btn--primary" id="finishedBack" href="#">Back to lesson</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Settings dialog -->
+<dialog id="settingsDialog" class="dialog" aria-labelledby="settingsTitle">
+  <form method="dialog" class="dialog__inner">
+    <header class="dialog__head">
+      <h2 id="settingsTitle" class="dialog__title">Settings</h2>
+      <button class="iconbtn" value="cancel" aria-label="Close settings">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </header>
+    <div class="dialog__body">
+      <label class="setting">
+        <span class="setting__label">Theme</span>
+        <select id="setTheme" class="setting__input">
+          <option value="auto">System</option>
+          <option value="light">Paper (light)</option>
+          <option value="dark">Ink (dark)</option>
+        </select>
+      </label>
+      <label class="setting">
+        <span class="setting__label">Card front</span>
+        <select id="setFront" class="setting__input">
+          <option value="zh">Chinese → pinyin + English</option>
+          <option value="zhpy">Chinese + pinyin → English (beginner)</option>
+          <option value="en">English → Chinese + pinyin</option>
+        </select>
+      </label>
+      <label class="setting">
+        <span class="setting__label">Chinese size</span>
+        <select id="setSize" class="setting__input">
+          <option value="m">Medium</option>
+          <option value="l" selected>Large</option>
+          <option value="xl">Extra large</option>
+        </select>
+      </label>
+      <label class="setting setting--inline">
+        <span class="setting__label">Auto-play voice on each card</span>
+        <input type="checkbox" id="setAutoplay" class="setting__checkbox">
+      </label>
+      <label class="setting setting--inline">
+        <span class="setting__label">Reduce motion</span>
+        <input type="checkbox" id="setReduceMotion" class="setting__checkbox">
+      </label>
+      <div class="setting setting--backup">
+        <span class="setting__label">Backup</span>
+        <span class="setting__btns">
+          <button class="btn btn--ghost" type="button" id="setExport">Export progress</button>
+          <button class="btn btn--ghost" type="button" id="setImport">Import</button>
+          <input type="file" id="setImportFile" accept="application/json,.json" hidden>
+        </span>
+      </div>
+      <button class="btn btn--ghost dialog__reset" type="button" id="setResetProgress">Reset all progress</button>
+    </div>
+    <footer class="dialog__foot">
+      <button class="btn btn--primary" value="default">Done</button>
+    </footer>
+  </form>
+</dialog>
+
+<!-- Stroke-order writing dialog -->
+<dialog id="writerDialog" class="dialog dialog--writer" aria-labelledby="writerTitle">
+  <div class="dialog__inner">
+    <header class="dialog__head">
+      <h2 id="writerTitle" class="dialog__title">
+        Practice writing <span id="writerChar" class="dialog__title-zh">字</span>
+      </h2>
+      <button class="iconbtn" id="writerClose" aria-label="Close writing practice">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </header>
+    <div class="dialog__body writer-body">
+      <div class="writer-stage" id="writerStage" aria-hidden="true"></div>
+      <div class="writer-info">
+        <div id="writerSubtitle" class="writer-info__sub"></div>
+        <div id="writerStatus" class="writer-info__status" aria-live="polite" aria-atomic="true">Tap <em>Show strokes</em> to watch, or <em>Trace</em> to practice.</div>
+      </div>
+      <div class="writer-actions">
+        <button type="button" class="btn btn--ghost" id="writerAnimate">Show strokes</button>
+        <button type="button" class="btn btn--primary" id="writerQuiz">Trace it</button>
+      </div>
+    </div>
+    <footer class="dialog__foot">
+      <small class="writer-cred">Stroke data: <a href="https://hanziwriter.org" target="_blank" rel="noopener noreferrer">Hanzi Writer</a></small>
+      <button type="button" class="btn btn--ghost" id="writerDone">Done</button>
+    </footer>
+  </div>
+</dialog>
+
+<footer class="footer">
+  <span>Made for studying offline · data lives in your browser only</span>
+  <span class="footer__source" lang="zh-CN">Source: 拾级汉语 综合课本 第1级 · BLCU Press</span>
+  <span class="footer__credit">
+    Built by
+    <a href="https://husanmavlonov.com" target="_blank" rel="noopener noreferrer">Husan Mavlonov</a>
+  </span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js" defer></script>
+<script src="assets/app.js" type="module"></script>
+</body>
+</html>

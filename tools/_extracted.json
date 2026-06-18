@@ -1,0 +1,7802 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title_zh": "您贵姓？",
+      "title_pinyin": "Nín guìxìng?",
+      "title_en": "May I know your surname?",
+      "characters": [
+        "您",
+        "们",
+        "老",
+        "师",
+        "贵",
+        "姓",
+        "叫",
+        "什",
+        "么",
+        "名",
+        "字",
+        "是",
+        "国",
+        "学",
+        "习",
+        "汉",
+        "语",
+        "都",
+        "吗",
+        "呢"
+      ],
+      "char_readings": [
+        {
+          "char": "您",
+          "pinyin": "nín",
+          "gloss": "you (honorific)"
+        },
+        {
+          "char": "们",
+          "pinyin": "men",
+          "gloss": "plural marker"
+        },
+        {
+          "char": "老",
+          "pinyin": "lǎo",
+          "gloss": "old"
+        },
+        {
+          "char": "师",
+          "pinyin": "shī",
+          "gloss": "teacher, master"
+        },
+        {
+          "char": "贵",
+          "pinyin": "guì",
+          "gloss": "honorable; expensive"
+        },
+        {
+          "char": "姓",
+          "pinyin": "xìng",
+          "gloss": "surname"
+        },
+        {
+          "char": "叫",
+          "pinyin": "jiào",
+          "gloss": "to call, be named"
+        },
+        {
+          "char": "什",
+          "pinyin": "shén",
+          "gloss": "what (in 什么)"
+        },
+        {
+          "char": "么",
+          "pinyin": "me",
+          "gloss": "interrogative suffix (in 什么)"
+        },
+        {
+          "char": "名",
+          "pinyin": "míng",
+          "gloss": "name"
+        },
+        {
+          "char": "字",
+          "pinyin": "zì",
+          "gloss": "character; name"
+        },
+        {
+          "char": "是",
+          "pinyin": "shì",
+          "gloss": "to be"
+        },
+        {
+          "char": "国",
+          "pinyin": "guó",
+          "gloss": "country"
+        },
+        {
+          "char": "学",
+          "pinyin": "xué",
+          "gloss": "to learn, study"
+        },
+        {
+          "char": "习",
+          "pinyin": "xí",
+          "gloss": "to practice, study"
+        },
+        {
+          "char": "汉",
+          "pinyin": "hàn",
+          "gloss": "Han (Chinese)"
+        },
+        {
+          "char": "语",
+          "pinyin": "yǔ",
+          "gloss": "language"
+        },
+        {
+          "char": "都",
+          "pinyin": "dōu",
+          "gloss": "all, both"
+        },
+        {
+          "char": "吗",
+          "pinyin": "ma",
+          "gloss": "yes-no question particle"
+        },
+        {
+          "char": "呢",
+          "pinyin": "ne",
+          "gloss": "question particle"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "您",
+          "pinyin": "nín",
+          "pos": "Pron.",
+          "english": "you (honorific form)"
+        },
+        {
+          "chinese": "你",
+          "pinyin": "nǐ",
+          "pos": "Pron.",
+          "english": "you (singular)"
+        },
+        {
+          "chinese": "我",
+          "pinyin": "wǒ",
+          "pos": "Pron.",
+          "english": "I, me"
+        },
+        {
+          "chinese": "他",
+          "pinyin": "tā",
+          "pos": "Pron.",
+          "english": "he, him"
+        },
+        {
+          "chinese": "她",
+          "pinyin": "tā",
+          "pos": "Pron.",
+          "english": "she, her"
+        },
+        {
+          "chinese": "们",
+          "pinyin": "men",
+          "pos": "Part.",
+          "english": "plural marker (我们 we, 你们 you, 他们/她们 they)"
+        },
+        {
+          "chinese": "老师",
+          "pinyin": "lǎoshī",
+          "pos": "N.",
+          "english": "teacher"
+        },
+        {
+          "chinese": "贵姓",
+          "pinyin": "guìxìng",
+          "pos": "N.",
+          "english": "May I know your surname?"
+        },
+        {
+          "chinese": "姓",
+          "pinyin": "xìng",
+          "pos": "N., V.",
+          "english": "surname, be surnamed"
+        },
+        {
+          "chinese": "叫",
+          "pinyin": "jiào",
+          "pos": "V.",
+          "english": "call"
+        },
+        {
+          "chinese": "什么",
+          "pinyin": "shénme",
+          "pos": "Pron.",
+          "english": "what"
+        },
+        {
+          "chinese": "名字",
+          "pinyin": "míngzi",
+          "pos": "N.",
+          "english": "name"
+        },
+        {
+          "chinese": "是",
+          "pinyin": "shì",
+          "pos": "V.",
+          "english": "be"
+        },
+        {
+          "chinese": "哪国人",
+          "pinyin": "nǎ guó rén",
+          "pos": "",
+          "english": "person of which nationality"
+        },
+        {
+          "chinese": "哪",
+          "pinyin": "nǎ",
+          "pos": "Pron.",
+          "english": "which"
+        },
+        {
+          "chinese": "国",
+          "pinyin": "guó",
+          "pos": "N.",
+          "english": "country"
+        },
+        {
+          "chinese": "人",
+          "pinyin": "rén",
+          "pos": "N.",
+          "english": "people, person"
+        },
+        {
+          "chinese": "学习",
+          "pinyin": "xuéxí",
+          "pos": "V.",
+          "english": "learn, study"
+        },
+        {
+          "chinese": "汉语",
+          "pinyin": "Hànyǔ",
+          "pos": "N.",
+          "english": "Chinese (language)"
+        },
+        {
+          "chinese": "英语",
+          "pinyin": "Yīngyǔ",
+          "pos": "N.",
+          "english": "English (language)"
+        },
+        {
+          "chinese": "法语",
+          "pinyin": "Fǎyǔ",
+          "pos": "N.",
+          "english": "French (language)"
+        },
+        {
+          "chinese": "好",
+          "pinyin": "hǎo",
+          "pos": "Adj.",
+          "english": "good, fine, well"
+        },
+        {
+          "chinese": "也",
+          "pinyin": "yě",
+          "pos": "Adv.",
+          "english": "also, too"
+        },
+        {
+          "chinese": "都",
+          "pinyin": "dōu",
+          "pos": "Adv.",
+          "english": "all, both"
+        },
+        {
+          "chinese": "不",
+          "pinyin": "bù",
+          "pos": "Adv.",
+          "english": "no, not"
+        },
+        {
+          "chinese": "呢",
+          "pinyin": "ne",
+          "pos": "Part.",
+          "english": "particle for elliptical question"
+        },
+        {
+          "chinese": "吗",
+          "pinyin": "ma",
+          "pos": "Part.",
+          "english": "yes-no question particle"
+        },
+        {
+          "chinese": "英国",
+          "pinyin": "Yīngguó",
+          "pos": "PN",
+          "english": "U.K."
+        },
+        {
+          "chinese": "法国",
+          "pinyin": "Fǎguó",
+          "pos": "PN",
+          "english": "France"
+        },
+        {
+          "chinese": "在",
+          "pinyin": "zài",
+          "pos": "Prep., V.",
+          "english": "(be) in / at / on"
+        },
+        {
+          "chinese": "上海",
+          "pinyin": "Shànghǎi",
+          "pos": "N.",
+          "english": "Shanghai"
+        },
+        {
+          "chinese": "很",
+          "pinyin": "hěn",
+          "pos": "Adv.",
+          "english": "very"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "你叫什么名字？",
+          "english": "What's your name?"
+        },
+        {
+          "chinese": "我也学习汉语。",
+          "english": "I study Chinese too."
+        },
+        {
+          "chinese": "你是哪国人？",
+          "english": "What's your nationality?"
+        },
+        {
+          "chinese": "我们都学习汉语。",
+          "english": "We all study Chinese."
+        },
+        {
+          "chinese": "他不学习汉语。",
+          "english": "He does not study Chinese."
+        },
+        {
+          "chinese": "我学习汉语，你呢？",
+          "english": "I study Chinese. How about you?"
+        },
+        {
+          "chinese": "你是法国人吗？",
+          "english": "Are you French?"
+        },
+        {
+          "chinese": "老师，您贵姓？",
+          "english": "Teacher, may I know your surname?"
+        },
+        {
+          "chinese": "我姓王。",
+          "english": "My surname is Wang."
+        },
+        {
+          "chinese": "王老师，您好！",
+          "english": "Teacher Wang, hello!"
+        },
+        {
+          "chinese": "你好！你叫什么名字？",
+          "english": "Hello! What's your name?"
+        },
+        {
+          "chinese": "我叫林娜。",
+          "english": "My name is Lin Na."
+        },
+        {
+          "chinese": "你是哪国人？",
+          "english": "What's your nationality?"
+        },
+        {
+          "chinese": "我是法国人。",
+          "english": "I am French."
+        },
+        {
+          "chinese": "你好！",
+          "english": "Hello!"
+        },
+        {
+          "chinese": "你叫什么名字？",
+          "english": "What's your name?"
+        },
+        {
+          "chinese": "我叫马小红。你们呢？",
+          "english": "My name is Ma Xiaohong. And you?"
+        },
+        {
+          "chinese": "我叫林娜，他叫大卫。",
+          "english": "My name is Lin Na, his name is David."
+        },
+        {
+          "chinese": "你们都是英国人吗？",
+          "english": "Are you both British?"
+        },
+        {
+          "chinese": "不，我是法国人，他是英国人。",
+          "english": "No, I am French, he is British."
+        },
+        {
+          "chinese": "你们学习什么？",
+          "english": "What do you study?"
+        },
+        {
+          "chinese": "我学习汉语。",
+          "english": "I study Chinese."
+        },
+        {
+          "chinese": "你们都学习汉语。",
+          "english": "You both study Chinese."
+        },
+        {
+          "chinese": "你学习什么？",
+          "english": "What do you study?"
+        },
+        {
+          "chinese": "我学习英语，也学习法语。",
+          "english": "I study English, and French too."
+        },
+        {
+          "chinese": "我叫林娜，是法国人，在上海学习汉语。",
+          "english": "My name is Lin Na, I am French, and I study Chinese in Shanghai."
+        },
+        {
+          "chinese": "她英语很好，法语不好。",
+          "english": "Her English is very good, her French is not good."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_zh": "你住哪儿？",
+      "title_pinyin": "Nǐ zhù nǎr?",
+      "title_en": "Where do you live?",
+      "characters": [
+        "去",
+        "住",
+        "生",
+        "宿",
+        "舍",
+        "房",
+        "间",
+        "几",
+        "号",
+        "路",
+        "给",
+        "打",
+        "电",
+        "话",
+        "在",
+        "家",
+        "今",
+        "明",
+        "午",
+        "晚"
+      ],
+      "char_readings": [
+        {
+          "char": "去",
+          "pinyin": "qù",
+          "gloss": "go (to)"
+        },
+        {
+          "char": "住",
+          "pinyin": "zhù",
+          "gloss": "live, reside"
+        },
+        {
+          "char": "生",
+          "pinyin": "shēng",
+          "gloss": "student; be born"
+        },
+        {
+          "char": "宿",
+          "pinyin": "sù",
+          "gloss": "lodge, stay"
+        },
+        {
+          "char": "舍",
+          "pinyin": "shè",
+          "gloss": "house, dormitory"
+        },
+        {
+          "char": "房",
+          "pinyin": "fáng",
+          "gloss": "house, room"
+        },
+        {
+          "char": "间",
+          "pinyin": "jiān",
+          "gloss": "room; between"
+        },
+        {
+          "char": "几",
+          "pinyin": "jǐ",
+          "gloss": "how many"
+        },
+        {
+          "char": "号",
+          "pinyin": "hào",
+          "gloss": "number"
+        },
+        {
+          "char": "路",
+          "pinyin": "lù",
+          "gloss": "road"
+        },
+        {
+          "char": "给",
+          "pinyin": "gěi",
+          "gloss": "to, give"
+        },
+        {
+          "char": "打",
+          "pinyin": "dǎ",
+          "gloss": "make (a call); hit"
+        },
+        {
+          "char": "电",
+          "pinyin": "diàn",
+          "gloss": "electricity"
+        },
+        {
+          "char": "话",
+          "pinyin": "huà",
+          "gloss": "speech, words"
+        },
+        {
+          "char": "在",
+          "pinyin": "zài",
+          "gloss": "be at/in/on"
+        },
+        {
+          "char": "家",
+          "pinyin": "jiā",
+          "gloss": "home, family"
+        },
+        {
+          "char": "今",
+          "pinyin": "jīn",
+          "gloss": "today, now"
+        },
+        {
+          "char": "明",
+          "pinyin": "míng",
+          "gloss": "next; bright"
+        },
+        {
+          "char": "午",
+          "pinyin": "wǔ",
+          "gloss": "noon"
+        },
+        {
+          "char": "晚",
+          "pinyin": "wǎn",
+          "gloss": "evening, late"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "去",
+          "pinyin": "qù",
+          "pos": "V.",
+          "english": "go (to)"
+        },
+        {
+          "chinese": "哪儿",
+          "pinyin": "nǎr",
+          "pos": "Pron.",
+          "english": "where"
+        },
+        {
+          "chinese": "对",
+          "pinyin": "duì",
+          "pos": "Adj.",
+          "english": "yes; correct"
+        },
+        {
+          "chinese": "好的",
+          "pinyin": "hǎo de",
+          "pos": "",
+          "english": "ok"
+        },
+        {
+          "chinese": "住",
+          "pinyin": "zhù",
+          "pos": "V.",
+          "english": "live"
+        },
+        {
+          "chinese": "留学生",
+          "pinyin": "liúxuéshēng",
+          "pos": "N.",
+          "english": "foreign student"
+        },
+        {
+          "chinese": "学生",
+          "pinyin": "xuésheng",
+          "pos": "N.",
+          "english": "student"
+        },
+        {
+          "chinese": "宿舍",
+          "pinyin": "sùshè",
+          "pos": "N.",
+          "english": "dormitory"
+        },
+        {
+          "chinese": "楼",
+          "pinyin": "lóu",
+          "pos": "N.",
+          "english": "building"
+        },
+        {
+          "chinese": "号",
+          "pinyin": "hào",
+          "pos": "M.W.",
+          "english": "number (三号楼 Building No.3)"
+        },
+        {
+          "chinese": "房间",
+          "pinyin": "fángjiān",
+          "pos": "N.",
+          "english": "room"
+        },
+        {
+          "chinese": "几",
+          "pinyin": "jǐ",
+          "pos": "Pron.",
+          "english": "(a question word about a small number) what; how many"
+        },
+        {
+          "chinese": "百",
+          "pinyin": "bǎi",
+          "pos": "Num.",
+          "english": "hundred"
+        },
+        {
+          "chinese": "○（零）",
+          "pinyin": "líng",
+          "pos": "Num.",
+          "english": "zero"
+        },
+        {
+          "chinese": "路",
+          "pinyin": "lù",
+          "pos": "N.",
+          "english": "road"
+        },
+        {
+          "chinese": "的",
+          "pinyin": "de",
+          "pos": "Part.",
+          "english": "(possessive particle) 你的 your, yours; 我的 my, mine; 他的 his, 她的 her, hers"
+        },
+        {
+          "chinese": "给…打电话",
+          "pinyin": "gěi … dǎ diànhuà",
+          "pos": "",
+          "english": "make a phone call to somebody"
+        },
+        {
+          "chinese": "给",
+          "pinyin": "gěi",
+          "pos": "Prep.",
+          "english": "to"
+        },
+        {
+          "chinese": "打",
+          "pinyin": "dǎ",
+          "pos": "V.",
+          "english": "make"
+        },
+        {
+          "chinese": "电话",
+          "pinyin": "diànhuà",
+          "pos": "N.",
+          "english": "telephone"
+        },
+        {
+          "chinese": "号码",
+          "pinyin": "hàomǎ",
+          "pos": "N.",
+          "english": "number (电话号码 phone number)"
+        },
+        {
+          "chinese": "多少",
+          "pinyin": "duōshao",
+          "pos": "Pron.",
+          "english": "a question word about number"
+        },
+        {
+          "chinese": "可以",
+          "pinyin": "kěyǐ",
+          "pos": "V.",
+          "english": "can"
+        },
+        {
+          "chinese": "在家",
+          "pinyin": "zài jiā",
+          "pos": "",
+          "english": "be at home"
+        },
+        {
+          "chinese": "在",
+          "pinyin": "zài",
+          "pos": "V., Prep.",
+          "english": "(be) in / at / on"
+        },
+        {
+          "chinese": "家",
+          "pinyin": "jiā",
+          "pos": "N.",
+          "english": "home, family"
+        },
+        {
+          "chinese": "今天",
+          "pinyin": "jīntiān",
+          "pos": "N.",
+          "english": "today"
+        },
+        {
+          "chinese": "明天",
+          "pinyin": "míngtiān",
+          "pos": "N.",
+          "english": "tomorrow"
+        },
+        {
+          "chinese": "上午",
+          "pinyin": "shàngwǔ",
+          "pos": "N.",
+          "english": "morning"
+        },
+        {
+          "chinese": "下午",
+          "pinyin": "xiàwǔ",
+          "pos": "N.",
+          "english": "afternoon"
+        },
+        {
+          "chinese": "晚上",
+          "pinyin": "wǎnshang",
+          "pos": "N.",
+          "english": "evening"
+        },
+        {
+          "chinese": "南京路",
+          "pinyin": "Nánjīn Lù",
+          "pos": "PN",
+          "english": "Nanjing Road"
+        },
+        {
+          "chinese": "北京路",
+          "pinyin": "Běijīng Lù",
+          "pos": "PN",
+          "english": "Beijing Road"
+        },
+        {
+          "chinese": "美国",
+          "pinyin": "Měiguó",
+          "pos": "N.",
+          "english": "U.S.A."
+        },
+        {
+          "chinese": "每天",
+          "pinyin": "měi tiān",
+          "pos": "",
+          "english": "every day"
+        },
+        {
+          "chinese": "发",
+          "pinyin": "fā",
+          "pos": "V.",
+          "english": "send"
+        },
+        {
+          "chinese": "这",
+          "pinyin": "zhè",
+          "pos": "Pron.",
+          "english": "this"
+        },
+        {
+          "chinese": "地址",
+          "pinyin": "dìzhǐ",
+          "pos": "N.",
+          "english": "address"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "你去哪儿？",
+          "english": "Where are you going?"
+        },
+        {
+          "chinese": "你住哪儿？",
+          "english": "Where do you live?"
+        },
+        {
+          "chinese": "学生宿舍",
+          "english": "student dormitory"
+        },
+        {
+          "chinese": "三号楼",
+          "english": "Building No.3"
+        },
+        {
+          "chinese": "几号楼？",
+          "english": "What is the building number?"
+        },
+        {
+          "chinese": "几号房间？",
+          "english": "What is your room number?"
+        },
+        {
+          "chinese": "北京路328号",
+          "english": "No.328, Beijing Road"
+        },
+        {
+          "chinese": "号码是多少？",
+          "english": "What's the number?"
+        },
+        {
+          "chinese": "去哪儿？",
+          "english": "Where are you going?"
+        },
+        {
+          "chinese": "南京路。",
+          "english": "Nanjing Road."
+        },
+        {
+          "chinese": "什么？",
+          "english": "What?"
+        },
+        {
+          "chinese": "是南京路吗？",
+          "english": "Is it Nanjing Road?"
+        },
+        {
+          "chinese": "对。",
+          "english": "Right."
+        },
+        {
+          "chinese": "好的。",
+          "english": "Okay."
+        },
+        {
+          "chinese": "你住哪儿？",
+          "english": "Where do you live?"
+        },
+        {
+          "chinese": "我住留学生宿舍。",
+          "english": "I live in the foreign students' dormitory."
+        },
+        {
+          "chinese": "几号楼？",
+          "english": "Which building?"
+        },
+        {
+          "chinese": "3号楼。",
+          "english": "Building No.3."
+        },
+        {
+          "chinese": "几号房间？",
+          "english": "Which room?"
+        },
+        {
+          "chinese": "205房间。你呢？",
+          "english": "Room 205. And you?"
+        },
+        {
+          "chinese": "我住北京路328号。",
+          "english": "I live at No.328, Beijing Road."
+        },
+        {
+          "chinese": "我可以给你打电话吗？",
+          "english": "Can I call you?"
+        },
+        {
+          "chinese": "可以。",
+          "english": "Yes, you can."
+        },
+        {
+          "chinese": "你的电话号码是多少？",
+          "english": "What's your phone number?"
+        },
+        {
+          "chinese": "我的电话号码是65987432。",
+          "english": "My phone number is 65987432."
+        },
+        {
+          "chinese": "今天晚上你在家吗？",
+          "english": "Are you at home tonight?"
+        },
+        {
+          "chinese": "今天晚上我不在家。",
+          "english": "I'm not at home tonight."
+        },
+        {
+          "chinese": "明天上午呢？",
+          "english": "What about tomorrow morning?"
+        },
+        {
+          "chinese": "也不在家。我明天下午在家。",
+          "english": "Not at home either. I'll be at home tomorrow afternoon."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_zh": "我要买两本词典",
+      "title_pinyin": "Wǒ yào mǎi liǎng běn cídiǎn",
+      "title_en": "I'll buy two dictionaries",
+      "characters": [
+        "要",
+        "干",
+        "买",
+        "东",
+        "西",
+        "有",
+        "没",
+        "本",
+        "词",
+        "典",
+        "张",
+        "地",
+        "图",
+        "两",
+        "个",
+        "朋",
+        "友",
+        "太",
+        "了",
+        "还"
+      ],
+      "char_readings": [
+        {
+          "char": "要",
+          "pinyin": "yào",
+          "gloss": "want; will"
+        },
+        {
+          "char": "干",
+          "pinyin": "gàn",
+          "gloss": "do"
+        },
+        {
+          "char": "买",
+          "pinyin": "mǎi",
+          "gloss": "buy"
+        },
+        {
+          "char": "东",
+          "pinyin": "dōng",
+          "gloss": "east"
+        },
+        {
+          "char": "西",
+          "pinyin": "xī",
+          "gloss": "west"
+        },
+        {
+          "char": "有",
+          "pinyin": "yǒu",
+          "gloss": "have"
+        },
+        {
+          "char": "没",
+          "pinyin": "méi",
+          "gloss": "not; have not"
+        },
+        {
+          "char": "本",
+          "pinyin": "běn",
+          "gloss": "measure word for books"
+        },
+        {
+          "char": "词",
+          "pinyin": "cí",
+          "gloss": "word"
+        },
+        {
+          "char": "典",
+          "pinyin": "diǎn",
+          "gloss": "standard; canon"
+        },
+        {
+          "char": "张",
+          "pinyin": "zhāng",
+          "gloss": "measure word for flat things"
+        },
+        {
+          "char": "地",
+          "pinyin": "dì",
+          "gloss": "ground; earth"
+        },
+        {
+          "char": "图",
+          "pinyin": "tú",
+          "gloss": "picture; map"
+        },
+        {
+          "char": "两",
+          "pinyin": "liǎng",
+          "gloss": "two"
+        },
+        {
+          "char": "个",
+          "pinyin": "gè",
+          "gloss": "general measure word"
+        },
+        {
+          "char": "朋",
+          "pinyin": "péng",
+          "gloss": "friend"
+        },
+        {
+          "char": "友",
+          "pinyin": "yǒu",
+          "gloss": "friend"
+        },
+        {
+          "char": "太",
+          "pinyin": "tài",
+          "gloss": "too; very"
+        },
+        {
+          "char": "了",
+          "pinyin": "le",
+          "gloss": "particle (completion)"
+        },
+        {
+          "char": "还",
+          "pinyin": "hái",
+          "gloss": "still; also"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "课",
+          "pinyin": "kè",
+          "pos": "N.",
+          "english": "class, course, lesson"
+        },
+        {
+          "chinese": "有课（上课）",
+          "pinyin": "yǒu kè (shàng kè)",
+          "pos": "",
+          "english": "have classes"
+        },
+        {
+          "chinese": "没有课（不上课）",
+          "pinyin": "méiyǒu kè (bù shàng kè)",
+          "pos": "",
+          "english": "have no class"
+        },
+        {
+          "chinese": "干",
+          "pinyin": "gàn",
+          "pos": "V.",
+          "english": "do"
+        },
+        {
+          "chinese": "干什么",
+          "pinyin": "gàn shénme",
+          "pos": "",
+          "english": "what to do"
+        },
+        {
+          "chinese": "要",
+          "pinyin": "yào",
+          "pos": "V.",
+          "english": "want, be going to (do something)"
+        },
+        {
+          "chinese": "买",
+          "pinyin": "mǎi",
+          "pos": "V.",
+          "english": "buy"
+        },
+        {
+          "chinese": "东西",
+          "pinyin": "dōngxi",
+          "pos": "N.",
+          "english": "thing"
+        },
+        {
+          "chinese": "买东西",
+          "pinyin": "mǎi dōngxi",
+          "pos": "",
+          "english": "buy something, go shopping"
+        },
+        {
+          "chinese": "有",
+          "pinyin": "yǒu",
+          "pos": "V.",
+          "english": "have"
+        },
+        {
+          "chinese": "没有",
+          "pinyin": "méiyǒu",
+          "pos": "V.",
+          "english": "have not"
+        },
+        {
+          "chinese": "词典",
+          "pinyin": "cídiǎn",
+          "pos": "N.",
+          "english": "dictionary"
+        },
+        {
+          "chinese": "汉英词典",
+          "pinyin": "Hàn-Yīng cídiǎn",
+          "pos": "",
+          "english": "Chinese-English dictionary"
+        },
+        {
+          "chinese": "英汉词典",
+          "pinyin": "Yīng-Hàn cídiǎn",
+          "pos": "",
+          "english": "English-Chinese dictionary"
+        },
+        {
+          "chinese": "本",
+          "pinyin": "běn",
+          "pos": "M.W.",
+          "english": "一本词典 a dictionary"
+        },
+        {
+          "chinese": "自行车",
+          "pinyin": "zìxíngchē",
+          "pos": "N.",
+          "english": "bicycle"
+        },
+        {
+          "chinese": "辆",
+          "pinyin": "liàng",
+          "pos": "M.W.",
+          "english": "一辆自行车 a bicycle"
+        },
+        {
+          "chinese": "地图",
+          "pinyin": "dìtú",
+          "pos": "N.",
+          "english": "map"
+        },
+        {
+          "chinese": "中国地图",
+          "pinyin": "Zhōngguó dìtú",
+          "pos": "",
+          "english": "a map of China"
+        },
+        {
+          "chinese": "张",
+          "pinyin": "zhāng",
+          "pos": "M.W.",
+          "english": "一张地图 a map"
+        },
+        {
+          "chinese": "朋友",
+          "pinyin": "péngyou",
+          "pos": "N.",
+          "english": "friend"
+        },
+        {
+          "chinese": "个",
+          "pinyin": "gè",
+          "pos": "M.W.",
+          "english": "一个中国朋友 a Chinese friend"
+        },
+        {
+          "chinese": "两",
+          "pinyin": "liǎng",
+          "pos": "Num.",
+          "english": "two"
+        },
+        {
+          "chinese": "两本",
+          "pinyin": "liǎng běn",
+          "pos": "",
+          "english": "two (books, etc.)"
+        },
+        {
+          "chinese": "两辆",
+          "pinyin": "liǎng liàng",
+          "pos": "",
+          "english": "two (bicycles, etc.)"
+        },
+        {
+          "chinese": "两个",
+          "pinyin": "liǎng gè",
+          "pos": "",
+          "english": "two (persons, etc.)"
+        },
+        {
+          "chinese": "大学生",
+          "pinyin": "dàxuéshēng",
+          "pos": "N.",
+          "english": "university student"
+        },
+        {
+          "chinese": "大学",
+          "pinyin": "dàxué",
+          "pos": "N.",
+          "english": "university"
+        },
+        {
+          "chinese": "咱们",
+          "pinyin": "zánmen",
+          "pos": "Pron.",
+          "english": "咱们 = 我（们）+ 你（们）; we (including the listener)"
+        },
+        {
+          "chinese": "谁",
+          "pinyin": "shéi / shuí",
+          "pos": "Pron.",
+          "english": "who"
+        },
+        {
+          "chinese": "跟",
+          "pinyin": "gēn",
+          "pos": "Prep.",
+          "english": "with"
+        },
+        {
+          "chinese": "一起",
+          "pinyin": "yìqǐ",
+          "pos": "Adv.",
+          "english": "together"
+        },
+        {
+          "chinese": "跟他一起",
+          "pinyin": "gēn tā yìqǐ",
+          "pos": "",
+          "english": "together with him"
+        },
+        {
+          "chinese": "好",
+          "pinyin": "hǎo",
+          "pos": "Adj.",
+          "english": "ok"
+        },
+        {
+          "chinese": "还",
+          "pinyin": "hái",
+          "pos": "Adv.",
+          "english": "as well, in addition"
+        },
+        {
+          "chinese": "可是",
+          "pinyin": "kěshì",
+          "pos": "Conj.",
+          "english": "but"
+        },
+        {
+          "chinese": "太…了",
+          "pinyin": "tài … le",
+          "pos": "",
+          "english": "very"
+        },
+        {
+          "chinese": "太好了",
+          "pinyin": "tài hǎo le",
+          "pos": "",
+          "english": "Very good!"
+        },
+        {
+          "chinese": "中国",
+          "pinyin": "Zhōngguó",
+          "pos": "PN",
+          "english": "China"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "我要买一本词典，还要买一张地图。",
+          "english": "I'll buy a dictionary, and (I) will buy a map as well."
+        },
+        {
+          "chinese": "太好了！",
+          "english": "Very good!"
+        },
+        {
+          "chinese": "我没有英汉词典。",
+          "english": "I don't have an English-Chinese dictionary."
+        },
+        {
+          "chinese": "我没有地图。",
+          "english": "I don't have a map."
+        },
+        {
+          "chinese": "明天没有课，你干什么？",
+          "english": "There's no class tomorrow. What are you going to do?"
+        },
+        {
+          "chinese": "我要去买东西。你呢？",
+          "english": "I'm going to go shopping. And you?"
+        },
+        {
+          "chinese": "我也要去买东西。你要买什么东西？",
+          "english": "I'm also going to go shopping. What things do you want to buy?"
+        },
+        {
+          "chinese": "我要买两本词典。",
+          "english": "I want to buy two dictionaries."
+        },
+        {
+          "chinese": "两本什么词典？",
+          "english": "Two what kind of dictionaries?"
+        },
+        {
+          "chinese": "一本汉英词典，一本英汉词典。",
+          "english": "One Chinese-English dictionary, one English-Chinese dictionary."
+        },
+        {
+          "chinese": "我明天要去买词典，你去吗？",
+          "english": "I'm going to buy a dictionary tomorrow. Are you going?"
+        },
+        {
+          "chinese": "我不去，我有词典。可是，我没有自行车，我要去买一辆自行车。",
+          "english": "I'm not going, I have a dictionary. But I don't have a bicycle, so I'm going to buy a bicycle."
+        },
+        {
+          "chinese": "我也没有自行车，我也要去买一辆。我还要买一张地图。",
+          "english": "I don't have a bicycle either, so I also want to buy one. I also want to buy a map."
+        },
+        {
+          "chinese": "我也要买一张地图。",
+          "english": "I want to buy a map too."
+        },
+        {
+          "chinese": "咱们一起去，好吗？",
+          "english": "Let's go together, okay?"
+        },
+        {
+          "chinese": "好，一起去。",
+          "english": "Okay, let's go together."
+        },
+        {
+          "chinese": "你明天去买东西吗？",
+          "english": "Are you going shopping tomorrow?"
+        },
+        {
+          "chinese": "是的。我要买一辆自行车，还要买一张地图。",
+          "english": "Yes. I want to buy a bicycle, and I also want to buy a map."
+        },
+        {
+          "chinese": "你一个人去吗？",
+          "english": "Are you going alone?"
+        },
+        {
+          "chinese": "不，我跟我的中国朋友一起去。",
+          "english": "No, I'm going together with my Chinese friend."
+        },
+        {
+          "chinese": "你的中国朋友是谁？",
+          "english": "Who is your Chinese friend?"
+        },
+        {
+          "chinese": "她叫马小红，是个大学生。明天我跟她一起去。",
+          "english": "She's called Ma Xiaohong, a university student. Tomorrow I'll go together with her."
+        },
+        {
+          "chinese": "明天我也要去买东西。",
+          "english": "Tomorrow I also want to go shopping."
+        },
+        {
+          "chinese": "太好了，咱们一起去。",
+          "english": "Great, let's go together."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_zh": "这本词典是谁的？",
+      "title_pinyin": "Zhè běn cídiǎn shì shéi de?",
+      "title_en": "Whose dictionary is this?",
+      "characters": [
+        "这",
+        "那",
+        "哪",
+        "书",
+        "笔",
+        "支",
+        "脑",
+        "台",
+        "知",
+        "道",
+        "用",
+        "看",
+        "借",
+        "想",
+        "行",
+        "问",
+        "题",
+        "里",
+        "的",
+        "谁"
+      ],
+      "char_readings": [
+        {
+          "char": "这",
+          "pinyin": "zhè",
+          "gloss": "this"
+        },
+        {
+          "char": "那",
+          "pinyin": "nà",
+          "gloss": "that"
+        },
+        {
+          "char": "哪",
+          "pinyin": "nǎ",
+          "gloss": "which"
+        },
+        {
+          "char": "书",
+          "pinyin": "shū",
+          "gloss": "book"
+        },
+        {
+          "char": "笔",
+          "pinyin": "bǐ",
+          "gloss": "pen, writing instrument"
+        },
+        {
+          "char": "支",
+          "pinyin": "zhī",
+          "gloss": "measure word for pens"
+        },
+        {
+          "char": "脑",
+          "pinyin": "nǎo",
+          "gloss": "brain (in 电脑)"
+        },
+        {
+          "char": "台",
+          "pinyin": "tái",
+          "gloss": "measure word for machines"
+        },
+        {
+          "char": "知",
+          "pinyin": "zhī",
+          "gloss": "to know"
+        },
+        {
+          "char": "道",
+          "pinyin": "dào",
+          "gloss": "way (in 知道)"
+        },
+        {
+          "char": "用",
+          "pinyin": "yòng",
+          "gloss": "to use"
+        },
+        {
+          "char": "看",
+          "pinyin": "kàn",
+          "gloss": "to look, read"
+        },
+        {
+          "char": "借",
+          "pinyin": "jiè",
+          "gloss": "to borrow, lend"
+        },
+        {
+          "char": "想",
+          "pinyin": "xiǎng",
+          "gloss": "to think, want"
+        },
+        {
+          "char": "行",
+          "pinyin": "xíng",
+          "gloss": "ok, all right"
+        },
+        {
+          "char": "问",
+          "pinyin": "wèn",
+          "gloss": "to ask"
+        },
+        {
+          "char": "题",
+          "pinyin": "tí",
+          "gloss": "topic, problem"
+        },
+        {
+          "char": "里",
+          "pinyin": "lǐ",
+          "gloss": "in, inside"
+        },
+        {
+          "char": "的",
+          "pinyin": "de",
+          "gloss": "possessive particle"
+        },
+        {
+          "char": "谁",
+          "pinyin": "shéi",
+          "gloss": "who, whom"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "这",
+          "pinyin": "zhè",
+          "pos": "Pron.",
+          "english": "this"
+        },
+        {
+          "chinese": "这个",
+          "pinyin": "zhège",
+          "pos": "",
+          "english": "this one"
+        },
+        {
+          "chinese": "那",
+          "pinyin": "nà",
+          "pos": "Pron.",
+          "english": "that"
+        },
+        {
+          "chinese": "那个",
+          "pinyin": "nàge",
+          "pos": "",
+          "english": "that one"
+        },
+        {
+          "chinese": "哪",
+          "pinyin": "nǎ",
+          "pos": "Pron.",
+          "english": "which"
+        },
+        {
+          "chinese": "哪个",
+          "pinyin": "nǎge",
+          "pos": "",
+          "english": "which one"
+        },
+        {
+          "chinese": "书",
+          "pinyin": "shū",
+          "pos": "N.",
+          "english": "book"
+        },
+        {
+          "chinese": "一本书",
+          "pinyin": "yì běn shū",
+          "pos": "",
+          "english": "one book"
+        },
+        {
+          "chinese": "笔",
+          "pinyin": "bǐ",
+          "pos": "N.",
+          "english": "a general name for pens, ball-pens, and pencils, etc."
+        },
+        {
+          "chinese": "支",
+          "pinyin": "zhī",
+          "pos": "M.W.",
+          "english": "measure word for pens; 一支笔 one pen"
+        },
+        {
+          "chinese": "电脑",
+          "pinyin": "diànnǎo",
+          "pos": "N.",
+          "english": "computer"
+        },
+        {
+          "chinese": "台",
+          "pinyin": "tái",
+          "pos": "M.W.",
+          "english": "measure word for machines; 一台电脑 one computer"
+        },
+        {
+          "chinese": "知道",
+          "pinyin": "zhīdao",
+          "pos": "V.",
+          "english": "know"
+        },
+        {
+          "chinese": "用",
+          "pinyin": "yòng",
+          "pos": "V.",
+          "english": "use"
+        },
+        {
+          "chinese": "看",
+          "pinyin": "kàn",
+          "pos": "V.",
+          "english": "look, read"
+        },
+        {
+          "chinese": "借",
+          "pinyin": "jiè",
+          "pos": "V.",
+          "english": "borrow, lend"
+        },
+        {
+          "chinese": "想",
+          "pinyin": "xiǎng",
+          "pos": "V.",
+          "english": "think, want (to do something)"
+        },
+        {
+          "chinese": "给",
+          "pinyin": "gěi",
+          "pos": "V.",
+          "english": "give"
+        },
+        {
+          "chinese": "一下儿",
+          "pinyin": "yíxiàr",
+          "pos": "V.",
+          "english": "a bit (used after a verb to indicate a short, quick action)"
+        },
+        {
+          "chinese": "里",
+          "pinyin": "lǐ",
+          "pos": "",
+          "english": "in, inside"
+        },
+        {
+          "chinese": "问题",
+          "pinyin": "wèntí",
+          "pos": "N.",
+          "english": "question, problem"
+        },
+        {
+          "chinese": "行",
+          "pinyin": "xíng",
+          "pos": "V.",
+          "english": "ok"
+        },
+        {
+          "chinese": "当然",
+          "pinyin": "dāngrán",
+          "pos": "Adv.",
+          "english": "of course, certainly"
+        },
+        {
+          "chinese": "大概",
+          "pinyin": "dàgài",
+          "pos": "Adv.",
+          "english": "maybe, approximately"
+        },
+        {
+          "chinese": "还是",
+          "pinyin": "háishi",
+          "pos": "Conj.",
+          "english": "or (used in questions)"
+        },
+        {
+          "chinese": "谢谢",
+          "pinyin": "xièxie",
+          "pos": "V.",
+          "english": "thank"
+        },
+        {
+          "chinese": "不客气",
+          "pinyin": "bú kèqi",
+          "pos": "",
+          "english": "You are welcome."
+        },
+        {
+          "chinese": "对不起",
+          "pinyin": "duìbuqǐ",
+          "pos": "V.",
+          "english": "sorry; excuse me"
+        },
+        {
+          "chinese": "没关系",
+          "pinyin": "méi guānxi",
+          "pos": "",
+          "english": "It doesn't matter."
+        },
+        {
+          "chinese": "同屋",
+          "pinyin": "tóngwū",
+          "pos": "N.",
+          "english": "roommate"
+        },
+        {
+          "chinese": "说",
+          "pinyin": "shuō",
+          "pos": "V.",
+          "english": "say"
+        },
+        {
+          "chinese": "坏",
+          "pinyin": "huài",
+          "pos": "Adj.",
+          "english": "bad, broken"
+        },
+        {
+          "chinese": "让",
+          "pinyin": "ràng",
+          "pos": "V.",
+          "english": "let"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "这个",
+          "english": "this one"
+        },
+        {
+          "chinese": "那个",
+          "english": "that one"
+        },
+        {
+          "chinese": "哪个",
+          "english": "which one"
+        },
+        {
+          "chinese": "一本书",
+          "english": "one book"
+        },
+        {
+          "chinese": "一支笔",
+          "english": "one pen"
+        },
+        {
+          "chinese": "一台电脑",
+          "english": "one computer"
+        },
+        {
+          "chinese": "你看！",
+          "english": "Look!"
+        },
+        {
+          "chinese": "看书",
+          "english": "read a book"
+        },
+        {
+          "chinese": "给他一本书。",
+          "english": "Give him a book."
+        },
+        {
+          "chinese": "想一下儿",
+          "english": "think for a moment"
+        },
+        {
+          "chinese": "用一下儿",
+          "english": "use for a moment"
+        },
+        {
+          "chinese": "看一下儿",
+          "english": "have a look"
+        },
+        {
+          "chinese": "借一下儿",
+          "english": "borrow for a moment"
+        },
+        {
+          "chinese": "家里",
+          "english": "inside the home"
+        },
+        {
+          "chinese": "在家里",
+          "english": "be at home"
+        },
+        {
+          "chinese": "一个问题",
+          "english": "one question"
+        },
+        {
+          "chinese": "没问题",
+          "english": "no problem"
+        },
+        {
+          "chinese": "你要这本还是那本？",
+          "english": "Which one do you want, this one or that one?"
+        },
+        {
+          "chinese": "对不起！没关系。",
+          "english": "Sorry! It doesn't matter."
+        },
+        {
+          "chinese": "田中，这是你的书吗？",
+          "english": "Tanaka, is this your book?"
+        },
+        {
+          "chinese": "不是。",
+          "english": "No, it isn't."
+        },
+        {
+          "chinese": "王林，这是你的书吗？",
+          "english": "Wang Lin, is this your book?"
+        },
+        {
+          "chinese": "这是谁的书？",
+          "english": "Whose book is this?"
+        },
+        {
+          "chinese": "不知道。",
+          "english": "I don't know."
+        },
+        {
+          "chinese": "我想，这大概是王老师的书。",
+          "english": "I think this is probably Teacher Wang's book."
+        },
+        {
+          "chinese": "王老师，这本书是您的吗？",
+          "english": "Teacher Wang, is this book yours?"
+        },
+        {
+          "chinese": "对，是我的。",
+          "english": "Yes, it's mine."
+        },
+        {
+          "chinese": "我可以看一下儿吗？",
+          "english": "May I have a look?"
+        },
+        {
+          "chinese": "当然可以。",
+          "english": "Of course you may."
+        },
+        {
+          "chinese": "这本词典是谁的？",
+          "english": "Whose dictionary is this?"
+        },
+        {
+          "chinese": "是我的。",
+          "english": "It's mine."
+        },
+        {
+          "chinese": "我想用一下儿你的词典，可以吗？",
+          "english": "I'd like to use your dictionary for a moment, may I?"
+        },
+        {
+          "chinese": "我还想用一下儿你的笔，行吗？",
+          "english": "I'd also like to use your pen for a moment, is that ok?"
+        },
+        {
+          "chinese": "行，没问题。你要哪支？这支还是那支？",
+          "english": "Sure, no problem. Which one do you want? This one or that one?"
+        },
+        {
+          "chinese": "都可以。",
+          "english": "Either one is fine."
+        },
+        {
+          "chinese": "给。",
+          "english": "Here you are."
+        },
+        {
+          "chinese": "谢谢！",
+          "english": "Thank you!"
+        },
+        {
+          "chinese": "不客气。",
+          "english": "You're welcome."
+        },
+        {
+          "chinese": "我可以借一下儿你的电脑吗？",
+          "english": "May I borrow your computer for a moment?"
+        },
+        {
+          "chinese": "对不起，我的电脑在家里。",
+          "english": "Sorry, my computer is at home."
+        },
+        {
+          "chinese": "这台电脑是谁的？",
+          "english": "Whose computer is this?"
+        },
+        {
+          "chinese": "是田中的。",
+          "english": "It's Tanaka's."
+        },
+        {
+          "chinese": "她在哪儿？",
+          "english": "Where is she?"
+        },
+        {
+          "chinese": "不知道。",
+          "english": "I don't know."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_zh": "那件衣服很便宜",
+      "title_pinyin": "Nà jiàn yīfu hěn piányi",
+      "title_en": "That coat is very cheap",
+      "characters": [
+        "衣",
+        "服",
+        "件",
+        "怎",
+        "样",
+        "可",
+        "以",
+        "钱",
+        "多",
+        "少",
+        "漂",
+        "亮",
+        "便",
+        "宜",
+        "很",
+        "对",
+        "非",
+        "常",
+        "比",
+        "较"
+      ],
+      "char_readings": [
+        {
+          "char": "衣",
+          "pinyin": "yī",
+          "gloss": "clothes"
+        },
+        {
+          "char": "服",
+          "pinyin": "fú",
+          "gloss": "clothing; garment"
+        },
+        {
+          "char": "件",
+          "pinyin": "jiàn",
+          "gloss": "measure word (for garments)"
+        },
+        {
+          "char": "怎",
+          "pinyin": "zěn",
+          "gloss": "how"
+        },
+        {
+          "char": "样",
+          "pinyin": "yàng",
+          "gloss": "appearance; kind"
+        },
+        {
+          "char": "可",
+          "pinyin": "kě",
+          "gloss": "can; may"
+        },
+        {
+          "char": "以",
+          "pinyin": "yǐ",
+          "gloss": "with; by means of"
+        },
+        {
+          "char": "钱",
+          "pinyin": "qián",
+          "gloss": "money"
+        },
+        {
+          "char": "多",
+          "pinyin": "duō",
+          "gloss": "many; much"
+        },
+        {
+          "char": "少",
+          "pinyin": "shǎo",
+          "gloss": "few; little"
+        },
+        {
+          "char": "漂",
+          "pinyin": "piào",
+          "gloss": "pretty (in 漂亮)"
+        },
+        {
+          "char": "亮",
+          "pinyin": "liàng",
+          "gloss": "bright; pretty"
+        },
+        {
+          "char": "便",
+          "pinyin": "pián",
+          "gloss": "cheap (in 便宜)"
+        },
+        {
+          "char": "宜",
+          "pinyin": "yí",
+          "gloss": "suitable; cheap"
+        },
+        {
+          "char": "很",
+          "pinyin": "hěn",
+          "gloss": "very"
+        },
+        {
+          "char": "对",
+          "pinyin": "duì",
+          "gloss": "correct; right"
+        },
+        {
+          "char": "非",
+          "pinyin": "fēi",
+          "gloss": "not (in 非常)"
+        },
+        {
+          "char": "常",
+          "pinyin": "cháng",
+          "gloss": "often; usual"
+        },
+        {
+          "char": "比",
+          "pinyin": "bǐ",
+          "gloss": "compare"
+        },
+        {
+          "char": "较",
+          "pinyin": "jiào",
+          "gloss": "comparatively"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "商店",
+          "pinyin": "shāngdiàn",
+          "pos": "N.",
+          "english": "shop"
+        },
+        {
+          "chinese": "衣服",
+          "pinyin": "yīfu",
+          "pos": "N.",
+          "english": "clothes"
+        },
+        {
+          "chinese": "件",
+          "pinyin": "jiàn",
+          "pos": "M.W.",
+          "english": "a piece (of garment)"
+        },
+        {
+          "chinese": "这儿",
+          "pinyin": "zhèr",
+          "pos": "Pron.",
+          "english": "here"
+        },
+        {
+          "chinese": "那儿",
+          "pinyin": "nàr",
+          "pos": "Pron.",
+          "english": "there"
+        },
+        {
+          "chinese": "有",
+          "pinyin": "yǒu",
+          "pos": "V.",
+          "english": "there be"
+        },
+        {
+          "chinese": "很",
+          "pinyin": "hěn",
+          "pos": "Adv.",
+          "english": "very, very much"
+        },
+        {
+          "chinese": "多",
+          "pinyin": "duō",
+          "pos": "Adj.",
+          "english": "many, much"
+        },
+        {
+          "chinese": "少",
+          "pinyin": "shǎo",
+          "pos": "Adj.",
+          "english": "few, little"
+        },
+        {
+          "chinese": "怎么样",
+          "pinyin": "zěnmeyàng",
+          "pos": "Pron.",
+          "english": "how (used to ask about quality, state, etc.)"
+        },
+        {
+          "chinese": "还可以",
+          "pinyin": "hái kěyi",
+          "pos": "",
+          "english": "passable, not bad"
+        },
+        {
+          "chinese": "不错",
+          "pinyin": "búcuò",
+          "pos": "Adj.",
+          "english": "not bad, good"
+        },
+        {
+          "chinese": "漂亮",
+          "pinyin": "piàoliang",
+          "pos": "Adj.",
+          "english": "beautiful"
+        },
+        {
+          "chinese": "贵",
+          "pinyin": "guì",
+          "pos": "Adj.",
+          "english": "expensive"
+        },
+        {
+          "chinese": "便宜",
+          "pinyin": "piányi",
+          "pos": "Adj.",
+          "english": "cheap"
+        },
+        {
+          "chinese": "不太",
+          "pinyin": "bútài",
+          "pos": "Adv.",
+          "english": "not very"
+        },
+        {
+          "chinese": "比较",
+          "pinyin": "bǐjiào",
+          "pos": "Adv.",
+          "english": "fairly, comparatively, relatively"
+        },
+        {
+          "chinese": "非常",
+          "pinyin": "fēicháng",
+          "pos": "Adv.",
+          "english": "very, very much"
+        },
+        {
+          "chinese": "钱",
+          "pinyin": "qián",
+          "pos": "N.",
+          "english": "money"
+        },
+        {
+          "chinese": "块",
+          "pinyin": "kuài",
+          "pos": "M.W.",
+          "english": "kuai (in spoken Chinese)"
+        },
+        {
+          "chinese": "元",
+          "pinyin": "yuán",
+          "pos": "M.W.",
+          "english": "yuan"
+        },
+        {
+          "chinese": "毛",
+          "pinyin": "máo",
+          "pos": "M.W.",
+          "english": "mao (in spoken Chinese)"
+        },
+        {
+          "chinese": "角",
+          "pinyin": "jiǎo",
+          "pos": "M.W.",
+          "english": "jiao"
+        },
+        {
+          "chinese": "分",
+          "pinyin": "fēn",
+          "pos": "M.W.",
+          "english": "cent"
+        },
+        {
+          "chinese": "要",
+          "pinyin": "yào",
+          "pos": "V.",
+          "english": "need"
+        },
+        {
+          "chinese": "只",
+          "pinyin": "zhǐ",
+          "pos": "Adv.",
+          "english": "only"
+        },
+        {
+          "chinese": "有的",
+          "pinyin": "yǒude",
+          "pos": "Pron.",
+          "english": "some, part of"
+        },
+        {
+          "chinese": "些",
+          "pinyin": "xiē",
+          "pos": "M.W.",
+          "english": "indicating an indefinite quantity"
+        },
+        {
+          "chinese": "一些",
+          "pinyin": "yìxiē",
+          "pos": "",
+          "english": "some, a few"
+        },
+        {
+          "chinese": "这些",
+          "pinyin": "zhèxiē",
+          "pos": "",
+          "english": "these"
+        },
+        {
+          "chinese": "那些",
+          "pinyin": "nàxiē",
+          "pos": "",
+          "english": "those"
+        },
+        {
+          "chinese": "吧",
+          "pinyin": "ba",
+          "pos": "Part.",
+          "english": "used at the end of a suggestion"
+        },
+        {
+          "chinese": "昨天",
+          "pinyin": "zuótiān",
+          "pos": "N.",
+          "english": "yesterday"
+        },
+        {
+          "chinese": "了",
+          "pinyin": "le",
+          "pos": "Aux.",
+          "english": "indicating the completion of an action"
+        },
+        {
+          "chinese": "上衣",
+          "pinyin": "shàngyī",
+          "pos": "N.",
+          "english": "jacket"
+        },
+        {
+          "chinese": "裤子",
+          "pinyin": "kùzi",
+          "pos": "N.",
+          "english": "trousers"
+        },
+        {
+          "chinese": "条",
+          "pinyin": "tiáo",
+          "pos": "M.W.",
+          "english": "a pair of (trousers)"
+        },
+        {
+          "chinese": "喜欢",
+          "pinyin": "xǐhuan",
+          "pos": "V.",
+          "english": "like"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "那儿有一个商店。",
+          "english": "There is a shop over there."
+        },
+        {
+          "chinese": "人很多。",
+          "english": "There are many people."
+        },
+        {
+          "chinese": "很多人",
+          "english": "many people"
+        },
+        {
+          "chinese": "人很少。",
+          "english": "There are few people."
+        },
+        {
+          "chinese": "不少人",
+          "english": "quite a few people"
+        },
+        {
+          "chinese": "这本书怎么样？",
+          "english": "How do you like this book?"
+        },
+        {
+          "chinese": "很不错",
+          "english": "quite good"
+        },
+        {
+          "chinese": "不太好",
+          "english": "not very good"
+        },
+        {
+          "chinese": "这本书多少钱／几块钱？",
+          "english": "How much is the book?"
+        },
+        {
+          "chinese": "这本书要三十块钱。",
+          "english": "The book costs 30 yuan."
+        },
+        {
+          "chinese": "这本书只要三块钱。",
+          "english": "The book only costs 3 yuan."
+        },
+        {
+          "chinese": "有的人",
+          "english": "some people"
+        },
+        {
+          "chinese": "有的东西",
+          "english": "some objects"
+        },
+        {
+          "chinese": "商店里的东西，有的很贵，有的比较便宜。",
+          "english": "Some items in the shop are expensive, some are relatively cheap."
+        },
+        {
+          "chinese": "我要买一些书。",
+          "english": "I want to buy some books."
+        },
+        {
+          "chinese": "这些书有的好，有的不好。",
+          "english": "Some of these books are good, some are not."
+        },
+        {
+          "chinese": "那些书不错。",
+          "english": "Those books are good."
+        },
+        {
+          "chinese": "你去吧！",
+          "english": "Please go!"
+        },
+        {
+          "chinese": "我去吧！",
+          "english": "I will go!"
+        },
+        {
+          "chinese": "咱们去看一下儿吧！",
+          "english": "Let's go and have a look!"
+        },
+        {
+          "chinese": "你看，那儿有一个商店。",
+          "english": "Look, there is a shop over there."
+        },
+        {
+          "chinese": "在哪儿？",
+          "english": "Where?"
+        },
+        {
+          "chinese": "在那儿。",
+          "english": "Over there."
+        },
+        {
+          "chinese": "那个商店怎么样？",
+          "english": "How is that shop?"
+        },
+        {
+          "chinese": "那个商店不错。商店里有很多衣服，咱们去看一下儿吧。",
+          "english": "That shop is good. There are a lot of clothes in the shop. Let's go and have a look."
+        },
+        {
+          "chinese": "好，去看一下儿。",
+          "english": "OK, let's go and have a look."
+        },
+        {
+          "chinese": "你看，这些衣服怎么样？",
+          "english": "Look, how about these clothes?"
+        },
+        {
+          "chinese": "都很不错。这件多少钱？",
+          "english": "They're all very nice. How much is this one?"
+        },
+        {
+          "chinese": "六百五十块。",
+          "english": "Six hundred and fifty yuan."
+        },
+        {
+          "chinese": "太贵了。",
+          "english": "That's too expensive."
+        },
+        {
+          "chinese": "你看，那件衣服很便宜，只要一百三十块。",
+          "english": "Look, that coat is very cheap, it only costs one hundred and thirty yuan."
+        },
+        {
+          "chinese": "对，非常便宜，可是不太漂亮。",
+          "english": "Right, it's very cheap, but it's not very pretty."
+        },
+        {
+          "chinese": "你们要买衣服吗？这儿有很多衣服。",
+          "english": "Do you want to buy clothes? There are a lot of clothes here."
+        },
+        {
+          "chinese": "对。这儿有不少衣服，有的衣服很便宜，可是不漂亮；有的衣服比较漂亮，可是太贵了。",
+          "english": "Yes. There are quite a few clothes here. Some clothes are very cheap but not pretty; some clothes are fairly pretty but too expensive."
+        },
+        {
+          "chinese": "这儿还有一些衣服。你看，这件怎么样？",
+          "english": "There are some more clothes here. Look, how about this one?"
+        },
+        {
+          "chinese": "还可以。多少钱？",
+          "english": "Not bad. How much is it?"
+        },
+        {
+          "chinese": "二百二十块。",
+          "english": "Two hundred and twenty yuan."
+        },
+        {
+          "chinese": "这件比较漂亮，也比较便宜。你买这件吧。",
+          "english": "This one is fairly pretty, and fairly cheap too. Buy this one."
+        },
+        {
+          "chinese": "好，我买这件。",
+          "english": "OK, I'll buy this one."
+        },
+        {
+          "chinese": "这件比较漂亮，也比较便宜。",
+          "english": "This one is fairly beautiful, and cheap, too."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_zh": "我下午在宿舍等你",
+      "title_pinyin": "Wǒ xiàwǔ zài sùshè děng nǐ",
+      "title_en": "I will wait for you at my dormitory this afternoon",
+      "characters": [
+        "空",
+        "事",
+        "时",
+        "候",
+        "现",
+        "早",
+        "点",
+        "钟",
+        "分",
+        "半",
+        "方",
+        "校",
+        "回",
+        "来",
+        "等",
+        "同",
+        "见",
+        "面",
+        "再",
+        "位"
+      ],
+      "char_readings": [
+        {
+          "char": "空",
+          "pinyin": "kòng",
+          "gloss": "free time; empty"
+        },
+        {
+          "char": "事",
+          "pinyin": "shì",
+          "gloss": "matter, thing"
+        },
+        {
+          "char": "时",
+          "pinyin": "shí",
+          "gloss": "time, hour"
+        },
+        {
+          "char": "候",
+          "pinyin": "hòu",
+          "gloss": "time; wait"
+        },
+        {
+          "char": "现",
+          "pinyin": "xiàn",
+          "gloss": "present, now"
+        },
+        {
+          "char": "早",
+          "pinyin": "zǎo",
+          "gloss": "early, morning"
+        },
+        {
+          "char": "点",
+          "pinyin": "diǎn",
+          "gloss": "o'clock; dot"
+        },
+        {
+          "char": "钟",
+          "pinyin": "zhōng",
+          "gloss": "clock; o'clock"
+        },
+        {
+          "char": "分",
+          "pinyin": "fēn",
+          "gloss": "minute; divide"
+        },
+        {
+          "char": "半",
+          "pinyin": "bàn",
+          "gloss": "half"
+        },
+        {
+          "char": "方",
+          "pinyin": "fāng",
+          "gloss": "place, direction"
+        },
+        {
+          "char": "校",
+          "pinyin": "xiào",
+          "gloss": "school"
+        },
+        {
+          "char": "回",
+          "pinyin": "huí",
+          "gloss": "return, go back"
+        },
+        {
+          "char": "来",
+          "pinyin": "lái",
+          "gloss": "come"
+        },
+        {
+          "char": "等",
+          "pinyin": "děng",
+          "gloss": "wait"
+        },
+        {
+          "char": "同",
+          "pinyin": "tóng",
+          "gloss": "same, together"
+        },
+        {
+          "char": "见",
+          "pinyin": "jiàn",
+          "gloss": "see, meet"
+        },
+        {
+          "char": "面",
+          "pinyin": "miàn",
+          "gloss": "face; side"
+        },
+        {
+          "char": "再",
+          "pinyin": "zài",
+          "gloss": "again"
+        },
+        {
+          "char": "位",
+          "pinyin": "wèi",
+          "gloss": "measure word for people"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "请问",
+          "pinyin": "qǐngwèn",
+          "pos": "V.",
+          "english": "Excuse me, ...?"
+        },
+        {
+          "chinese": "请",
+          "pinyin": "qǐng",
+          "pos": "V.",
+          "english": "please"
+        },
+        {
+          "chinese": "问",
+          "pinyin": "wèn",
+          "pos": "V.",
+          "english": "ask"
+        },
+        {
+          "chinese": "有空儿",
+          "pinyin": "yǒu kòngr",
+          "pos": "",
+          "english": "be free"
+        },
+        {
+          "chinese": "空儿",
+          "pinyin": "kòngr",
+          "pos": "N.",
+          "english": "free time"
+        },
+        {
+          "chinese": "有事儿",
+          "pinyin": "yǒu shìr",
+          "pos": "",
+          "english": "have something (to do)"
+        },
+        {
+          "chinese": "事儿",
+          "pinyin": "shìr",
+          "pos": "N.",
+          "english": "thing (to do)"
+        },
+        {
+          "chinese": "时候",
+          "pinyin": "shíhou",
+          "pos": "N.",
+          "english": "time"
+        },
+        {
+          "chinese": "什么时候",
+          "pinyin": "shénme shíhou",
+          "pos": "",
+          "english": "what time, when"
+        },
+        {
+          "chinese": "这(个)时候",
+          "pinyin": "zhè(ge) shíhou",
+          "pos": "",
+          "english": "(at) this time"
+        },
+        {
+          "chinese": "那(个)时候",
+          "pinyin": "nà(ge) shíhou",
+          "pos": "",
+          "english": "(at) that time"
+        },
+        {
+          "chinese": "现在",
+          "pinyin": "xiànzài",
+          "pos": "N.",
+          "english": "now"
+        },
+        {
+          "chinese": "早上",
+          "pinyin": "zǎoshang",
+          "pos": "N.",
+          "english": "early morning"
+        },
+        {
+          "chinese": "中午",
+          "pinyin": "zhōngwǔ",
+          "pos": "N.",
+          "english": "noon"
+        },
+        {
+          "chinese": "点",
+          "pinyin": "diǎn",
+          "pos": "M.W.",
+          "english": "o'clock"
+        },
+        {
+          "chinese": "点钟",
+          "pinyin": "diǎnzhōng",
+          "pos": "M.W.",
+          "english": "o'clock"
+        },
+        {
+          "chinese": "分",
+          "pinyin": "fēn",
+          "pos": "M.W.",
+          "english": "minute"
+        },
+        {
+          "chinese": "刻",
+          "pinyin": "kè",
+          "pos": "M.W.",
+          "english": "quarter (of an hour)"
+        },
+        {
+          "chinese": "半",
+          "pinyin": "bàn",
+          "pos": "Num.",
+          "english": "half"
+        },
+        {
+          "chinese": "差",
+          "pinyin": "chà",
+          "pos": "V.",
+          "english": "to (in telling time); be short of"
+        },
+        {
+          "chinese": "地方",
+          "pinyin": "dìfang",
+          "pos": "N.",
+          "english": "place"
+        },
+        {
+          "chinese": "学校",
+          "pinyin": "xuéxiào",
+          "pos": "N.",
+          "english": "school, educational institution"
+        },
+        {
+          "chinese": "门口",
+          "pinyin": "ménkǒu",
+          "pos": "N.",
+          "english": "doorway, gateway"
+        },
+        {
+          "chinese": "回来",
+          "pinyin": "huílai",
+          "pos": "V.",
+          "english": "come back"
+        },
+        {
+          "chinese": "来",
+          "pinyin": "lái",
+          "pos": "V.",
+          "english": "come (to)"
+        },
+        {
+          "chinese": "回",
+          "pinyin": "huí",
+          "pos": "V.",
+          "english": "be back to, come/go back to"
+        },
+        {
+          "chinese": "等",
+          "pinyin": "děng",
+          "pos": "V.",
+          "english": "wait (for)"
+        },
+        {
+          "chinese": "同学",
+          "pinyin": "tóngxué",
+          "pos": "N.",
+          "english": "classmate"
+        },
+        {
+          "chinese": "跟…见面",
+          "pinyin": "gēn...jiàn miàn",
+          "pos": "",
+          "english": "meet somebody"
+        },
+        {
+          "chinese": "再见",
+          "pinyin": "zàijiàn",
+          "pos": "V.",
+          "english": "goodbye"
+        },
+        {
+          "chinese": "再",
+          "pinyin": "zài",
+          "pos": "Adv.",
+          "english": "again"
+        },
+        {
+          "chinese": "位",
+          "pinyin": "wèi",
+          "pos": "M.W.",
+          "english": "measure word for people (polite)"
+        },
+        {
+          "chinese": "请",
+          "pinyin": "qǐng",
+          "pos": "V.",
+          "english": "invite, ask (somebody to do something)"
+        },
+        {
+          "chinese": "喝",
+          "pinyin": "hē",
+          "pos": "V.",
+          "english": "drink"
+        },
+        {
+          "chinese": "咖啡",
+          "pinyin": "kāfēi",
+          "pos": "N.",
+          "english": "coffee"
+        },
+        {
+          "chinese": "能",
+          "pinyin": "néng",
+          "pos": "V.",
+          "english": "can"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "三点十分",
+          "english": "three ten (3:10)"
+        },
+        {
+          "chinese": "三点钟",
+          "english": "three o'clock"
+        },
+        {
+          "chinese": "一点一刻",
+          "english": "a quarter past one (1:15)"
+        },
+        {
+          "chinese": "一点三刻",
+          "english": "a quarter to two (1:45)"
+        },
+        {
+          "chinese": "一点半",
+          "english": "one thirty (1:30)"
+        },
+        {
+          "chinese": "两点差五分",
+          "english": "five to two (1:55)"
+        },
+        {
+          "chinese": "这个地方",
+          "english": "this place"
+        },
+        {
+          "chinese": "什么地方",
+          "english": "which place"
+        },
+        {
+          "chinese": "回学校",
+          "english": "go back to school"
+        },
+        {
+          "chinese": "回家",
+          "english": "go home"
+        },
+        {
+          "chinese": "明天我跟他见面。",
+          "english": "I will meet him tomorrow."
+        },
+        {
+          "chinese": "咱们什么时候见面？",
+          "english": "When shall we meet?"
+        },
+        {
+          "chinese": "一位朋友",
+          "english": "a friend"
+        },
+        {
+          "chinese": "喂，小红在吗？",
+          "english": "Hello, is Xiaohong there?"
+        },
+        {
+          "chinese": "她现在不在。",
+          "english": "She is not here right now."
+        },
+        {
+          "chinese": "她什么时候回来？",
+          "english": "When will she come back?"
+        },
+        {
+          "chinese": "她晚上回来。请问，您哪位？",
+          "english": "She'll be back in the evening. May I ask, who's calling?"
+        },
+        {
+          "chinese": "我是她同学。今天晚上我再给她打电话。",
+          "english": "I'm her classmate. I'll call her again tonight."
+        },
+        {
+          "chinese": "好的。",
+          "english": "Okay."
+        },
+        {
+          "chinese": "再见！",
+          "english": "Goodbye!"
+        },
+        {
+          "chinese": "你好！",
+          "english": "Hello!"
+        },
+        {
+          "chinese": "是小红吗？",
+          "english": "Is this Xiaohong?"
+        },
+        {
+          "chinese": "对。",
+          "english": "Yes."
+        },
+        {
+          "chinese": "我是大卫。",
+          "english": "I'm David."
+        },
+        {
+          "chinese": "你有空儿吗？我去看你。",
+          "english": "Are you free? I'll come to see you."
+        },
+        {
+          "chinese": "你什么时候来？",
+          "english": "When will you come?"
+        },
+        {
+          "chinese": "下午两点钟。行吗？",
+          "english": "Two o'clock in the afternoon. Is that okay?"
+        },
+        {
+          "chinese": "行。我在宿舍等你。",
+          "english": "Okay. I'll wait for you at the dormitory."
+        },
+        {
+          "chinese": "明天早上可以跟你见面吗？",
+          "english": "Can I meet you tomorrow morning?"
+        },
+        {
+          "chinese": "对不起，明天早上我有事儿。明天中午好吗？",
+          "english": "Sorry, I have something to do tomorrow morning. How about tomorrow noon?"
+        },
+        {
+          "chinese": "好的。几点？",
+          "english": "Okay. What time?"
+        },
+        {
+          "chinese": "十二点半。",
+          "english": "Twelve thirty."
+        },
+        {
+          "chinese": "在什么地方？",
+          "english": "Where?"
+        },
+        {
+          "chinese": "在学校门口吧。",
+          "english": "At the school gate, then."
+        },
+        {
+          "chinese": "行。明天中午十二点三十分，我们在学校门口见面。",
+          "english": "Okay. Tomorrow at twelve thirty noon, we'll meet at the school gate."
+        },
+        {
+          "chinese": "我明天晚上七点钟在学校门口等你。",
+          "english": "I'll wait for you at the school gate at seven o'clock tomorrow evening."
+        },
+        {
+          "chinese": "明天晚上七点钟我在学校门口等你。",
+          "english": "Tomorrow evening at seven o'clock I'll wait for you at the school gate."
+        },
+        {
+          "chinese": "他不在家。",
+          "english": "He is not at home."
+        },
+        {
+          "chinese": "我朋友在法国。",
+          "english": "My friend is in France."
+        },
+        {
+          "chinese": "我在中国学习。",
+          "english": "I study in China."
+        },
+        {
+          "chinese": "我在学校门口等你。",
+          "english": "I'll wait for you at the school gate."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_zh": "坐火车去还是坐汽车去？",
+      "title_pinyin": "Zuò huǒchē qù háishi zuò qìchē qù?",
+      "title_en": "Do you go there by train or by bus?",
+      "characters": [
+        "年",
+        "星",
+        "期",
+        "长",
+        "刻",
+        "算",
+        "旅",
+        "坐",
+        "飞",
+        "机",
+        "火",
+        "车",
+        "汽",
+        "或",
+        "者",
+        "从",
+        "到",
+        "英",
+        "文",
+        "男"
+      ],
+      "char_readings": [
+        {
+          "char": "年",
+          "pinyin": "nián",
+          "gloss": "year"
+        },
+        {
+          "char": "星",
+          "pinyin": "xīng",
+          "gloss": "star"
+        },
+        {
+          "char": "期",
+          "pinyin": "qī",
+          "gloss": "period of time"
+        },
+        {
+          "char": "长",
+          "pinyin": "cháng",
+          "gloss": "long"
+        },
+        {
+          "char": "刻",
+          "pinyin": "kè",
+          "gloss": "quarter (of an hour); carve"
+        },
+        {
+          "char": "算",
+          "pinyin": "suàn",
+          "gloss": "calculate; plan"
+        },
+        {
+          "char": "旅",
+          "pinyin": "lǚ",
+          "gloss": "travel"
+        },
+        {
+          "char": "坐",
+          "pinyin": "zuò",
+          "gloss": "sit; take (transport)"
+        },
+        {
+          "char": "飞",
+          "pinyin": "fēi",
+          "gloss": "fly"
+        },
+        {
+          "char": "机",
+          "pinyin": "jī",
+          "gloss": "machine"
+        },
+        {
+          "char": "火",
+          "pinyin": "huǒ",
+          "gloss": "fire"
+        },
+        {
+          "char": "车",
+          "pinyin": "chē",
+          "gloss": "vehicle; car"
+        },
+        {
+          "char": "汽",
+          "pinyin": "qì",
+          "gloss": "steam; gas"
+        },
+        {
+          "char": "或",
+          "pinyin": "huò",
+          "gloss": "or"
+        },
+        {
+          "char": "者",
+          "pinyin": "zhě",
+          "gloss": "(suffix in 或者); one who"
+        },
+        {
+          "char": "从",
+          "pinyin": "cóng",
+          "gloss": "from"
+        },
+        {
+          "char": "到",
+          "pinyin": "dào",
+          "gloss": "to; arrive"
+        },
+        {
+          "char": "英",
+          "pinyin": "yīng",
+          "gloss": "English; brave"
+        },
+        {
+          "char": "文",
+          "pinyin": "wén",
+          "gloss": "language; writing"
+        },
+        {
+          "char": "男",
+          "pinyin": "nán",
+          "gloss": "male"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "今年",
+          "pinyin": "jīnnián",
+          "pos": "N.",
+          "english": "this year"
+        },
+        {
+          "chinese": "明年",
+          "pinyin": "míngnián",
+          "pos": "N.",
+          "english": "next year"
+        },
+        {
+          "chinese": "年",
+          "pinyin": "nián",
+          "pos": "M.W.",
+          "english": "year"
+        },
+        {
+          "chinese": "月",
+          "pinyin": "yuè",
+          "pos": "N.",
+          "english": "month"
+        },
+        {
+          "chinese": "天",
+          "pinyin": "tiān",
+          "pos": "M.W.",
+          "english": "day"
+        },
+        {
+          "chinese": "号",
+          "pinyin": "hào",
+          "pos": "M.W.",
+          "english": "(date in spoken Chinese)"
+        },
+        {
+          "chinese": "日",
+          "pinyin": "rì",
+          "pos": "M.W.",
+          "english": "date"
+        },
+        {
+          "chinese": "星期",
+          "pinyin": "xīngqī",
+          "pos": "N., M.W.",
+          "english": "week"
+        },
+        {
+          "chinese": "多长时间",
+          "pinyin": "duō cháng shíjiān",
+          "pos": "",
+          "english": "how long, how much time"
+        },
+        {
+          "chinese": "长",
+          "pinyin": "cháng",
+          "pos": "Adj.",
+          "english": "long"
+        },
+        {
+          "chinese": "多长",
+          "pinyin": "duō cháng",
+          "pos": "",
+          "english": "how long"
+        },
+        {
+          "chinese": "时间",
+          "pinyin": "shíjiān",
+          "pos": "N.",
+          "english": "time"
+        },
+        {
+          "chinese": "小时",
+          "pinyin": "xiǎoshí",
+          "pos": "N.",
+          "english": "hour"
+        },
+        {
+          "chinese": "分钟",
+          "pinyin": "fēnzhōng",
+          "pos": "M.W.",
+          "english": "minute"
+        },
+        {
+          "chinese": "刻钟",
+          "pinyin": "kèzhōng",
+          "pos": "M.W.",
+          "english": "quarter (of an hour)"
+        },
+        {
+          "chinese": "打算",
+          "pinyin": "dǎsuan",
+          "pos": "V., N.",
+          "english": "plan, intend to do sth."
+        },
+        {
+          "chinese": "旅行",
+          "pinyin": "lǚxíng",
+          "pos": "V.",
+          "english": "travel"
+        },
+        {
+          "chinese": "怎么",
+          "pinyin": "zěnme",
+          "pos": "Adv.",
+          "english": "how, by what means"
+        },
+        {
+          "chinese": "坐火车",
+          "pinyin": "zuò huǒchē",
+          "pos": "",
+          "english": "take a train, (go) by train"
+        },
+        {
+          "chinese": "坐",
+          "pinyin": "zuò",
+          "pos": "V.",
+          "english": "sit, take"
+        },
+        {
+          "chinese": "火车",
+          "pinyin": "huǒchē",
+          "pos": "N.",
+          "english": "train"
+        },
+        {
+          "chinese": "汽车",
+          "pinyin": "qìchē",
+          "pos": "N.",
+          "english": "automobile, motor vehicle"
+        },
+        {
+          "chinese": "飞机",
+          "pinyin": "fēijī",
+          "pos": "N.",
+          "english": "plane"
+        },
+        {
+          "chinese": "或者",
+          "pinyin": "huòzhě",
+          "pos": "Conj.",
+          "english": "or (used in statements)"
+        },
+        {
+          "chinese": "从…到…",
+          "pinyin": "cóng ... dào ...",
+          "pos": "",
+          "english": "from ... to ..."
+        },
+        {
+          "chinese": "中文",
+          "pinyin": "Zhōngwén",
+          "pos": "N.",
+          "english": "Chinese"
+        },
+        {
+          "chinese": "英文",
+          "pinyin": "Yīngwén",
+          "pos": "N.",
+          "english": "English"
+        },
+        {
+          "chinese": "女",
+          "pinyin": "nǚ",
+          "pos": "Adj.",
+          "english": "female"
+        },
+        {
+          "chinese": "男",
+          "pinyin": "nán",
+          "pos": "Adj.",
+          "english": "male"
+        },
+        {
+          "chinese": "北京",
+          "pinyin": "Běijīng",
+          "pos": "PN",
+          "english": "Beijing"
+        },
+        {
+          "chinese": "南京",
+          "pinyin": "Nánjīng",
+          "pos": "PN",
+          "english": "Nanjing"
+        },
+        {
+          "chinese": "上海",
+          "pinyin": "Shànghǎi",
+          "pos": "PN",
+          "english": "Shanghai"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "从我家到学校要半个小时。",
+          "english": "It takes half an hour from my home to school."
+        },
+        {
+          "chinese": "从八点到十一点我要上课。",
+          "english": "I have classes from 8 o'clock to 11 o'clock."
+        },
+        {
+          "chinese": "她是女的。",
+          "english": "She is a woman."
+        },
+        {
+          "chinese": "他是男的。",
+          "english": "He is a man."
+        },
+        {
+          "chinese": "明天十月一号，我们不上课，对吗？",
+          "english": "Tomorrow is October 1st; we don't have class, right?"
+        },
+        {
+          "chinese": "对，明天不上课。",
+          "english": "Right, we don't have class tomorrow."
+        },
+        {
+          "chinese": "我们几号上课？",
+          "english": "What date do we have class?"
+        },
+        {
+          "chinese": "八号。从十月一号到十月五号，我们都不上课。十月六号、七号是星期六、星期天，也不上课。",
+          "english": "The 8th. From October 1st to October 5th we have no class at all. October 6th and 7th are Saturday and Sunday, so no class either."
+        },
+        {
+          "chinese": "那太好了！",
+          "english": "That's great!"
+        },
+        {
+          "chinese": "你打算干什么？",
+          "english": "What do you plan to do?"
+        },
+        {
+          "chinese": "去旅行。",
+          "english": "Go traveling."
+        },
+        {
+          "chinese": "你打算去哪儿旅行？",
+          "english": "Where do you plan to travel?"
+        },
+        {
+          "chinese": "北京。你呢？",
+          "english": "Beijing. And you?"
+        },
+        {
+          "chinese": "我去南京。",
+          "english": "I'm going to Nanjing."
+        },
+        {
+          "chinese": "你怎么去？坐火车去还是坐汽车去？",
+          "english": "How are you going? By train or by bus?"
+        },
+        {
+          "chinese": "坐火车去。你呢？你坐火车去还是坐飞机去？",
+          "english": "By train. And you? Are you going by train or by plane?"
+        },
+        {
+          "chinese": "我也坐火车去。",
+          "english": "I'm going by train too."
+        },
+        {
+          "chinese": "从上海到北京坐火车要多长时间？",
+          "english": "How long does it take to go from Shanghai to Beijing by train?"
+        },
+        {
+          "chinese": "大概十二个小时。",
+          "english": "About twelve hours."
+        },
+        {
+          "chinese": "你一个人去还是跟同学一起去？",
+          "english": "Are you going alone or together with classmates?"
+        },
+        {
+          "chinese": "跟我女朋友一起去。你不想去北京吗？",
+          "english": "I'm going with my girlfriend. Don't you want to go to Beijing?"
+        },
+        {
+          "chinese": "今年没有时间。我打算明年去。",
+          "english": "I don't have time this year. I plan to go next year."
+        },
+        {
+          "chinese": "王老师，您好！",
+          "english": "Hello, Teacher Wang!"
+        },
+        {
+          "chinese": "你好！有事儿吗？",
+          "english": "Hello! Is something the matter?"
+        },
+        {
+          "chinese": "您有北京地图吗？",
+          "english": "Do you have a map of Beijing?"
+        },
+        {
+          "chinese": "有。你要去北京吗？",
+          "english": "Yes. Are you going to Beijing?"
+        },
+        {
+          "chinese": "对，我要去北京旅行。",
+          "english": "Yes, I'm going to travel to Beijing."
+        },
+        {
+          "chinese": "你要中文的还是英文的？",
+          "english": "Do you want a Chinese one or an English one?"
+        },
+        {
+          "chinese": "中文的或者英文的都可以。",
+          "english": "Either a Chinese one or an English one is fine."
+        },
+        {
+          "chinese": "这是一张英文的北京地图。给你。",
+          "english": "This is an English map of Beijing. Here you go."
+        },
+        {
+          "chinese": "谢谢！",
+          "english": "Thank you!"
+        },
+        {
+          "chinese": "你什么时候回来？",
+          "english": "When will you come back?"
+        },
+        {
+          "chinese": "六号或者七号。",
+          "english": "On the 6th or the 7th."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_zh": "有没有英文的菜单？",
+      "title_pinyin": "Yǒu méiyǒu Yīngwén de càidān?",
+      "title_en": "Do you have an English menu?",
+      "characters": [
+        "先",
+        "姐",
+        "请",
+        "菜",
+        "单",
+        "牛",
+        "鸡",
+        "肉",
+        "米",
+        "饭",
+        "酒",
+        "瓶",
+        "汤",
+        "喜",
+        "欢",
+        "吃",
+        "喝",
+        "饿",
+        "快",
+        "为"
+      ],
+      "char_readings": [
+        {
+          "char": "先",
+          "pinyin": "xiān",
+          "gloss": "first; earlier"
+        },
+        {
+          "char": "姐",
+          "pinyin": "jiě",
+          "gloss": "older sister"
+        },
+        {
+          "char": "请",
+          "pinyin": "qǐng",
+          "gloss": "please; invite"
+        },
+        {
+          "char": "菜",
+          "pinyin": "cài",
+          "gloss": "dish; vegetable"
+        },
+        {
+          "char": "单",
+          "pinyin": "dān",
+          "gloss": "list; single"
+        },
+        {
+          "char": "牛",
+          "pinyin": "niú",
+          "gloss": "ox; cow"
+        },
+        {
+          "char": "鸡",
+          "pinyin": "jī",
+          "gloss": "chicken"
+        },
+        {
+          "char": "肉",
+          "pinyin": "ròu",
+          "gloss": "meat"
+        },
+        {
+          "char": "米",
+          "pinyin": "mǐ",
+          "gloss": "rice (uncooked)"
+        },
+        {
+          "char": "饭",
+          "pinyin": "fàn",
+          "gloss": "cooked rice; meal"
+        },
+        {
+          "char": "酒",
+          "pinyin": "jiǔ",
+          "gloss": "alcohol; wine"
+        },
+        {
+          "char": "瓶",
+          "pinyin": "píng",
+          "gloss": "bottle"
+        },
+        {
+          "char": "汤",
+          "pinyin": "tāng",
+          "gloss": "soup"
+        },
+        {
+          "char": "喜",
+          "pinyin": "xǐ",
+          "gloss": "to like; happy"
+        },
+        {
+          "char": "欢",
+          "pinyin": "huān",
+          "gloss": "joyous; merry"
+        },
+        {
+          "char": "吃",
+          "pinyin": "chī",
+          "gloss": "to eat"
+        },
+        {
+          "char": "喝",
+          "pinyin": "hē",
+          "gloss": "to drink"
+        },
+        {
+          "char": "饿",
+          "pinyin": "è",
+          "gloss": "hungry"
+        },
+        {
+          "char": "快",
+          "pinyin": "kuài",
+          "gloss": "fast; quick"
+        },
+        {
+          "char": "为",
+          "pinyin": "wèi",
+          "gloss": "for; because of"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "饭店",
+          "pinyin": "fàndiàn",
+          "pos": "N.",
+          "english": "restaurant"
+        },
+        {
+          "chinese": "服务员",
+          "pinyin": "fúwùyuán",
+          "pos": "N.",
+          "english": "waiter, waitress, attendant"
+        },
+        {
+          "chinese": "小姐",
+          "pinyin": "xiǎojie",
+          "pos": "N.",
+          "english": "miss"
+        },
+        {
+          "chinese": "先生",
+          "pinyin": "xiānsheng",
+          "pos": "N.",
+          "english": "mister"
+        },
+        {
+          "chinese": "菜单",
+          "pinyin": "càidān",
+          "pos": "N.",
+          "english": "menu"
+        },
+        {
+          "chinese": "菜",
+          "pinyin": "cài",
+          "pos": "N.",
+          "english": "dish"
+        },
+        {
+          "chinese": "牛肉",
+          "pinyin": "niúròu",
+          "pos": "N.",
+          "english": "beef"
+        },
+        {
+          "chinese": "牛",
+          "pinyin": "niú",
+          "pos": "N.",
+          "english": "ox"
+        },
+        {
+          "chinese": "肉",
+          "pinyin": "ròu",
+          "pos": "N.",
+          "english": "meat"
+        },
+        {
+          "chinese": "鸡肉",
+          "pinyin": "jīròu",
+          "pos": "N.",
+          "english": "chicken as food"
+        },
+        {
+          "chinese": "鸡",
+          "pinyin": "jī",
+          "pos": "N.",
+          "english": "chicken"
+        },
+        {
+          "chinese": "米饭",
+          "pinyin": "mǐfàn",
+          "pos": "N.",
+          "english": "cooked rice"
+        },
+        {
+          "chinese": "米",
+          "pinyin": "mǐ",
+          "pos": "N.",
+          "english": "rice"
+        },
+        {
+          "chinese": "饭",
+          "pinyin": "fàn",
+          "pos": "N.",
+          "english": "cooked rice or other cereals, meal"
+        },
+        {
+          "chinese": "碗",
+          "pinyin": "wǎn",
+          "pos": "M.W.",
+          "english": "bowl"
+        },
+        {
+          "chinese": "蔬菜",
+          "pinyin": "shūcài",
+          "pos": "N.",
+          "english": "vegetable"
+        },
+        {
+          "chinese": "啤酒",
+          "pinyin": "píjiǔ",
+          "pos": "N.",
+          "english": "beer"
+        },
+        {
+          "chinese": "瓶",
+          "pinyin": "píng",
+          "pos": "M.W.",
+          "english": "bottle"
+        },
+        {
+          "chinese": "汤",
+          "pinyin": "tāng",
+          "pos": "N.",
+          "english": "soup"
+        },
+        {
+          "chinese": "好吃",
+          "pinyin": "hǎochī",
+          "pos": "Adj.",
+          "english": "tasty, delicious"
+        },
+        {
+          "chinese": "喜欢",
+          "pinyin": "xǐhuan",
+          "pos": "V.",
+          "english": "like"
+        },
+        {
+          "chinese": "看不懂",
+          "pinyin": "kàn bu dǒng",
+          "pos": "",
+          "english": "can not understand what is being read"
+        },
+        {
+          "chinese": "看得懂",
+          "pinyin": "kàn de dǒng",
+          "pos": "",
+          "english": "can understand what is being read"
+        },
+        {
+          "chinese": "懂",
+          "pinyin": "dǒng",
+          "pos": "V.",
+          "english": "understand"
+        },
+        {
+          "chinese": "吃",
+          "pinyin": "chī",
+          "pos": "V.",
+          "english": "eat"
+        },
+        {
+          "chinese": "喝",
+          "pinyin": "hē",
+          "pos": "V.",
+          "english": "drink"
+        },
+        {
+          "chinese": "快",
+          "pinyin": "kuài",
+          "pos": "Adj.",
+          "english": "quick, fast"
+        },
+        {
+          "chinese": "慢",
+          "pinyin": "màn",
+          "pos": "Adj.",
+          "english": "slow"
+        },
+        {
+          "chinese": "一点儿",
+          "pinyin": "yìdiǎnr",
+          "pos": "",
+          "english": "a little"
+        },
+        {
+          "chinese": "饿",
+          "pinyin": "è",
+          "pos": "Adj.",
+          "english": "hungry"
+        },
+        {
+          "chinese": "不用",
+          "pinyin": "búyòng",
+          "pos": "V.",
+          "english": "need not"
+        },
+        {
+          "chinese": "为什么",
+          "pinyin": "wèi shénme",
+          "pos": "",
+          "english": "why"
+        },
+        {
+          "chinese": "为",
+          "pinyin": "wèi",
+          "pos": "Prep.",
+          "english": "for"
+        },
+        {
+          "chinese": "和",
+          "pinyin": "hé",
+          "pos": "Conj.",
+          "english": "and"
+        },
+        {
+          "chinese": "因为",
+          "pinyin": "yīnwèi",
+          "pos": "Conj.",
+          "english": "because"
+        },
+        {
+          "chinese": "要",
+          "pinyin": "yào",
+          "pos": "V.",
+          "english": "to order (a dish)"
+        },
+        {
+          "chinese": "客气",
+          "pinyin": "kèqi",
+          "pos": "Adj.",
+          "english": "polite, kind"
+        },
+        {
+          "chinese": "高兴",
+          "pinyin": "gāoxìng",
+          "pos": "Adj.",
+          "english": "glad, happy"
+        },
+        {
+          "chinese": "翻译",
+          "pinyin": "fānyì",
+          "pos": "V.",
+          "english": "translate"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "张小姐",
+          "english": "Miss Zhang"
+        },
+        {
+          "chinese": "王先生",
+          "english": "Mr. Wang"
+        },
+        {
+          "chinese": "一碗饭",
+          "english": "a bowl of rice"
+        },
+        {
+          "chinese": "一瓶啤酒",
+          "english": "a bottle of beer"
+        },
+        {
+          "chinese": "一碗汤",
+          "english": "a bowl of soup"
+        },
+        {
+          "chinese": "吃饭",
+          "english": "have a meal"
+        },
+        {
+          "chinese": "喝酒",
+          "english": "drink wine"
+        },
+        {
+          "chinese": "太慢了！",
+          "english": "Too slow!"
+        },
+        {
+          "chinese": "我去买一点儿菜。",
+          "english": "I will go and buy some groceries."
+        },
+        {
+          "chinese": "请快一点儿！",
+          "english": "Please be quick!"
+        },
+        {
+          "chinese": "你明天不用来。",
+          "english": "You don't need to come tomorrow."
+        },
+        {
+          "chinese": "你为什么要学习汉语？",
+          "english": "Why do you want to learn Chinese?"
+        },
+        {
+          "chinese": "请坐。你们来点儿什么？",
+          "english": "Please sit down. What would you like to order?"
+        },
+        {
+          "chinese": "小姐，你们饭店有什么？",
+          "english": "Miss, what do you have at your restaurant?"
+        },
+        {
+          "chinese": "请看一下儿菜单。",
+          "english": "Please take a look at the menu."
+        },
+        {
+          "chinese": "你不用给我们看菜单。",
+          "english": "You don't need to show us the menu."
+        },
+        {
+          "chinese": "为什么？",
+          "english": "Why?"
+        },
+        {
+          "chinese": "我们看不懂。",
+          "english": "We can't read it."
+        },
+        {
+          "chinese": "你们有没有英文的菜单？",
+          "english": "Do you have an English menu?"
+        },
+        {
+          "chinese": "有。",
+          "english": "Yes, we do."
+        },
+        {
+          "chinese": "是吗？那太好了！",
+          "english": "Really? That's great!"
+        },
+        {
+          "chinese": "要不要牛肉？",
+          "english": "Would you like some beef?"
+        },
+        {
+          "chinese": "你们的牛肉好吃不好吃？",
+          "english": "Is your beef tasty?"
+        },
+        {
+          "chinese": "当然很好吃。",
+          "english": "Of course it's delicious."
+        },
+        {
+          "chinese": "好，来一个。",
+          "english": "Okay, we'll have one."
+        },
+        {
+          "chinese": "还要什么菜？",
+          "english": "What other dishes would you like?"
+        },
+        {
+          "chinese": "有没有鸡肉？",
+          "english": "Do you have chicken?"
+        },
+        {
+          "chinese": "来一个鸡肉。",
+          "english": "We'll have one chicken dish."
+        },
+        {
+          "chinese": "我不喜欢吃肉。我要吃蔬菜。",
+          "english": "I don't like eating meat. I want to eat vegetables."
+        },
+        {
+          "chinese": "好的。还要什么？",
+          "english": "Alright. What else would you like?"
+        },
+        {
+          "chinese": "不要了。",
+          "english": "No, nothing more."
+        },
+        {
+          "chinese": "喝不喝啤酒？",
+          "english": "Would you like some beer?"
+        },
+        {
+          "chinese": "喝。来两瓶啤酒。",
+          "english": "Yes. We'll have two bottles of beer."
+        },
+        {
+          "chinese": "一个汤。",
+          "english": "One soup."
+        },
+        {
+          "chinese": "三碗米饭。",
+          "english": "Three bowls of rice."
+        },
+        {
+          "chinese": "好的。请等一下儿。",
+          "english": "Alright. Please wait a moment."
+        },
+        {
+          "chinese": "请快一点儿，我们很饿。",
+          "english": "Please hurry, we're very hungry."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title_zh": "这是一家很有名的大公司",
+      "title_pinyin": "Zhè shì yì jiā hěn yǒumíng de dà gōngsī",
+      "title_en": "This is a well-known company",
+      "characters": [
+        "进",
+        "茶",
+        "放",
+        "甜",
+        "照",
+        "片",
+        "爸",
+        "妈",
+        "哥",
+        "弟",
+        "妹",
+        "孩",
+        "岁",
+        "公",
+        "司",
+        "工",
+        "作",
+        "忙",
+        "爱",
+        "聪"
+      ],
+      "char_readings": [
+        {
+          "char": "进",
+          "pinyin": "jìn",
+          "gloss": "to enter"
+        },
+        {
+          "char": "茶",
+          "pinyin": "chá",
+          "gloss": "tea"
+        },
+        {
+          "char": "放",
+          "pinyin": "fàng",
+          "gloss": "to put, place"
+        },
+        {
+          "char": "甜",
+          "pinyin": "tián",
+          "gloss": "sweet"
+        },
+        {
+          "char": "照",
+          "pinyin": "zhào",
+          "gloss": "to shine; photo"
+        },
+        {
+          "char": "片",
+          "pinyin": "piàn",
+          "gloss": "slice; flat piece"
+        },
+        {
+          "char": "爸",
+          "pinyin": "bà",
+          "gloss": "dad"
+        },
+        {
+          "char": "妈",
+          "pinyin": "mā",
+          "gloss": "mom"
+        },
+        {
+          "char": "哥",
+          "pinyin": "gē",
+          "gloss": "elder brother"
+        },
+        {
+          "char": "弟",
+          "pinyin": "dì",
+          "gloss": "younger brother"
+        },
+        {
+          "char": "妹",
+          "pinyin": "mèi",
+          "gloss": "younger sister"
+        },
+        {
+          "char": "孩",
+          "pinyin": "hái",
+          "gloss": "child"
+        },
+        {
+          "char": "岁",
+          "pinyin": "suì",
+          "gloss": "year of age"
+        },
+        {
+          "char": "公",
+          "pinyin": "gōng",
+          "gloss": "public; (company)"
+        },
+        {
+          "char": "司",
+          "pinyin": "sī",
+          "gloss": "to manage; (company)"
+        },
+        {
+          "char": "工",
+          "pinyin": "gōng",
+          "gloss": "work; labor"
+        },
+        {
+          "char": "作",
+          "pinyin": "zuò",
+          "gloss": "to do; make"
+        },
+        {
+          "char": "忙",
+          "pinyin": "máng",
+          "gloss": "busy"
+        },
+        {
+          "char": "爱",
+          "pinyin": "ài",
+          "gloss": "to love"
+        },
+        {
+          "char": "聪",
+          "pinyin": "cōng",
+          "gloss": "clever; acute hearing"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "进",
+          "pinyin": "jìn",
+          "pos": "V.",
+          "english": "enter"
+        },
+        {
+          "chinese": "茶",
+          "pinyin": "chá",
+          "pos": "N.",
+          "english": "tea"
+        },
+        {
+          "chinese": "咖啡",
+          "pinyin": "kāfēi",
+          "pos": "N.",
+          "english": "coffee"
+        },
+        {
+          "chinese": "放",
+          "pinyin": "fàng",
+          "pos": "V.",
+          "english": "put"
+        },
+        {
+          "chinese": "糖",
+          "pinyin": "táng",
+          "pos": "N.",
+          "english": "sugar"
+        },
+        {
+          "chinese": "甜",
+          "pinyin": "tián",
+          "pos": "Adj.",
+          "english": "sweet"
+        },
+        {
+          "chinese": "照片",
+          "pinyin": "zhàopiàn",
+          "pos": "N.",
+          "english": "photo"
+        },
+        {
+          "chinese": "哥哥",
+          "pinyin": "gēge",
+          "pos": "N.",
+          "english": "elder brother"
+        },
+        {
+          "chinese": "弟弟",
+          "pinyin": "dìdi",
+          "pos": "N.",
+          "english": "younger brother"
+        },
+        {
+          "chinese": "姐姐",
+          "pinyin": "jiějie",
+          "pos": "N.",
+          "english": "elder sister"
+        },
+        {
+          "chinese": "妹妹",
+          "pinyin": "mèimei",
+          "pos": "N.",
+          "english": "younger sister"
+        },
+        {
+          "chinese": "爸爸",
+          "pinyin": "bàba",
+          "pos": "N.",
+          "english": "father"
+        },
+        {
+          "chinese": "妈妈",
+          "pinyin": "māma",
+          "pos": "N.",
+          "english": "mother"
+        },
+        {
+          "chinese": "先生",
+          "pinyin": "xiānsheng",
+          "pos": "N.",
+          "english": "husband"
+        },
+        {
+          "chinese": "太太",
+          "pinyin": "tàitai",
+          "pos": "N.",
+          "english": "wife"
+        },
+        {
+          "chinese": "孩子",
+          "pinyin": "háizi",
+          "pos": "N.",
+          "english": "child(ren)"
+        },
+        {
+          "chinese": "男孩",
+          "pinyin": "nánhái",
+          "pos": "N.",
+          "english": "boy"
+        },
+        {
+          "chinese": "女孩",
+          "pinyin": "nǚhái",
+          "pos": "N.",
+          "english": "girl"
+        },
+        {
+          "chinese": "多大",
+          "pinyin": "duō dà",
+          "pos": "",
+          "english": "how old"
+        },
+        {
+          "chinese": "岁",
+          "pinyin": "suì",
+          "pos": "M.W.",
+          "english": "age"
+        },
+        {
+          "chinese": "家",
+          "pinyin": "jiā",
+          "pos": "M.W.",
+          "english": "(measure word for companies, stores, etc.)"
+        },
+        {
+          "chinese": "公司",
+          "pinyin": "gōngsī",
+          "pos": "N.",
+          "english": "company"
+        },
+        {
+          "chinese": "小学",
+          "pinyin": "xiǎoxué",
+          "pos": "N.",
+          "english": "primary school"
+        },
+        {
+          "chinese": "工作",
+          "pinyin": "gōngzuò",
+          "pos": "V., N.",
+          "english": "work, job"
+        },
+        {
+          "chinese": "教",
+          "pinyin": "jiāo",
+          "pos": "V.",
+          "english": "to teach"
+        },
+        {
+          "chinese": "忙",
+          "pinyin": "máng",
+          "pos": "Adj.",
+          "english": "busy"
+        },
+        {
+          "chinese": "可爱",
+          "pinyin": "kě'ài",
+          "pos": "Adj.",
+          "english": "cute, lovely"
+        },
+        {
+          "chinese": "聪明",
+          "pinyin": "cōngming",
+          "pos": "Adj.",
+          "english": "clever"
+        },
+        {
+          "chinese": "有名",
+          "pinyin": "yǒumíng",
+          "pos": "Adj.",
+          "english": "famous"
+        },
+        {
+          "chinese": "昨天",
+          "pinyin": "zuótiān",
+          "pos": "N.",
+          "english": "yesterday"
+        },
+        {
+          "chinese": "请",
+          "pinyin": "qǐng",
+          "pos": "V.",
+          "english": "invite"
+        },
+        {
+          "chinese": "爱人",
+          "pinyin": "àiren",
+          "pos": "N.",
+          "english": "spouse"
+        },
+        {
+          "chinese": "六十多",
+          "pinyin": "liùshí duō",
+          "pos": "",
+          "english": "more than sixty"
+        },
+        {
+          "chinese": "明日",
+          "pinyin": "Míngrì",
+          "pos": "PN.",
+          "english": "Mingri (name of a company)"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "请进！",
+          "english": "Please come in!"
+        },
+        {
+          "chinese": "进来",
+          "english": "come in"
+        },
+        {
+          "chinese": "进房间",
+          "english": "enter the room"
+        },
+        {
+          "chinese": "喝茶",
+          "english": "drink tea"
+        },
+        {
+          "chinese": "喝咖啡",
+          "english": "drink coffee"
+        },
+        {
+          "chinese": "词典放在哪儿？",
+          "english": "Where is the dictionary?"
+        },
+        {
+          "chinese": "放一点儿糖。",
+          "english": "Put a little sugar in it."
+        },
+        {
+          "chinese": "一张照片",
+          "english": "a photo"
+        },
+        {
+          "chinese": "我先生",
+          "english": "my husband"
+        },
+        {
+          "chinese": "你先生",
+          "english": "your husband"
+        },
+        {
+          "chinese": "我太太",
+          "english": "my wife"
+        },
+        {
+          "chinese": "你太太",
+          "english": "your wife"
+        },
+        {
+          "chinese": "你多大？",
+          "english": "How old are you?"
+        },
+        {
+          "chinese": "我20岁。",
+          "english": "I'm 20 years old."
+        },
+        {
+          "chinese": "一家公司",
+          "english": "a company"
+        },
+        {
+          "chinese": "两家商店",
+          "english": "two stores"
+        },
+        {
+          "chinese": "一个/家公司",
+          "english": "a company"
+        },
+        {
+          "chinese": "他教我们汉语。",
+          "english": "He teaches us Chinese."
+        },
+        {
+          "chinese": "王老师在吗？",
+          "english": "Is Teacher Wang here?"
+        },
+        {
+          "chinese": "王老师，您好！",
+          "english": "Hello, Teacher Wang!"
+        },
+        {
+          "chinese": "你们好！请坐。",
+          "english": "Hello! Please sit down."
+        },
+        {
+          "chinese": "谢谢！",
+          "english": "Thank you!"
+        },
+        {
+          "chinese": "你们喝什么？茶还是咖啡？",
+          "english": "What would you like to drink? Tea or coffee?"
+        },
+        {
+          "chinese": "我喝茶。",
+          "english": "I'll drink tea."
+        },
+        {
+          "chinese": "我喝咖啡。",
+          "english": "I'll drink coffee."
+        },
+        {
+          "chinese": "要不要放糖？",
+          "english": "Do you want sugar in it?"
+        },
+        {
+          "chinese": "不要放糖，我不喜欢喝甜的东西。",
+          "english": "No sugar, I don't like sweet drinks."
+        },
+        {
+          "chinese": "这张照片很漂亮。",
+          "english": "This photo is very nice."
+        },
+        {
+          "chinese": "这是我先生。",
+          "english": "This is my husband."
+        },
+        {
+          "chinese": "他今天不在家？",
+          "english": "He's not home today?"
+        },
+        {
+          "chinese": "不在。他很忙，他在一个大公司工作。",
+          "english": "No. He's very busy; he works at a big company."
+        },
+        {
+          "chinese": "这两个孩子都是您的？",
+          "english": "Are both of these children yours?"
+        },
+        {
+          "chinese": "不，这个小男孩是我的，那个小女孩是我哥哥的。",
+          "english": "No, this little boy is mine, and that little girl is my elder brother's."
+        },
+        {
+          "chinese": "他们多大了？",
+          "english": "How old are they?"
+        },
+        {
+          "chinese": "一个三岁，一个四岁。",
+          "english": "One is three years old, the other is four."
+        },
+        {
+          "chinese": "他们非常可爱。",
+          "english": "They are very cute."
+        },
+        {
+          "chinese": "你们在中国工作吗？",
+          "english": "Do you work in China?"
+        },
+        {
+          "chinese": "我和王林在一个小学教英语。",
+          "english": "Wang Lin and I teach English at a primary school."
+        },
+        {
+          "chinese": "你们的学生怎么样？",
+          "english": "How are your students?"
+        },
+        {
+          "chinese": "很好，很聪明。",
+          "english": "Very good, very clever."
+        },
+        {
+          "chinese": "都是好学生。",
+          "english": "They are all good students."
+        },
+        {
+          "chinese": "李大中，你呢？",
+          "english": "Li Dazhong, what about you?"
+        },
+        {
+          "chinese": "我在一家公司工作。\"明日\"公司，您知道吗？",
+          "english": "I work at a company. The \"Mingri\" company, do you know it?"
+        },
+        {
+          "chinese": "不知道。",
+          "english": "No, I don't."
+        },
+        {
+          "chinese": "这是一家很有名的大公司，您不知道？",
+          "english": "This is a very famous big company, you don't know it?"
+        },
+        {
+          "chinese": "昨天，我们去了王老师家，她请我们吃饭、喝咖啡。",
+          "english": "Yesterday we went to Teacher Wang's home; she invited us to eat and drink coffee."
+        },
+        {
+          "chinese": "王老师家有五口人。",
+          "english": "There are five people in Teacher Wang's family."
+        },
+        {
+          "chinese": "她爱人在一家有名的大公司工作，他工作很忙。",
+          "english": "Her spouse works at a famous big company; his work is very busy."
+        },
+        {
+          "chinese": "他们有一个孩子，是个男孩，今年四岁，很聪明，也很可爱。",
+          "english": "They have one child, a boy, four years old this year, very clever and also very cute."
+        },
+        {
+          "chinese": "王老师的爸爸妈妈六十多岁了，跟他们住在一起。",
+          "english": "Teacher Wang's parents are over sixty years old and live together with them."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title_zh": "她去医院了",
+      "title_pinyin": "Tā qù yīyuàn le",
+      "title_en": "She has gone to the hospital",
+      "characters": [
+        "已",
+        "经",
+        "马",
+        "刚",
+        "正",
+        "定",
+        "睡",
+        "觉",
+        "起",
+        "床",
+        "出",
+        "玩",
+        "食",
+        "堂",
+        "医",
+        "院",
+        "病",
+        "身",
+        "体",
+        "舒"
+      ],
+      "char_readings": [
+        {
+          "char": "已",
+          "pinyin": "yǐ",
+          "gloss": "already"
+        },
+        {
+          "char": "经",
+          "pinyin": "jīng",
+          "gloss": "pass through; already"
+        },
+        {
+          "char": "马",
+          "pinyin": "mǎ",
+          "gloss": "horse"
+        },
+        {
+          "char": "刚",
+          "pinyin": "gāng",
+          "gloss": "just now"
+        },
+        {
+          "char": "正",
+          "pinyin": "zhèng",
+          "gloss": "just; right now"
+        },
+        {
+          "char": "定",
+          "pinyin": "dìng",
+          "gloss": "fix; settle"
+        },
+        {
+          "char": "睡",
+          "pinyin": "shuì",
+          "gloss": "sleep"
+        },
+        {
+          "char": "觉",
+          "pinyin": "jiào",
+          "gloss": "sleep (a nap)"
+        },
+        {
+          "char": "起",
+          "pinyin": "qǐ",
+          "gloss": "rise; get up"
+        },
+        {
+          "char": "床",
+          "pinyin": "chuáng",
+          "gloss": "bed"
+        },
+        {
+          "char": "出",
+          "pinyin": "chū",
+          "gloss": "go out; exit"
+        },
+        {
+          "char": "玩",
+          "pinyin": "wán",
+          "gloss": "play; have fun"
+        },
+        {
+          "char": "食",
+          "pinyin": "shí",
+          "gloss": "food; eat"
+        },
+        {
+          "char": "堂",
+          "pinyin": "táng",
+          "gloss": "hall"
+        },
+        {
+          "char": "医",
+          "pinyin": "yī",
+          "gloss": "medicine; doctor"
+        },
+        {
+          "char": "院",
+          "pinyin": "yuàn",
+          "gloss": "courtyard; institution"
+        },
+        {
+          "char": "病",
+          "pinyin": "bìng",
+          "gloss": "be sick; illness"
+        },
+        {
+          "char": "身",
+          "pinyin": "shēn",
+          "gloss": "body"
+        },
+        {
+          "char": "体",
+          "pinyin": "tǐ",
+          "gloss": "body"
+        },
+        {
+          "char": "舒",
+          "pinyin": "shū",
+          "gloss": "comfortable; relaxed"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "大家",
+          "pinyin": "dàjiā",
+          "pos": "Pron.",
+          "english": "everybody"
+        },
+        {
+          "chinese": "还",
+          "pinyin": "hái",
+          "pos": "Adv.",
+          "english": "still, yet"
+        },
+        {
+          "chinese": "已经…了",
+          "pinyin": "yǐjīng ... le",
+          "pos": "",
+          "english": "already (used to mark a completed action)"
+        },
+        {
+          "chinese": "已经",
+          "pinyin": "yǐjīng",
+          "pos": "Adv.",
+          "english": "already"
+        },
+        {
+          "chinese": "了",
+          "pinyin": "le",
+          "pos": "Aux.",
+          "english": "(completed-action particle)"
+        },
+        {
+          "chinese": "没(有)",
+          "pinyin": "méi(yǒu)",
+          "pos": "Adv.",
+          "english": "not, have not"
+        },
+        {
+          "chinese": "马上",
+          "pinyin": "mǎshàng",
+          "pos": "Adv.",
+          "english": "soon, immediately"
+        },
+        {
+          "chinese": "刚(刚)",
+          "pinyin": "gāng(gāng)",
+          "pos": "Adv.",
+          "english": "just a moment ago"
+        },
+        {
+          "chinese": "在",
+          "pinyin": "zài",
+          "pos": "Adv.",
+          "english": "be doing sth."
+        },
+        {
+          "chinese": "正在",
+          "pinyin": "zhèngzài",
+          "pos": "Adv.",
+          "english": "be in the middle of (doing something)"
+        },
+        {
+          "chinese": "一定",
+          "pinyin": "yídìng",
+          "pos": "Adv.",
+          "english": "surely"
+        },
+        {
+          "chinese": "可能",
+          "pinyin": "kěnéng",
+          "pos": "Adv.",
+          "english": "maybe"
+        },
+        {
+          "chinese": "睡觉",
+          "pinyin": "shuì jiào",
+          "pos": "",
+          "english": "sleep"
+        },
+        {
+          "chinese": "起床",
+          "pinyin": "qǐ chuáng",
+          "pos": "",
+          "english": "get up"
+        },
+        {
+          "chinese": "床",
+          "pinyin": "chuáng",
+          "pos": "N.",
+          "english": "bed"
+        },
+        {
+          "chinese": "出去",
+          "pinyin": "chūqù",
+          "pos": "V.",
+          "english": "go out"
+        },
+        {
+          "chinese": "玩儿",
+          "pinyin": "wánr",
+          "pos": "V.",
+          "english": "play, have fun"
+        },
+        {
+          "chinese": "吃饭",
+          "pinyin": "chī fàn",
+          "pos": "",
+          "english": "to eat (a meal); have a meal"
+        },
+        {
+          "chinese": "早饭",
+          "pinyin": "zǎofàn",
+          "pos": "N.",
+          "english": "breakfast"
+        },
+        {
+          "chinese": "午饭",
+          "pinyin": "wǔfàn",
+          "pos": "N.",
+          "english": "lunch"
+        },
+        {
+          "chinese": "晚饭",
+          "pinyin": "wǎnfàn",
+          "pos": "N.",
+          "english": "supper"
+        },
+        {
+          "chinese": "食堂",
+          "pinyin": "shítáng",
+          "pos": "N.",
+          "english": "canteen, place where an institution or organization provides meals for its staff"
+        },
+        {
+          "chinese": "怎么啦",
+          "pinyin": "zěnme la",
+          "pos": "",
+          "english": "What's wrong? / What's the matter?"
+        },
+        {
+          "chinese": "医院",
+          "pinyin": "yīyuàn",
+          "pos": "N.",
+          "english": "hospital"
+        },
+        {
+          "chinese": "病",
+          "pinyin": "bìng",
+          "pos": "V., N.",
+          "english": "be sick, sickness"
+        },
+        {
+          "chinese": "身体",
+          "pinyin": "shēntǐ",
+          "pos": "N.",
+          "english": "body, health"
+        },
+        {
+          "chinese": "舒服",
+          "pinyin": "shūfu",
+          "pos": "Adj.",
+          "english": "comfortable"
+        },
+        {
+          "chinese": "说",
+          "pinyin": "shuō",
+          "pos": "V.",
+          "english": "say"
+        },
+        {
+          "chinese": "请假条",
+          "pinyin": "qǐng jià tiáo",
+          "pos": "N.",
+          "english": "written request for leave"
+        },
+        {
+          "chinese": "头",
+          "pinyin": "tóu",
+          "pos": "N.",
+          "english": "head"
+        },
+        {
+          "chinese": "疼",
+          "pinyin": "téng",
+          "pos": "V.",
+          "english": "ache"
+        },
+        {
+          "chinese": "能",
+          "pinyin": "néng",
+          "pos": "V.",
+          "english": "can"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "还在工作。",
+          "english": "Still at work."
+        },
+        {
+          "chinese": "还没休息。",
+          "english": "Have not had any rest yet."
+        },
+        {
+          "chinese": "已经来了。",
+          "english": "Have come / arrived."
+        },
+        {
+          "chinese": "没有来。",
+          "english": "Have not come / did not come."
+        },
+        {
+          "chinese": "还没有来。",
+          "english": "Have not arrived yet."
+        },
+        {
+          "chinese": "马上来。",
+          "english": "Come immediately."
+        },
+        {
+          "chinese": "刚(刚)来。",
+          "english": "Just came, came not long ago."
+        },
+        {
+          "chinese": "在工作。",
+          "english": "Be working."
+        },
+        {
+          "chinese": "在休息。",
+          "english": "Be having a rest."
+        },
+        {
+          "chinese": "正在工作。",
+          "english": "Be working (right now)."
+        },
+        {
+          "chinese": "正在休息。",
+          "english": "Be having a rest (right now)."
+        },
+        {
+          "chinese": "我明天一定来。",
+          "english": "I will come tomorrow for sure."
+        },
+        {
+          "chinese": "我明天可能来。",
+          "english": "I may come tomorrow."
+        },
+        {
+          "chinese": "一张床。",
+          "english": "A bed."
+        },
+        {
+          "chinese": "去北京玩儿。",
+          "english": "Travel in Beijing."
+        },
+        {
+          "chinese": "去你家玩儿。",
+          "english": "Have fun at your home."
+        },
+        {
+          "chinese": "玩儿电脑。",
+          "english": "Play the computer."
+        },
+        {
+          "chinese": "吃早饭。",
+          "english": "Have breakfast."
+        },
+        {
+          "chinese": "吃午饭。",
+          "english": "Have lunch."
+        },
+        {
+          "chinese": "吃晚饭。",
+          "english": "Have supper."
+        },
+        {
+          "chinese": "你怎么啦？",
+          "english": "What's wrong with you?"
+        },
+        {
+          "chinese": "他病了。",
+          "english": "He is sick."
+        },
+        {
+          "chinese": "你身体怎么样？",
+          "english": "How are you? How do you feel?"
+        },
+        {
+          "chinese": "身体不舒服。",
+          "english": "Do not feel well."
+        },
+        {
+          "chinese": "王老师早。",
+          "english": "Good morning, Teacher Wang."
+        },
+        {
+          "chinese": "早。大家都来了吗？",
+          "english": "Morning. Has everybody come?"
+        },
+        {
+          "chinese": "有一位同学还没有来。",
+          "english": "There is one classmate who hasn't come yet."
+        },
+        {
+          "chinese": "谁还没有来？",
+          "english": "Who hasn't come yet?"
+        },
+        {
+          "chinese": "林娜还没有来。",
+          "english": "Linna hasn't come yet."
+        },
+        {
+          "chinese": "她还在睡觉吗？",
+          "english": "Is she still sleeping?"
+        },
+        {
+          "chinese": "不，她已经起床了，现在正在吃饭，马上来。",
+          "english": "No, she has already gotten up; she's eating now and will come soon."
+        },
+        {
+          "chinese": "林娜来了没有？",
+          "english": "Has Linna come?"
+        },
+        {
+          "chinese": "还没有。",
+          "english": "Not yet."
+        },
+        {
+          "chinese": "她今天来上课吗？",
+          "english": "Is she coming to class today?"
+        },
+        {
+          "chinese": "不知道。",
+          "english": "I don't know."
+        },
+        {
+          "chinese": "她大概出去玩儿了。",
+          "english": "She probably went out to have fun."
+        },
+        {
+          "chinese": "她一定去旅行了。",
+          "english": "She must have gone traveling."
+        },
+        {
+          "chinese": "我想，她可能还在睡觉。",
+          "english": "I think she might still be sleeping."
+        },
+        {
+          "chinese": "或者刚刚起床，现在在食堂吃早饭。",
+          "english": "Or she just got up and is now having breakfast in the canteen."
+        },
+        {
+          "chinese": "她不喜欢学习。",
+          "english": "She doesn't like studying."
+        },
+        {
+          "chinese": "谁说我不喜欢学习？谁说我去旅行了？——我来了！",
+          "english": "Who said I don't like studying? Who said I went traveling? — I'm here!"
+        },
+        {
+          "chinese": "林娜在吗？",
+          "english": "Is Linna here?"
+        },
+        {
+          "chinese": "她不在。",
+          "english": "She's not here."
+        },
+        {
+          "chinese": "她去哪儿了？",
+          "english": "Where did she go?"
+        },
+        {
+          "chinese": "她去医院了。",
+          "english": "She went to the hospital."
+        },
+        {
+          "chinese": "她怎么啦？身体不舒服吗？",
+          "english": "What's wrong with her? Is she not feeling well?"
+        },
+        {
+          "chinese": "不是。班里有一位同学病了，现在在医院里。她去看他了。",
+          "english": "No. A classmate in the class is sick and is now in the hospital. She went to see him."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title_zh": "我买了很多东西",
+      "title_pinyin": "Wǒ mǎi le hěn duō dōngxi",
+      "title_en": "I bought many things",
+      "characters": [
+        "昨",
+        "屋",
+        "周",
+        "末",
+        "园",
+        "拍",
+        "超",
+        "市",
+        "些",
+        "品",
+        "包",
+        "奶",
+        "饮",
+        "料",
+        "水",
+        "果",
+        "苹",
+        "斤",
+        "味",
+        "街"
+      ],
+      "char_readings": [
+        {
+          "char": "昨",
+          "pinyin": "zuó",
+          "gloss": "yesterday"
+        },
+        {
+          "char": "屋",
+          "pinyin": "wū",
+          "gloss": "room, house"
+        },
+        {
+          "char": "周",
+          "pinyin": "zhōu",
+          "gloss": "week"
+        },
+        {
+          "char": "末",
+          "pinyin": "mò",
+          "gloss": "end"
+        },
+        {
+          "char": "园",
+          "pinyin": "yuán",
+          "gloss": "garden, park"
+        },
+        {
+          "char": "拍",
+          "pinyin": "pāi",
+          "gloss": "to take (a photo)"
+        },
+        {
+          "char": "超",
+          "pinyin": "chāo",
+          "gloss": "to exceed, super"
+        },
+        {
+          "char": "市",
+          "pinyin": "shì",
+          "gloss": "market, city"
+        },
+        {
+          "char": "些",
+          "pinyin": "xiē",
+          "gloss": "some, a few"
+        },
+        {
+          "char": "品",
+          "pinyin": "pǐn",
+          "gloss": "product, item"
+        },
+        {
+          "char": "包",
+          "pinyin": "bāo",
+          "gloss": "bun, bag"
+        },
+        {
+          "char": "奶",
+          "pinyin": "nǎi",
+          "gloss": "milk"
+        },
+        {
+          "char": "饮",
+          "pinyin": "yǐn",
+          "gloss": "drink, beverage"
+        },
+        {
+          "char": "料",
+          "pinyin": "liào",
+          "gloss": "material"
+        },
+        {
+          "char": "水",
+          "pinyin": "shuǐ",
+          "gloss": "water"
+        },
+        {
+          "char": "果",
+          "pinyin": "guǒ",
+          "gloss": "fruit"
+        },
+        {
+          "char": "苹",
+          "pinyin": "píng",
+          "gloss": "apple (in 苹果)"
+        },
+        {
+          "char": "斤",
+          "pinyin": "jīn",
+          "gloss": "jin (unit of weight)"
+        },
+        {
+          "char": "味",
+          "pinyin": "wèi",
+          "gloss": "taste, flavor"
+        },
+        {
+          "char": "街",
+          "pinyin": "jiē",
+          "gloss": "street"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "昨天",
+          "pinyin": "zuótiān",
+          "pos": "N.",
+          "english": "yesterday"
+        },
+        {
+          "chinese": "去年",
+          "pinyin": "qùnián",
+          "pos": "N.",
+          "english": "last year"
+        },
+        {
+          "chinese": "同屋",
+          "pinyin": "tóngwū",
+          "pos": "N.",
+          "english": "roommate"
+        },
+        {
+          "chinese": "周末",
+          "pinyin": "zhōumò",
+          "pos": "N.",
+          "english": "weekend"
+        },
+        {
+          "chinese": "公园",
+          "pinyin": "gōngyuán",
+          "pos": "N.",
+          "english": "park"
+        },
+        {
+          "chinese": "拍（照片）",
+          "pinyin": "pāi (zhàopiàn)",
+          "pos": "",
+          "english": "take (photos)"
+        },
+        {
+          "chinese": "上街",
+          "pinyin": "shàng jiē",
+          "pos": "",
+          "english": "go shopping"
+        },
+        {
+          "chinese": "上",
+          "pinyin": "shàng",
+          "pos": "V.",
+          "english": "go to (a place)"
+        },
+        {
+          "chinese": "街",
+          "pinyin": "jiē",
+          "pos": "N.",
+          "english": "street"
+        },
+        {
+          "chinese": "超市",
+          "pinyin": "chāoshì",
+          "pos": "N.",
+          "english": "supermarket"
+        },
+        {
+          "chinese": "日用品",
+          "pinyin": "rìyòngpǐn",
+          "pos": "N.",
+          "english": "articles of everyday use"
+        },
+        {
+          "chinese": "食品",
+          "pinyin": "shípǐn",
+          "pos": "N.",
+          "english": "food"
+        },
+        {
+          "chinese": "面包",
+          "pinyin": "miànbāo",
+          "pos": "N.",
+          "english": "bread"
+        },
+        {
+          "chinese": "饮料",
+          "pinyin": "yǐnliào",
+          "pos": "N.",
+          "english": "drink, beverage"
+        },
+        {
+          "chinese": "牛奶",
+          "pinyin": "niúnǎi",
+          "pos": "N.",
+          "english": "milk"
+        },
+        {
+          "chinese": "水果",
+          "pinyin": "shuǐguǒ",
+          "pos": "N.",
+          "english": "fruit"
+        },
+        {
+          "chinese": "苹果",
+          "pinyin": "píngguǒ",
+          "pos": "N.",
+          "english": "apple"
+        },
+        {
+          "chinese": "香蕉",
+          "pinyin": "xiāngjiāo",
+          "pos": "N.",
+          "english": "banana"
+        },
+        {
+          "chinese": "味道",
+          "pinyin": "wèidào",
+          "pos": "N.",
+          "english": "taste"
+        },
+        {
+          "chinese": "斤",
+          "pinyin": "jīn",
+          "pos": "M.W.",
+          "english": "jin, 1 斤 = 0.5 公斤"
+        },
+        {
+          "chinese": "公斤",
+          "pinyin": "gōngjīn",
+          "pos": "M.W.",
+          "english": "kilogram"
+        },
+        {
+          "chinese": "大",
+          "pinyin": "dà",
+          "pos": "Adj.",
+          "english": "big, large"
+        },
+        {
+          "chinese": "小",
+          "pinyin": "xiǎo",
+          "pos": "Adj.",
+          "english": "small, little"
+        },
+        {
+          "chinese": "酸",
+          "pinyin": "suān",
+          "pos": "Adj.",
+          "english": "sour, tart"
+        },
+        {
+          "chinese": "一样",
+          "pinyin": "yíyàng",
+          "pos": "Adj.",
+          "english": "same"
+        },
+        {
+          "chinese": "有点儿",
+          "pinyin": "yǒudiǎnr",
+          "pos": "Adv.",
+          "english": "somewhat, rather, a bit"
+        },
+        {
+          "chinese": "新鲜",
+          "pinyin": "xīnxiān",
+          "pos": "Adj.",
+          "english": "fresh"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "周末你去哪儿了？",
+          "english": "Where did you go on the weekend?"
+        },
+        {
+          "chinese": "我跟我同屋一起去公园玩儿了。",
+          "english": "I went to the park to have fun with my roommate."
+        },
+        {
+          "chinese": "公园漂亮不漂亮？",
+          "english": "Is the park pretty?"
+        },
+        {
+          "chinese": "很漂亮，可是人太多。",
+          "english": "It's very pretty, but there were too many people."
+        },
+        {
+          "chinese": "拍照片了吗？",
+          "english": "Did you take any photos?"
+        },
+        {
+          "chinese": "拍了。拍了很多照片。",
+          "english": "Yes. I took a lot of photos."
+        },
+        {
+          "chinese": "可以给我看一下儿吗？",
+          "english": "Can you let me have a look?"
+        },
+        {
+          "chinese": "当然可以。",
+          "english": "Of course."
+        },
+        {
+          "chinese": "你昨天上哪儿了？",
+          "english": "Where did you go yesterday?"
+        },
+        {
+          "chinese": "我上街了。",
+          "english": "I went shopping."
+        },
+        {
+          "chinese": "买东西了吗？",
+          "english": "Did you buy anything?"
+        },
+        {
+          "chinese": "买了。我在超市买了很多东西。",
+          "english": "Yes. I bought a lot of things at the supermarket."
+        },
+        {
+          "chinese": "买了什么东西？",
+          "english": "What did you buy?"
+        },
+        {
+          "chinese": "买了一些日用品、食品、饮料。你呢？",
+          "english": "I bought some daily necessities, food, and drinks. How about you?"
+        },
+        {
+          "chinese": "我也上街了。",
+          "english": "I went shopping too."
+        },
+        {
+          "chinese": "你买了什么东西？",
+          "english": "What did you buy?"
+        },
+        {
+          "chinese": "跟你一样。",
+          "english": "The same as you."
+        },
+        {
+          "chinese": "你买水果了没有？",
+          "english": "Did you buy any fruit?"
+        },
+        {
+          "chinese": "买了。",
+          "english": "Yes, I did."
+        },
+        {
+          "chinese": "买了什么水果？",
+          "english": "What fruit did you buy?"
+        },
+        {
+          "chinese": "买了三斤苹果。你呢？",
+          "english": "I bought three jin of apples. How about you?"
+        },
+        {
+          "chinese": "我买了四斤香蕉。",
+          "english": "I bought four jin of bananas."
+        },
+        {
+          "chinese": "香蕉好吃不好吃？",
+          "english": "Are the bananas good to eat?"
+        },
+        {
+          "chinese": "香蕉很小，可是很甜。你的苹果味道怎么样？",
+          "english": "The bananas are small, but very sweet. How do your apples taste?"
+        },
+        {
+          "chinese": "苹果很大，可是有点儿酸。",
+          "english": "The apples are big, but a bit sour."
+        },
+        {
+          "chinese": "你上哪儿（去）？",
+          "english": "Where are you going?"
+        },
+        {
+          "chinese": "跟你一样。",
+          "english": "The same as you."
+        },
+        {
+          "chinese": "有点儿小。",
+          "english": "a bit too small"
+        },
+        {
+          "chinese": "他今天有点儿不舒服。",
+          "english": "He is a bit unwell today."
+        },
+        {
+          "chinese": "这个房间有点儿小。",
+          "english": "This room is a bit small."
+        },
+        {
+          "chinese": "那儿的东西有点儿贵。",
+          "english": "The things there are a bit expensive."
+        },
+        {
+          "chinese": "昨天我在超市买了四斤苹果。",
+          "english": "Yesterday I bought four jin of apples at the supermarket."
+        },
+        {
+          "chinese": "昨天我们去超市了，我买了食品，他买了水果。",
+          "english": "Yesterday we went to the supermarket; I bought food, and he bought fruit."
+        },
+        {
+          "chinese": "昨天是周末，我去超市了。我在超市买了很多东西。",
+          "english": "Yesterday was the weekend, so I went to the supermarket. I bought a lot of things at the supermarket."
+        },
+        {
+          "chinese": "我买了一些日用品、食品、饮料，还买了苹果和香蕉。",
+          "english": "I bought some daily necessities, food, and drinks, and also bought apples and bananas."
+        },
+        {
+          "chinese": "苹果和香蕉都很新鲜。",
+          "english": "The apples and bananas are both very fresh."
+        },
+        {
+          "chinese": "苹果很大，可是有点儿酸；香蕉很小，可是很好吃。",
+          "english": "The apples are big but a bit sour; the bananas are small but very tasty."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title_zh": "他是什么时候去的？",
+      "title_pinyin": "Tā shì shénme shíhou qù de?",
+      "title_en": "When did he go?",
+      "characters": [
+        "告",
+        "诉",
+        "忘",
+        "听",
+        "说",
+        "宾",
+        "馆",
+        "气",
+        "净",
+        "交",
+        "新",
+        "冷",
+        "热",
+        "累",
+        "高",
+        "兴",
+        "认",
+        "识",
+        "但",
+        "如"
+      ],
+      "char_readings": [
+        {
+          "char": "告",
+          "pinyin": "gào",
+          "gloss": "tell, announce"
+        },
+        {
+          "char": "诉",
+          "pinyin": "sù",
+          "gloss": "tell, inform"
+        },
+        {
+          "char": "忘",
+          "pinyin": "wàng",
+          "gloss": "forget"
+        },
+        {
+          "char": "听",
+          "pinyin": "tīng",
+          "gloss": "listen, hear"
+        },
+        {
+          "char": "说",
+          "pinyin": "shuō",
+          "gloss": "speak, say"
+        },
+        {
+          "char": "宾",
+          "pinyin": "bīn",
+          "gloss": "guest"
+        },
+        {
+          "char": "馆",
+          "pinyin": "guǎn",
+          "gloss": "building, hall"
+        },
+        {
+          "char": "气",
+          "pinyin": "qì",
+          "gloss": "air, gas"
+        },
+        {
+          "char": "净",
+          "pinyin": "jìng",
+          "gloss": "clean"
+        },
+        {
+          "char": "交",
+          "pinyin": "jiāo",
+          "gloss": "hand over, deliver"
+        },
+        {
+          "char": "新",
+          "pinyin": "xīn",
+          "gloss": "new"
+        },
+        {
+          "char": "冷",
+          "pinyin": "lěng",
+          "gloss": "cold"
+        },
+        {
+          "char": "热",
+          "pinyin": "rè",
+          "gloss": "hot"
+        },
+        {
+          "char": "累",
+          "pinyin": "lèi",
+          "gloss": "tired"
+        },
+        {
+          "char": "高",
+          "pinyin": "gāo",
+          "gloss": "tall, high"
+        },
+        {
+          "char": "兴",
+          "pinyin": "xìng",
+          "gloss": "mood, interest"
+        },
+        {
+          "char": "认",
+          "pinyin": "rèn",
+          "gloss": "recognize, know"
+        },
+        {
+          "char": "识",
+          "pinyin": "shí",
+          "gloss": "know, recognize"
+        },
+        {
+          "char": "但",
+          "pinyin": "dàn",
+          "gloss": "but, however"
+        },
+        {
+          "char": "如",
+          "pinyin": "rú",
+          "gloss": "if, like"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "上",
+          "pinyin": "shàng",
+          "pos": "N.",
+          "english": "last"
+        },
+        {
+          "chinese": "下",
+          "pinyin": "xià",
+          "pos": "N.",
+          "english": "next"
+        },
+        {
+          "chinese": "告诉",
+          "pinyin": "gàosu",
+          "pos": "V.",
+          "english": "tell"
+        },
+        {
+          "chinese": "忘",
+          "pinyin": "wàng",
+          "pos": "V.",
+          "english": "forget"
+        },
+        {
+          "chinese": "听说",
+          "pinyin": "tīngshuō",
+          "pos": "V.",
+          "english": "it is said"
+        },
+        {
+          "chinese": "马路",
+          "pinyin": "mǎlù",
+          "pos": "N.",
+          "english": "road"
+        },
+        {
+          "chinese": "宾馆",
+          "pinyin": "bīnguǎn",
+          "pos": "N.",
+          "english": "hotel"
+        },
+        {
+          "chinese": "天气",
+          "pinyin": "tiānqì",
+          "pos": "N.",
+          "english": "weather"
+        },
+        {
+          "chinese": "交通",
+          "pinyin": "jiāotōng",
+          "pos": "N.",
+          "english": "traffic, transportation"
+        },
+        {
+          "chinese": "有意思",
+          "pinyin": "yǒu yìsi",
+          "pos": "",
+          "english": "interesting"
+        },
+        {
+          "chinese": "新",
+          "pinyin": "xīn",
+          "pos": "Adj.",
+          "english": "new"
+        },
+        {
+          "chinese": "冷",
+          "pinyin": "lěng",
+          "pos": "Adj.",
+          "english": "cold"
+        },
+        {
+          "chinese": "热",
+          "pinyin": "rè",
+          "pos": "Adj.",
+          "english": "hot"
+        },
+        {
+          "chinese": "累",
+          "pinyin": "lèi",
+          "pos": "Adj.",
+          "english": "tired"
+        },
+        {
+          "chinese": "干净",
+          "pinyin": "gānjìng",
+          "pos": "Adj.",
+          "english": "clean"
+        },
+        {
+          "chinese": "方便",
+          "pinyin": "fāngbiàn",
+          "pos": "Adj.",
+          "english": "convenient"
+        },
+        {
+          "chinese": "高兴",
+          "pinyin": "gāoxìng",
+          "pos": "Adj.",
+          "english": "glad"
+        },
+        {
+          "chinese": "认识",
+          "pinyin": "rènshi",
+          "pos": "V.",
+          "english": "know, get to know (a person, a word, a road, etc.)"
+        },
+        {
+          "chinese": "几",
+          "pinyin": "jǐ",
+          "pos": "Num.",
+          "english": "several (in statements)"
+        },
+        {
+          "chinese": "但是",
+          "pinyin": "dànshì",
+          "pos": "Conj.",
+          "english": "but"
+        },
+        {
+          "chinese": "如果",
+          "pinyin": "rúguǒ",
+          "pos": "Conj.",
+          "english": "if"
+        },
+        {
+          "chinese": "长城",
+          "pinyin": "Chángchéng",
+          "pos": "PN",
+          "english": "the Great Wall"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "对不起，我忘了。",
+          "english": "Sorry, I forgot."
+        },
+        {
+          "chinese": "在马路上",
+          "english": "on the road"
+        },
+        {
+          "chinese": "在宾馆里",
+          "english": "at the hotel"
+        },
+        {
+          "chinese": "天气很好。",
+          "english": "The weather is nice."
+        },
+        {
+          "chinese": "我想去买几本书。",
+          "english": "I would like to buy several books."
+        },
+        {
+          "chinese": "大卫这几天没来上课，他病了吗？",
+          "english": "David hasn't come to class these days. Is he sick?"
+        },
+        {
+          "chinese": "不是，他去北京旅行了。",
+          "english": "No, he went to Beijing to travel."
+        },
+        {
+          "chinese": "是吗？他是什么时候去的？",
+          "english": "Really? When did he go?"
+        },
+        {
+          "chinese": "上星期六。",
+          "english": "Last Saturday."
+        },
+        {
+          "chinese": "他是一个人去的吗？",
+          "english": "Did he go alone?"
+        },
+        {
+          "chinese": "不，他跟他女朋友一起去的。",
+          "english": "No, he went together with his girlfriend."
+        },
+        {
+          "chinese": "他们什么时候回来？",
+          "english": "When are they coming back?"
+        },
+        {
+          "chinese": "他告诉我，他们打算下星期一或者星期二回来。",
+          "english": "He told me they plan to come back next Monday or Tuesday."
+        },
+        {
+          "chinese": "听说你去北京了？",
+          "english": "I heard you went to Beijing?"
+        },
+        {
+          "chinese": "是啊。上星期六去的。",
+          "english": "Yes. I went last Saturday."
+        },
+        {
+          "chinese": "你怎么去的？坐飞机去的还是坐火车去的？",
+          "english": "How did you go? Did you go by plane or by train?"
+        },
+        {
+          "chinese": "坐火车去的。",
+          "english": "I went by train."
+        },
+        {
+          "chinese": "北京怎么样？",
+          "english": "How was Beijing?"
+        },
+        {
+          "chinese": "北京公园很多，马路很干净，交通很方便，天气很舒服，商店很漂亮。我拍了不少照片，你看。",
+          "english": "Beijing has many parks, the roads are very clean, the transportation is very convenient, the weather is very comfortable, and the shops are very beautiful. I took quite a few photos, take a look."
+        },
+        {
+          "chinese": "这几张是在哪儿拍的？",
+          "english": "Where were these taken?"
+        },
+        {
+          "chinese": "这几张都是在长城上拍的。",
+          "english": "These were all taken on the Great Wall."
+        },
+        {
+          "chinese": "那几张呢？",
+          "english": "And those?"
+        },
+        {
+          "chinese": "那几张……我忘了。",
+          "english": "Those... I forgot."
+        },
+        {
+          "chinese": "北京的天气怎么样？",
+          "english": "How was the weather in Beijing?"
+        },
+        {
+          "chinese": "不冷不热，很舒服。",
+          "english": "Neither cold nor hot, very comfortable."
+        },
+        {
+          "chinese": "在北京住了几天？",
+          "english": "How many days did you stay in Beijing?"
+        },
+        {
+          "chinese": "住了五天。",
+          "english": "I stayed five days."
+        },
+        {
+          "chinese": "住在宾馆里吗？",
+          "english": "Did you stay in a hotel?"
+        },
+        {
+          "chinese": "不。我在北京有几位好朋友，我住在朋友家里。",
+          "english": "No. I have several good friends in Beijing, so I stayed at a friend's home."
+        },
+        {
+          "chinese": "你累不累？",
+          "english": "Are you tired?"
+        },
+        {
+          "chinese": "有点儿累，但是很高兴。旅行很有意思，我学了很多新东西，认识了很多新朋友。",
+          "english": "A little tired, but very happy. Traveling is very interesting; I learned many new things and got to know many new friends."
+        },
+        {
+          "chinese": "如果有时间，我也想去北京旅行。",
+          "english": "If I have time, I would also like to travel to Beijing."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title_zh": "就在中国银行旁边",
+      "title_pinyin": "Jiù zài Zhōngguó Yínháng pángbiān",
+      "title_en": "It is beside the Bank of China",
+      "characters": [
+        "才",
+        "钥",
+        "匙",
+        "店",
+        "银",
+        "教",
+        "室",
+        "桌",
+        "袋",
+        "外",
+        "自",
+        "己",
+        "旁",
+        "边",
+        "丢",
+        "锁",
+        "找",
+        "就",
+        "真",
+        "啊"
+      ],
+      "char_readings": [
+        {
+          "char": "才",
+          "pinyin": "cái",
+          "gloss": "just now; only"
+        },
+        {
+          "char": "钥",
+          "pinyin": "yào",
+          "gloss": "key (part of 钥匙)"
+        },
+        {
+          "char": "匙",
+          "pinyin": "shi",
+          "gloss": "key (part of 钥匙)"
+        },
+        {
+          "char": "店",
+          "pinyin": "diàn",
+          "gloss": "shop, store"
+        },
+        {
+          "char": "银",
+          "pinyin": "yín",
+          "gloss": "silver; bank (银行)"
+        },
+        {
+          "char": "教",
+          "pinyin": "jiào",
+          "gloss": "teach"
+        },
+        {
+          "char": "室",
+          "pinyin": "shì",
+          "gloss": "room"
+        },
+        {
+          "char": "桌",
+          "pinyin": "zhuō",
+          "gloss": "table, desk"
+        },
+        {
+          "char": "袋",
+          "pinyin": "dài",
+          "gloss": "bag, pocket"
+        },
+        {
+          "char": "外",
+          "pinyin": "wài",
+          "gloss": "outside; foreign"
+        },
+        {
+          "char": "自",
+          "pinyin": "zì",
+          "gloss": "self"
+        },
+        {
+          "char": "己",
+          "pinyin": "jǐ",
+          "gloss": "self, oneself"
+        },
+        {
+          "char": "旁",
+          "pinyin": "páng",
+          "gloss": "side, beside"
+        },
+        {
+          "char": "边",
+          "pinyin": "biān",
+          "gloss": "side, edge"
+        },
+        {
+          "char": "丢",
+          "pinyin": "diū",
+          "gloss": "lose, be lost"
+        },
+        {
+          "char": "锁",
+          "pinyin": "suǒ",
+          "gloss": "lock"
+        },
+        {
+          "char": "找",
+          "pinyin": "zhǎo",
+          "gloss": "look for, find"
+        },
+        {
+          "char": "就",
+          "pinyin": "jiù",
+          "gloss": "just, precisely"
+        },
+        {
+          "char": "真",
+          "pinyin": "zhēn",
+          "gloss": "really, truly"
+        },
+        {
+          "char": "啊",
+          "pinyin": "a",
+          "gloss": "(modal particle)"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "刚才",
+          "pinyin": "gāngcái",
+          "pos": "N.",
+          "english": "just now"
+        },
+        {
+          "chinese": "钥匙",
+          "pinyin": "yàoshi",
+          "pos": "N.",
+          "english": "key"
+        },
+        {
+          "chinese": "书店",
+          "pinyin": "shūdiàn",
+          "pos": "N.",
+          "english": "bookstore"
+        },
+        {
+          "chinese": "银行",
+          "pinyin": "yínháng",
+          "pos": "N.",
+          "english": "bank"
+        },
+        {
+          "chinese": "教室",
+          "pinyin": "jiàoshì",
+          "pos": "N.",
+          "english": "classroom"
+        },
+        {
+          "chinese": "桌子",
+          "pinyin": "zhuōzi",
+          "pos": "N.",
+          "english": "desk, table"
+        },
+        {
+          "chinese": "口袋",
+          "pinyin": "kǒudai",
+          "pos": "N.",
+          "english": "pocket"
+        },
+        {
+          "chinese": "包",
+          "pinyin": "bāo",
+          "pos": "N.",
+          "english": "bag"
+        },
+        {
+          "chinese": "外文",
+          "pinyin": "wàiwén",
+          "pos": "N.",
+          "english": "foreign language"
+        },
+        {
+          "chinese": "自己",
+          "pinyin": "zìjǐ",
+          "pos": "Pron.",
+          "english": "self"
+        },
+        {
+          "chinese": "上",
+          "pinyin": "shàng",
+          "pos": "N.",
+          "english": "on, above"
+        },
+        {
+          "chinese": "下",
+          "pinyin": "xià",
+          "pos": "N.",
+          "english": "under, below"
+        },
+        {
+          "chinese": "旁边",
+          "pinyin": "pángbiān",
+          "pos": "N.",
+          "english": "beside"
+        },
+        {
+          "chinese": "对面",
+          "pinyin": "duìmiàn",
+          "pos": "N.",
+          "english": "opposite"
+        },
+        {
+          "chinese": "说",
+          "pinyin": "shuō",
+          "pos": "V.",
+          "english": "say"
+        },
+        {
+          "chinese": "丢",
+          "pinyin": "diū",
+          "pos": "V.",
+          "english": "lose, be lost"
+        },
+        {
+          "chinese": "锁",
+          "pinyin": "suǒ",
+          "pos": "V.",
+          "english": "lock"
+        },
+        {
+          "chinese": "找到",
+          "pinyin": "zhǎodào",
+          "pos": "V.",
+          "english": "find"
+        },
+        {
+          "chinese": "糊涂",
+          "pinyin": "hútu",
+          "pos": "Adj.",
+          "english": "confused, muddled"
+        },
+        {
+          "chinese": "糟糕",
+          "pinyin": "zāogāo",
+          "pos": "Adj.",
+          "english": "bad, terrible"
+        },
+        {
+          "chinese": "就",
+          "pinyin": "jiù",
+          "pos": "Adv.",
+          "english": "just"
+        },
+        {
+          "chinese": "快",
+          "pinyin": "kuài",
+          "pos": "Adv.",
+          "english": "urge sb to do sth as soon as possible"
+        },
+        {
+          "chinese": "真",
+          "pinyin": "zhēn",
+          "pos": "Adv.",
+          "english": "really, truly (used in an exclamatory sentence)"
+        },
+        {
+          "chinese": "那",
+          "pinyin": "nà",
+          "pos": "Conj.",
+          "english": "then; in that case"
+        },
+        {
+          "chinese": "啊",
+          "pinyin": "a",
+          "pos": "Aux.",
+          "english": "used to tone up what is being said"
+        },
+        {
+          "chinese": "记性",
+          "pinyin": "jìxing",
+          "pos": "N.",
+          "english": "memory"
+        },
+        {
+          "chinese": "骑",
+          "pinyin": "qí",
+          "pos": "V.",
+          "english": "ride (bicycle)"
+        },
+        {
+          "chinese": "找不到",
+          "pinyin": "zhǎo bu dào",
+          "pos": "",
+          "english": "cannot find"
+        },
+        {
+          "chinese": "还是",
+          "pinyin": "háishi",
+          "pos": "Adv.",
+          "english": "still"
+        },
+        {
+          "chinese": "酒吧",
+          "pinyin": "jiǔbā",
+          "pos": "N.",
+          "english": "bar"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "刚才你去哪儿了?",
+          "english": "Where did you go just now?"
+        },
+        {
+          "chinese": "外文书店",
+          "english": "foreign languages bookstore"
+        },
+        {
+          "chinese": "我自己",
+          "english": "myself"
+        },
+        {
+          "chinese": "你自己",
+          "english": "yourself"
+        },
+        {
+          "chinese": "我们自己",
+          "english": "ourselves"
+        },
+        {
+          "chinese": "桌子上",
+          "english": "on the table"
+        },
+        {
+          "chinese": "床上",
+          "english": "on the bed"
+        },
+        {
+          "chinese": "桌子下",
+          "english": "under the table"
+        },
+        {
+          "chinese": "床下",
+          "english": "under the bed"
+        },
+        {
+          "chinese": "学校旁边",
+          "english": "beside the school"
+        },
+        {
+          "chinese": "学校对面",
+          "english": "opposite the school"
+        },
+        {
+          "chinese": "我的钱包丢了。",
+          "english": "I lost my wallet."
+        },
+        {
+          "chinese": "刚才你女朋友来电话,说她在\"老友\"饭店等你。",
+          "english": "Just now your girlfriend called and said she's waiting for you at the \"Laoyou\" restaurant."
+        },
+        {
+          "chinese": "好,我马上就去。……咦,我的自行车钥匙呢?",
+          "english": "Okay, I'll go right away. ... Huh, where are my bicycle keys?"
+        },
+        {
+          "chinese": "那要问你自己了。",
+          "english": "Then you'll have to ask yourself."
+        },
+        {
+          "chinese": "真糟糕!我的自行车钥匙丢了!",
+          "english": "How terrible! I've lost my bicycle keys!"
+        },
+        {
+          "chinese": "桌子上有没有?",
+          "english": "Are they on the table?"
+        },
+        {
+          "chinese": "没有。",
+          "english": "No, they're not."
+        },
+        {
+          "chinese": "可能在你的床上。",
+          "english": "Maybe they're on your bed."
+        },
+        {
+          "chinese": "也没有。",
+          "english": "They're not there either."
+        },
+        {
+          "chinese": "你的衣服口袋里有没有?",
+          "english": "Are they in your clothes pocket?"
+        },
+        {
+          "chinese": "那一定在你的包里。",
+          "english": "Then they must be in your bag."
+        },
+        {
+          "chinese": "大概在教室里,去看一下儿吧。",
+          "english": "They're probably in the classroom, go take a look."
+        },
+        {
+          "chinese": "找到了!找到了!我的钥匙找到了!",
+          "english": "Found them! Found them! I found my keys!"
+        },
+        {
+          "chinese": "是在教室里找到的吗?",
+          "english": "Did you find them in the classroom?"
+        },
+        {
+          "chinese": "不是。",
+          "english": "No."
+        },
+        {
+          "chinese": "是在口袋里找到的吗?",
+          "english": "Did you find them in your pocket?"
+        },
+        {
+          "chinese": "也不是。",
+          "english": "No, not there either."
+        },
+        {
+          "chinese": "那在哪儿?",
+          "english": "Then where were they?"
+        },
+        {
+          "chinese": "在自行车上。我忘了锁自行车。",
+          "english": "On the bicycle. I forgot to lock the bicycle."
+        },
+        {
+          "chinese": "你这个人啊,真糊涂!",
+          "english": "Oh you, you're really muddle-headed!"
+        },
+        {
+          "chinese": "\"老友\"饭店在哪儿,你知道吗?",
+          "english": "Do you know where the \"Laoyou\" restaurant is?"
+        },
+        {
+          "chinese": "怎么,你不知道\"老友\"饭店?就在中国银行旁边啊。",
+          "english": "What, you don't know the \"Laoyou\" restaurant? It's right beside the Bank of China."
+        },
+        {
+          "chinese": "可是,中国银行在哪儿呢?",
+          "english": "But where is the Bank of China?"
+        },
+        {
+          "chinese": "在外文书店旁边。",
+          "english": "Beside the foreign languages bookstore."
+        },
+        {
+          "chinese": "那外文书店在哪儿呢?",
+          "english": "Then where is the foreign languages bookstore?"
+        },
+        {
+          "chinese": "就在学校大门对面。",
+          "english": "Right opposite the school's main gate."
+        },
+        {
+          "chinese": "是吗?我怎么不知道?真糊涂!",
+          "english": "Really? How come I didn't know? I'm so muddle-headed!"
+        },
+        {
+          "chinese": "好了好了,你快去吧。",
+          "english": "All right, all right, hurry up and go."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title_zh": "往前走，往右拐",
+      "title_pinyin": "Wǎng qián zǒu, wǎng yòu guǎi",
+      "title_en": "Go forward and turn right",
+      "characters": [
+        "心",
+        "远",
+        "近",
+        "共",
+        "铁",
+        "换",
+        "前",
+        "然",
+        "后",
+        "左",
+        "右",
+        "票",
+        "站",
+        "往",
+        "走",
+        "拐",
+        "遍",
+        "意",
+        "思",
+        "错"
+      ],
+      "char_readings": [
+        {
+          "char": "心",
+          "pinyin": "xīn",
+          "gloss": "heart"
+        },
+        {
+          "char": "远",
+          "pinyin": "yuǎn",
+          "gloss": "far"
+        },
+        {
+          "char": "近",
+          "pinyin": "jìn",
+          "gloss": "near"
+        },
+        {
+          "char": "共",
+          "pinyin": "gòng",
+          "gloss": "common, together"
+        },
+        {
+          "char": "铁",
+          "pinyin": "tiě",
+          "gloss": "iron"
+        },
+        {
+          "char": "换",
+          "pinyin": "huàn",
+          "gloss": "change, exchange"
+        },
+        {
+          "char": "前",
+          "pinyin": "qián",
+          "gloss": "front, before"
+        },
+        {
+          "char": "然",
+          "pinyin": "rán",
+          "gloss": "so, thus"
+        },
+        {
+          "char": "后",
+          "pinyin": "hòu",
+          "gloss": "back, after"
+        },
+        {
+          "char": "左",
+          "pinyin": "zuǒ",
+          "gloss": "left"
+        },
+        {
+          "char": "右",
+          "pinyin": "yòu",
+          "gloss": "right"
+        },
+        {
+          "char": "票",
+          "pinyin": "piào",
+          "gloss": "ticket"
+        },
+        {
+          "char": "站",
+          "pinyin": "zhàn",
+          "gloss": "station, stop"
+        },
+        {
+          "char": "往",
+          "pinyin": "wǎng",
+          "gloss": "towards"
+        },
+        {
+          "char": "走",
+          "pinyin": "zǒu",
+          "gloss": "walk, go"
+        },
+        {
+          "char": "拐",
+          "pinyin": "guǎi",
+          "gloss": "turn"
+        },
+        {
+          "char": "遍",
+          "pinyin": "biàn",
+          "gloss": "time (measure word for actions)"
+        },
+        {
+          "char": "意",
+          "pinyin": "yì",
+          "gloss": "meaning, idea"
+        },
+        {
+          "char": "思",
+          "pinyin": "sī",
+          "gloss": "think"
+        },
+        {
+          "char": "错",
+          "pinyin": "cuò",
+          "gloss": "wrong"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "博物馆",
+          "pinyin": "bówùguǎn",
+          "pos": "N.",
+          "english": "museum"
+        },
+        {
+          "chinese": "市中心",
+          "pinyin": "shì zhōngxīn",
+          "pos": "",
+          "english": "downtown"
+        },
+        {
+          "chinese": "市",
+          "pinyin": "shì",
+          "pos": "N.",
+          "english": "city"
+        },
+        {
+          "chinese": "中心",
+          "pinyin": "zhōngxīn",
+          "pos": "N.",
+          "english": "center"
+        },
+        {
+          "chinese": "挺",
+          "pinyin": "tǐng",
+          "pos": "Adj.",
+          "english": "very"
+        },
+        {
+          "chinese": "远",
+          "pinyin": "yuǎn",
+          "pos": "Adj.",
+          "english": "far"
+        },
+        {
+          "chinese": "近",
+          "pinyin": "jìn",
+          "pos": "Adj.",
+          "english": "near"
+        },
+        {
+          "chinese": "路",
+          "pinyin": "lù",
+          "pos": "N.",
+          "english": "route"
+        },
+        {
+          "chinese": "公共汽车",
+          "pinyin": "gōnggòng qìchē",
+          "pos": "",
+          "english": "bus"
+        },
+        {
+          "chinese": "地铁",
+          "pinyin": "dìtiě",
+          "pos": "N.",
+          "english": "subway, metro"
+        },
+        {
+          "chinese": "先",
+          "pinyin": "xiān",
+          "pos": "Adv.",
+          "english": "first"
+        },
+        {
+          "chinese": "然后",
+          "pinyin": "ránhòu",
+          "pos": "Conj.",
+          "english": "then"
+        },
+        {
+          "chinese": "换",
+          "pinyin": "huàn",
+          "pos": "V.",
+          "english": "change"
+        },
+        {
+          "chinese": "票",
+          "pinyin": "piào",
+          "pos": "N.",
+          "english": "ticket"
+        },
+        {
+          "chinese": "站",
+          "pinyin": "zhàn",
+          "pos": "N.",
+          "english": "railway station, bus stop"
+        },
+        {
+          "chinese": "车站",
+          "pinyin": "chēzhàn",
+          "pos": "N.",
+          "english": "railway station, bus stop"
+        },
+        {
+          "chinese": "叫",
+          "pinyin": "jiào",
+          "pos": "V.",
+          "english": "call"
+        },
+        {
+          "chinese": "师傅",
+          "pinyin": "shīfu",
+          "pos": "N.",
+          "english": "a polite form of address to a worker, a driver, a shop-assistant, etc."
+        },
+        {
+          "chinese": "售票员",
+          "pinyin": "shòupiàoyuán",
+          "pos": "",
+          "english": "conductor"
+        },
+        {
+          "chinese": "行人",
+          "pinyin": "xíngrén",
+          "pos": "N.",
+          "english": "pedestrian"
+        },
+        {
+          "chinese": "前",
+          "pinyin": "qián",
+          "pos": "N.",
+          "english": "front"
+        },
+        {
+          "chinese": "前面",
+          "pinyin": "qiánmiàn",
+          "pos": "N.",
+          "english": "front"
+        },
+        {
+          "chinese": "前边",
+          "pinyin": "qiánbian",
+          "pos": "N.",
+          "english": "front"
+        },
+        {
+          "chinese": "后",
+          "pinyin": "hòu",
+          "pos": "N.",
+          "english": "back"
+        },
+        {
+          "chinese": "后面",
+          "pinyin": "hòumiàn",
+          "pos": "N.",
+          "english": "back"
+        },
+        {
+          "chinese": "后边",
+          "pinyin": "hòubian",
+          "pos": "N.",
+          "english": "back"
+        },
+        {
+          "chinese": "右",
+          "pinyin": "yòu",
+          "pos": "N.",
+          "english": "right side"
+        },
+        {
+          "chinese": "右面",
+          "pinyin": "yòumiàn",
+          "pos": "N.",
+          "english": "right side"
+        },
+        {
+          "chinese": "右边",
+          "pinyin": "yòubian",
+          "pos": "N.",
+          "english": "right side"
+        },
+        {
+          "chinese": "左",
+          "pinyin": "zuǒ",
+          "pos": "N.",
+          "english": "left side"
+        },
+        {
+          "chinese": "左面",
+          "pinyin": "zuǒmiàn",
+          "pos": "N.",
+          "english": "left side"
+        },
+        {
+          "chinese": "左边",
+          "pinyin": "zuǒbian",
+          "pos": "N.",
+          "english": "left side"
+        },
+        {
+          "chinese": "往",
+          "pinyin": "wǎng",
+          "pos": "Prep.",
+          "english": "towards"
+        },
+        {
+          "chinese": "走",
+          "pinyin": "zǒu",
+          "pos": "V.",
+          "english": "walk, go"
+        },
+        {
+          "chinese": "拐",
+          "pinyin": "guǎi",
+          "pos": "V.",
+          "english": "turn"
+        },
+        {
+          "chinese": "到",
+          "pinyin": "dào",
+          "pos": "V.",
+          "english": "arrive"
+        },
+        {
+          "chinese": "路口",
+          "pinyin": "lùkǒu",
+          "pos": "N.",
+          "english": "intersection"
+        },
+        {
+          "chinese": "遍",
+          "pinyin": "biàn",
+          "pos": "M.W.",
+          "english": "time (measure word for actions)"
+        },
+        {
+          "chinese": "不好意思",
+          "pinyin": "bù hǎoyìsi",
+          "pos": "",
+          "english": "sorry, feel shy, be embarrassed"
+        },
+        {
+          "chinese": "错",
+          "pinyin": "cuò",
+          "pos": "Adj.",
+          "english": "wrong"
+        },
+        {
+          "chinese": "公寓",
+          "pinyin": "gōngyù",
+          "pos": "N.",
+          "english": "apartment"
+        },
+        {
+          "chinese": "附近",
+          "pinyin": "fùjìn",
+          "pos": "N.",
+          "english": "nearby"
+        },
+        {
+          "chinese": "常常",
+          "pinyin": "chángcháng",
+          "pos": "Adv.",
+          "english": "often"
+        },
+        {
+          "chinese": "挤",
+          "pinyin": "jǐ",
+          "pos": "N.",
+          "english": "crowd"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "挺远的。",
+          "english": "Quite far."
+        },
+        {
+          "chinese": "坐公共汽车",
+          "english": "go by bus, take the bus"
+        },
+        {
+          "chinese": "37路公共汽车",
+          "english": "bus No. 37"
+        },
+        {
+          "chinese": "坐地铁",
+          "english": "take the subway"
+        },
+        {
+          "chinese": "先……然后……",
+          "english": "first ... then ..."
+        },
+        {
+          "chinese": "换车",
+          "english": "change the bus"
+        },
+        {
+          "chinese": "换钱",
+          "english": "change money"
+        },
+        {
+          "chinese": "换班",
+          "english": "take a shift"
+        },
+        {
+          "chinese": "一张票",
+          "english": "a ticket"
+        },
+        {
+          "chinese": "往前",
+          "english": "to the front"
+        },
+        {
+          "chinese": "往后",
+          "english": "to the back"
+        },
+        {
+          "chinese": "往左",
+          "english": "to the left"
+        },
+        {
+          "chinese": "往右",
+          "english": "to the right"
+        },
+        {
+          "chinese": "往前走",
+          "english": "walk ahead"
+        },
+        {
+          "chinese": "往左拐",
+          "english": "turn left"
+        },
+        {
+          "chinese": "我们到了。",
+          "english": "We've arrived."
+        },
+        {
+          "chinese": "一遍",
+          "english": "once"
+        },
+        {
+          "chinese": "两遍",
+          "english": "twice"
+        },
+        {
+          "chinese": "三遍",
+          "english": "three times"
+        },
+        {
+          "chinese": "请再说一遍。",
+          "english": "Please say it again."
+        },
+        {
+          "chinese": "说错了",
+          "english": "say something wrongly"
+        },
+        {
+          "chinese": "听错了",
+          "english": "hear something wrongly"
+        },
+        {
+          "chinese": "看错了",
+          "english": "see something wrongly"
+        },
+        {
+          "chinese": "我想去博物馆。",
+          "english": "I want to go to the museum."
+        },
+        {
+          "chinese": "博物馆在市中心。",
+          "english": "The museum is downtown."
+        },
+        {
+          "chinese": "远不远？",
+          "english": "Is it far?"
+        },
+        {
+          "chinese": "坐车怎么去？",
+          "english": "How do I get there by bus?"
+        },
+        {
+          "chinese": "先坐37路公共汽车，然后换地铁。",
+          "english": "First take bus No. 37, then change to the subway."
+        },
+        {
+          "chinese": "师傅，买两张票，到博物馆。",
+          "english": "Driver, two tickets to the museum, please."
+        },
+        {
+          "chinese": "这车不去博物馆。要换地铁。",
+          "english": "This bus doesn't go to the museum. You have to change to the subway."
+        },
+        {
+          "chinese": "请问，在什么地方换地铁？",
+          "english": "Excuse me, where do I change to the subway?"
+        },
+        {
+          "chinese": "北京路站。",
+          "english": "At Beijing Road station."
+        },
+        {
+          "chinese": "师傅，到了北京路，请您叫我们一下儿，行吗？",
+          "english": "Driver, when we get to Beijing Road, please let us know, okay?"
+        },
+        {
+          "chinese": "行，没问题。",
+          "english": "Sure, no problem."
+        },
+        {
+          "chinese": "谢谢。",
+          "english": "Thank you."
+        },
+        {
+          "chinese": "请问，地铁站在哪儿？",
+          "english": "Excuse me, where is the subway station?"
+        },
+        {
+          "chinese": "往前走，到了路口，往右拐，有一个银行，银行旁边就是地铁站。",
+          "english": "Walk straight ahead, at the intersection turn right, there's a bank, and right next to the bank is the subway station."
+        },
+        {
+          "chinese": "对不起，请您再说一遍。",
+          "english": "Sorry, please say it again."
+        },
+        {
+          "chinese": "往前走，往右拐，有一个银行……",
+          "english": "Walk straight ahead, turn right, there's a bank..."
+        },
+        {
+          "chinese": "地铁站在银行的对面，对吗？",
+          "english": "The subway station is across from the bank, right?"
+        },
+        {
+          "chinese": "不不不，地铁站在银行的旁边，不是对面。",
+          "english": "No, no, no, the subway station is next to the bank, not across from it."
+        },
+        {
+          "chinese": "不好意思，我听错了。我的汉语不太好。",
+          "english": "Sorry, I heard it wrong. My Chinese isn't very good."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title_zh": "你去过\"星月\"舞厅吗？",
+      "title_pinyin": "Nǐ qùguo \"Xīngyuè\" wǔtīng ma?",
+      "title_en": "Have you ever been to Xingyue Ballroom?",
+      "characters": [
+        "般",
+        "总",
+        "音",
+        "乐",
+        "聊",
+        "跳",
+        "舞",
+        "唱",
+        "歌",
+        "开",
+        "骑",
+        "挺",
+        "跟",
+        "月",
+        "过",
+        "附",
+        "厅",
+        "只",
+        "吧",
+        "咱"
+      ],
+      "char_readings": [
+        {
+          "char": "般",
+          "pinyin": "bān",
+          "gloss": "sort, kind"
+        },
+        {
+          "char": "总",
+          "pinyin": "zǒng",
+          "gloss": "always; general"
+        },
+        {
+          "char": "音",
+          "pinyin": "yīn",
+          "gloss": "sound"
+        },
+        {
+          "char": "乐",
+          "pinyin": "yuè",
+          "gloss": "music"
+        },
+        {
+          "char": "聊",
+          "pinyin": "liáo",
+          "gloss": "chat"
+        },
+        {
+          "char": "跳",
+          "pinyin": "tiào",
+          "gloss": "jump"
+        },
+        {
+          "char": "舞",
+          "pinyin": "wǔ",
+          "gloss": "dance"
+        },
+        {
+          "char": "唱",
+          "pinyin": "chàng",
+          "gloss": "sing"
+        },
+        {
+          "char": "歌",
+          "pinyin": "gē",
+          "gloss": "song"
+        },
+        {
+          "char": "开",
+          "pinyin": "kāi",
+          "gloss": "open; start"
+        },
+        {
+          "char": "骑",
+          "pinyin": "qí",
+          "gloss": "ride"
+        },
+        {
+          "char": "挺",
+          "pinyin": "tǐng",
+          "gloss": "quite, very"
+        },
+        {
+          "char": "跟",
+          "pinyin": "gēn",
+          "gloss": "with; follow"
+        },
+        {
+          "char": "月",
+          "pinyin": "yuè",
+          "gloss": "moon; month"
+        },
+        {
+          "char": "过",
+          "pinyin": "guò",
+          "gloss": "to pass; (experience particle)"
+        },
+        {
+          "char": "附",
+          "pinyin": "fù",
+          "gloss": "attach; near"
+        },
+        {
+          "char": "厅",
+          "pinyin": "tīng",
+          "gloss": "hall"
+        },
+        {
+          "char": "只",
+          "pinyin": "zhǐ",
+          "gloss": "only"
+        },
+        {
+          "char": "吧",
+          "pinyin": "ba",
+          "gloss": "(suggestion particle)"
+        },
+        {
+          "char": "咱",
+          "pinyin": "zán",
+          "gloss": "we (inclusive)"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "一般",
+          "pinyin": "yìbān",
+          "pos": "Adv.",
+          "english": "generally"
+        },
+        {
+          "chinese": "总是",
+          "pinyin": "zǒngshì",
+          "pos": "Adv.",
+          "english": "always"
+        },
+        {
+          "chinese": "常常",
+          "pinyin": "chángcháng",
+          "pos": "Adv.",
+          "english": "often"
+        },
+        {
+          "chinese": "有(的)时候",
+          "pinyin": "yǒu (de) shíhou",
+          "pos": "",
+          "english": "sometimes"
+        },
+        {
+          "chinese": "很少",
+          "pinyin": "hěnshǎo",
+          "pos": "",
+          "english": "seldom"
+        },
+        {
+          "chinese": "从来不/没",
+          "pinyin": "cónglái bù / méi",
+          "pos": "",
+          "english": "never"
+        },
+        {
+          "chinese": "逛街",
+          "pinyin": "guàng jiē",
+          "pos": "",
+          "english": "stroll around the streets"
+        },
+        {
+          "chinese": "听音乐",
+          "pinyin": "tīng yīnyuè",
+          "pos": "",
+          "english": "listen to the music"
+        },
+        {
+          "chinese": "听",
+          "pinyin": "tīng",
+          "pos": "V.",
+          "english": "listen (to)"
+        },
+        {
+          "chinese": "音乐",
+          "pinyin": "yīnyuè",
+          "pos": "N.",
+          "english": "music"
+        },
+        {
+          "chinese": "聊天儿",
+          "pinyin": "liáo tiānr",
+          "pos": "",
+          "english": "chat"
+        },
+        {
+          "chinese": "跳舞",
+          "pinyin": "tiào wǔ",
+          "pos": "",
+          "english": "dance"
+        },
+        {
+          "chinese": "跳",
+          "pinyin": "tiào",
+          "pos": "V.",
+          "english": "jump"
+        },
+        {
+          "chinese": "舞",
+          "pinyin": "wǔ",
+          "pos": "N.",
+          "english": "dance"
+        },
+        {
+          "chinese": "唱歌",
+          "pinyin": "chàng gē",
+          "pos": "",
+          "english": "sing (a song)"
+        },
+        {
+          "chinese": "唱",
+          "pinyin": "chàng",
+          "pos": "V.",
+          "english": "sing"
+        },
+        {
+          "chinese": "歌",
+          "pinyin": "gē",
+          "pos": "N.",
+          "english": "song"
+        },
+        {
+          "chinese": "打车",
+          "pinyin": "dǎ chē",
+          "pos": "",
+          "english": "take taxi"
+        },
+        {
+          "chinese": "骑",
+          "pinyin": "qí",
+          "pos": "V.",
+          "english": "ride"
+        },
+        {
+          "chinese": "走着去",
+          "pinyin": "zǒuzhe qù",
+          "pos": "",
+          "english": "go on foot"
+        },
+        {
+          "chinese": "开",
+          "pinyin": "kāi",
+          "pos": "V.",
+          "english": "open"
+        },
+        {
+          "chinese": "请",
+          "pinyin": "qǐng",
+          "pos": "V.",
+          "english": "treat"
+        },
+        {
+          "chinese": "附近",
+          "pinyin": "fùjìn",
+          "pos": "N.",
+          "english": "neighborhood"
+        },
+        {
+          "chinese": "歌厅",
+          "pinyin": "gētīng",
+          "pos": "N.",
+          "english": "KTV"
+        },
+        {
+          "chinese": "舞厅",
+          "pinyin": "wǔtīng",
+          "pos": "N.",
+          "english": "ballroom, dance hall"
+        },
+        {
+          "chinese": "酒吧",
+          "pinyin": "jiǔbā",
+          "pos": "N.",
+          "english": "bar"
+        },
+        {
+          "chinese": "以前",
+          "pinyin": "yǐqián",
+          "pos": "N.",
+          "english": "before"
+        },
+        {
+          "chinese": "以后",
+          "pinyin": "yǐhòu",
+          "pos": "N.",
+          "english": "later, in the future, after"
+        },
+        {
+          "chinese": "过",
+          "pinyin": "guo",
+          "pos": "Part.",
+          "english": "used after a verb to indicate past action or experience"
+        },
+        {
+          "chinese": "前几天",
+          "pinyin": "qián jǐ tiān",
+          "pos": "",
+          "english": "a few days ago"
+        },
+        {
+          "chinese": "关门",
+          "pinyin": "guān mén",
+          "pos": "",
+          "english": "close"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "从来不去",
+          "english": "never go there"
+        },
+        {
+          "chinese": "从来没去过",
+          "english": "have never been there"
+        },
+        {
+          "chinese": "跳一个舞",
+          "english": "perform a dance"
+        },
+        {
+          "chinese": "唱一个歌",
+          "english": "sing a song"
+        },
+        {
+          "chinese": "骑自行车",
+          "english": "ride a bicycle, go by bike"
+        },
+        {
+          "chinese": "开公司",
+          "english": "start a company"
+        },
+        {
+          "chinese": "开商店",
+          "english": "open a shop"
+        },
+        {
+          "chinese": "我请你喝咖啡。",
+          "english": "I'll treat you to a cup of coffee."
+        },
+        {
+          "chinese": "我家附近",
+          "english": "near my home"
+        },
+        {
+          "chinese": "三年以前",
+          "english": "three years ago"
+        },
+        {
+          "chinese": "吃饭以前",
+          "english": "before having a meal"
+        },
+        {
+          "chinese": "三年以后",
+          "english": "three years later"
+        },
+        {
+          "chinese": "吃饭以后",
+          "english": "after the meal"
+        },
+        {
+          "chinese": "周末晚上你们一般干什么？",
+          "english": "What do you usually do on weekend evenings?"
+        },
+        {
+          "chinese": "我常常去酒吧。",
+          "english": "I often go to the bar."
+        },
+        {
+          "chinese": "我有时候去逛街。",
+          "english": "Sometimes I go strolling around the streets."
+        },
+        {
+          "chinese": "我哪儿也不去，总是在房间里听音乐。",
+          "english": "I don't go anywhere; I always listen to music in my room."
+        },
+        {
+          "chinese": "我一般在宿舍里跟朋友聊天儿。",
+          "english": "I usually chat with friends in the dorm."
+        },
+        {
+          "chinese": "你们去不去歌厅和舞厅？",
+          "english": "Do you go to KTVs and ballrooms?"
+        },
+        {
+          "chinese": "从来不去。",
+          "english": "Never."
+        },
+        {
+          "chinese": "我和田中也没去过。",
+          "english": "Tanaka and I haven't been either."
+        },
+        {
+          "chinese": "以后我请你们一起去唱歌和跳舞，怎么样？",
+          "english": "Later I'll treat you all to go singing and dancing together, how about that?"
+        },
+        {
+          "chinese": "那太好了！",
+          "english": "That's great!"
+        },
+        {
+          "chinese": "今天晚上咱们去唱歌，怎么样？",
+          "english": "How about we go singing tonight?"
+        },
+        {
+          "chinese": "附近有歌厅吗？",
+          "english": "Is there a KTV nearby?"
+        },
+        {
+          "chinese": "有，有家\"新月\"KTV。",
+          "english": "Yes, there's a Xinyue KTV."
+        },
+        {
+          "chinese": "我以前只听说过\"明月\"KTV，没听说过\"新月\"KTV。",
+          "english": "I'd only heard of Mingyue KTV before; I'd never heard of Xinyue KTV."
+        },
+        {
+          "chinese": "\"新月\"歌厅是新开的。我去过几次，还不错。",
+          "english": "Xinyue KTV is newly opened. I've been a few times; it's pretty good."
+        },
+        {
+          "chinese": "行，那就去\"新月\"歌厅吧。",
+          "english": "Okay, then let's go to Xinyue KTV."
+        },
+        {
+          "chinese": "你去过\"星月\"舞厅吗？",
+          "english": "Have you ever been to Xingyue Ballroom?"
+        },
+        {
+          "chinese": "没去过。你去过吗？",
+          "english": "No, I haven't. Have you?"
+        },
+        {
+          "chinese": "去过，还不错。今天晚上咱们去那儿跳舞怎么样？",
+          "english": "Yes, I have; it's pretty good. How about we go dancing there tonight?"
+        },
+        {
+          "chinese": "好啊！咱们打车去还是骑自行车去？",
+          "english": "Sure! Should we take a taxi or ride bikes there?"
+        },
+        {
+          "chinese": "不用打车，也不用骑车。\"星月\"舞厅很近，就在学校旁边。",
+          "english": "No need for a taxi or a bike. Xingyue Ballroom is close, right next to the school."
+        },
+        {
+          "chinese": "那咱们就走着去吧。",
+          "english": "Then let's just walk there."
+        },
+        {
+          "chinese": "我以前来过这儿，这是我第二次来。",
+          "english": "I've been here before; this is my second time."
+        },
+        {
+          "chinese": "我以前没学过汉语。",
+          "english": "I hadn't studied Chinese before."
+        },
+        {
+          "chinese": "这个字我不认识，我们没学过。",
+          "english": "I don't recognize this character; we haven't studied it."
+        },
+        {
+          "chinese": "我没去过北京，很想去。",
+          "english": "I've never been to Beijing, and I really want to go."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title_zh": "考试难不难？",
+      "title_pinyin": "Kǎoshì nán bù nán?",
+      "title_en": "Is the exam difficult?",
+      "characters": [
+        "考",
+        "试",
+        "读",
+        "写",
+        "发",
+        "法",
+        "难",
+        "容",
+        "易",
+        "慢",
+        "努",
+        "力",
+        "能",
+        "步",
+        "始",
+        "结",
+        "束",
+        "每",
+        "别",
+        "因"
+      ],
+      "char_readings": [
+        {
+          "char": "考",
+          "pinyin": "kǎo",
+          "gloss": "to test, examine"
+        },
+        {
+          "char": "试",
+          "pinyin": "shì",
+          "gloss": "test, try"
+        },
+        {
+          "char": "读",
+          "pinyin": "dú",
+          "gloss": "to read"
+        },
+        {
+          "char": "写",
+          "pinyin": "xiě",
+          "gloss": "to write"
+        },
+        {
+          "char": "发",
+          "pinyin": "fā",
+          "gloss": "to emit, send out"
+        },
+        {
+          "char": "法",
+          "pinyin": "fǎ",
+          "gloss": "method, law"
+        },
+        {
+          "char": "难",
+          "pinyin": "nán",
+          "gloss": "difficult"
+        },
+        {
+          "char": "容",
+          "pinyin": "róng",
+          "gloss": "to contain; appearance"
+        },
+        {
+          "char": "易",
+          "pinyin": "yì",
+          "gloss": "easy"
+        },
+        {
+          "char": "慢",
+          "pinyin": "màn",
+          "gloss": "slow"
+        },
+        {
+          "char": "努",
+          "pinyin": "nǔ",
+          "gloss": "to exert, strive"
+        },
+        {
+          "char": "力",
+          "pinyin": "lì",
+          "gloss": "strength, power"
+        },
+        {
+          "char": "能",
+          "pinyin": "néng",
+          "gloss": "can, be able to"
+        },
+        {
+          "char": "步",
+          "pinyin": "bù",
+          "gloss": "step, pace"
+        },
+        {
+          "char": "始",
+          "pinyin": "shǐ",
+          "gloss": "to begin, start"
+        },
+        {
+          "char": "结",
+          "pinyin": "jié",
+          "gloss": "to tie, conclude"
+        },
+        {
+          "char": "束",
+          "pinyin": "shù",
+          "gloss": "to bind; end"
+        },
+        {
+          "char": "每",
+          "pinyin": "měi",
+          "gloss": "every, each"
+        },
+        {
+          "char": "别",
+          "pinyin": "bié",
+          "gloss": "don't; other"
+        },
+        {
+          "char": "因",
+          "pinyin": "yīn",
+          "gloss": "cause, because"
+        }
+      ],
+      "vocab": [
+        {
+          "chinese": "考试",
+          "pinyin": "kǎoshì",
+          "pos": "N., V.",
+          "english": "test"
+        },
+        {
+          "chinese": "考",
+          "pinyin": "kǎo",
+          "pos": "V.",
+          "english": "test"
+        },
+        {
+          "chinese": "读写",
+          "pinyin": "dúxiě",
+          "pos": "N.",
+          "english": "(a course of) reading and writing"
+        },
+        {
+          "chinese": "听说",
+          "pinyin": "tīngshuō",
+          "pos": "N.",
+          "english": "(a course of) listening and speaking"
+        },
+        {
+          "chinese": "汉字",
+          "pinyin": "Hànzì",
+          "pos": "N.",
+          "english": "Chinese character"
+        },
+        {
+          "chinese": "发音",
+          "pinyin": "fāyīn",
+          "pos": "N.",
+          "english": "pronunciation"
+        },
+        {
+          "chinese": "语法",
+          "pinyin": "yǔfǎ",
+          "pos": "N.",
+          "english": "grammar"
+        },
+        {
+          "chinese": "词语",
+          "pinyin": "cíyǔ",
+          "pos": "N.",
+          "english": "words and expressions"
+        },
+        {
+          "chinese": "难",
+          "pinyin": "nán",
+          "pos": "Adj.",
+          "english": "difficult"
+        },
+        {
+          "chinese": "容易",
+          "pinyin": "róngyì",
+          "pos": "Adj.",
+          "english": "easy"
+        },
+        {
+          "chinese": "努力",
+          "pinyin": "nǔlì",
+          "pos": "Adj.",
+          "english": "(work or study) hard"
+        },
+        {
+          "chinese": "觉得",
+          "pinyin": "juéde",
+          "pos": "V.",
+          "english": "think"
+        },
+        {
+          "chinese": "能",
+          "pinyin": "néng",
+          "pos": "V.",
+          "english": "can"
+        },
+        {
+          "chinese": "写不好",
+          "pinyin": "xiě bu hǎo",
+          "pos": "",
+          "english": "cannot write (it) well"
+        },
+        {
+          "chinese": "写",
+          "pinyin": "xiě",
+          "pos": "V.",
+          "english": "write"
+        },
+        {
+          "chinese": "记不住",
+          "pinyin": "jì bu zhù",
+          "pos": "",
+          "english": "cannot memorize"
+        },
+        {
+          "chinese": "记",
+          "pinyin": "jì",
+          "pos": "V.",
+          "english": "to memorize"
+        },
+        {
+          "chinese": "进步",
+          "pinyin": "jìnbù",
+          "pos": "N., V.",
+          "english": "progress, make progress"
+        },
+        {
+          "chinese": "通过",
+          "pinyin": "tōngguò",
+          "pos": "V.",
+          "english": "pass"
+        },
+        {
+          "chinese": "开始",
+          "pinyin": "kāishǐ",
+          "pos": "V.",
+          "english": "begin"
+        },
+        {
+          "chinese": "结束",
+          "pinyin": "jiéshù",
+          "pos": "V.",
+          "english": "end, finish"
+        },
+        {
+          "chinese": "迟到",
+          "pinyin": "chídào",
+          "pos": "V.",
+          "english": "to be late"
+        },
+        {
+          "chinese": "每",
+          "pinyin": "měi",
+          "pos": "Pron.",
+          "english": "every"
+        },
+        {
+          "chinese": "别",
+          "pinyin": "bié",
+          "pos": "Adv.",
+          "english": "don't"
+        },
+        {
+          "chinese": "因为",
+          "pinyin": "yīnwèi",
+          "pos": "Conj.",
+          "english": "because"
+        },
+        {
+          "chinese": "第一册",
+          "pinyin": "dì-yī cè",
+          "pos": "",
+          "english": "volume one"
+        },
+        {
+          "chinese": "完",
+          "pinyin": "wán",
+          "pos": "V.",
+          "english": "finish"
+        },
+        {
+          "chinese": "得",
+          "pinyin": "de",
+          "pos": "Aux.",
+          "english": "here used after verbs to connect a complement"
+        },
+        {
+          "chinese": "后天",
+          "pinyin": "hòutiān",
+          "pos": "N.",
+          "english": "the day after tomorrow"
+        },
+        {
+          "chinese": "复习",
+          "pinyin": "fùxí",
+          "pos": "V.",
+          "english": "review"
+        }
+      ],
+      "sentences": [
+        {
+          "chinese": "明天考试。",
+          "english": "There will be a test tomorrow."
+        },
+        {
+          "chinese": "明天有一个考试。",
+          "english": "There will be a test tomorrow."
+        },
+        {
+          "chinese": "明天考什么？",
+          "english": "What is tomorrow's test about?"
+        },
+        {
+          "chinese": "努力学习",
+          "english": "study hard"
+        },
+        {
+          "chinese": "努力工作",
+          "english": "work hard"
+        },
+        {
+          "chinese": "我明天不能来。",
+          "english": "I cannot come tomorrow."
+        },
+        {
+          "chinese": "进步很大",
+          "english": "make great progress"
+        },
+        {
+          "chinese": "进步很快",
+          "english": "make fast progress"
+        },
+        {
+          "chinese": "通过考试",
+          "english": "pass the test"
+        },
+        {
+          "chinese": "每（一）个人",
+          "english": "every one"
+        },
+        {
+          "chinese": "每（一）本书",
+          "english": "every book"
+        },
+        {
+          "chinese": "明天别迟到。",
+          "english": "Don't be late tomorrow."
+        },
+        {
+          "chinese": "王老师，我们什么时候考试？",
+          "english": "Teacher Wang, when do we have the exam?"
+        },
+        {
+          "chinese": "下星期一考试。",
+          "english": "The exam is next Monday."
+        },
+        {
+          "chinese": "在哪个教室？",
+          "english": "In which classroom?"
+        },
+        {
+          "chinese": "在217。",
+          "english": "In room 217."
+        },
+        {
+          "chinese": "考读写还是听说？",
+          "english": "Is the test on reading and writing, or on listening and speaking?"
+        },
+        {
+          "chinese": "都考。",
+          "english": "Both are tested."
+        },
+        {
+          "chinese": "考不考汉字？",
+          "english": "Will Chinese characters be tested?"
+        },
+        {
+          "chinese": "当然考。",
+          "english": "Of course they will be."
+        },
+        {
+          "chinese": "我们已经学了多少汉字？",
+          "english": "How many Chinese characters have we already learned?"
+        },
+        {
+          "chinese": "大概学了四百个。",
+          "english": "We've learned about four hundred."
+        },
+        {
+          "chinese": "都要考吗？",
+          "english": "Will all of them be tested?"
+        },
+        {
+          "chinese": "都要考。",
+          "english": "All of them will be tested."
+        },
+        {
+          "chinese": "你们觉得汉语怎么样？",
+          "english": "What do you think of Chinese?"
+        },
+        {
+          "chinese": "汉语发音不难，汉字很难。",
+          "english": "Chinese pronunciation isn't difficult, but the characters are very hard."
+        },
+        {
+          "chinese": "但是汉字很有意思。",
+          "english": "But Chinese characters are very interesting."
+        },
+        {
+          "chinese": "我觉得汉字很容易，发音和语法比较难。",
+          "english": "I think the characters are easy; the pronunciation and grammar are harder."
+        },
+        {
+          "chinese": "发音、语法都不难，问题是汉字和词语。",
+          "english": "Pronunciation and grammar aren't hard; the problem is the characters and vocabulary."
+        },
+        {
+          "chinese": "汉字太难，写不好；词语太多，记不住。",
+          "english": "The characters are too hard to write well, and there are too many words to memorize."
+        },
+        {
+          "chinese": "现在你们觉得自己的汉语怎么样？",
+          "english": "Now, how do you feel about your own Chinese?"
+        },
+        {
+          "chinese": "不错。",
+          "english": "Not bad."
+        },
+        {
+          "chinese": "你以前学过，当然进步很快。",
+          "english": "You studied it before, so of course you make fast progress."
+        },
+        {
+          "chinese": "我听说不行，只能说一点儿。",
+          "english": "My listening and speaking aren't good; I can only say a little."
+        },
+        {
+          "chinese": "我进步比较慢，因为我以前没学过。",
+          "english": "I make progress rather slowly, because I didn't study it before."
+        },
+        {
+          "chinese": "我看，不是因为你没学过，是因为你不太努力。",
+          "english": "In my opinion, it's not because you didn't study before; it's because you don't try hard enough."
+        },
+        {
+          "chinese": "王老师，下星期一的考试难不难？",
+          "english": "Teacher Wang, is next Monday's exam difficult?"
+        },
+        {
+          "chinese": "不太难。",
+          "english": "Not very difficult."
+        },
+        {
+          "chinese": "我们班每一个同学都能通过吗？",
+          "english": "Can every student in our class pass?"
+        },
+        {
+          "chinese": "如果努力学习，一定能通过。",
+          "english": "If you study hard, you'll definitely pass."
+        },
+        {
+          "chinese": "王老师，考试几点开始？",
+          "english": "Teacher Wang, what time does the exam start?"
+        },
+        {
+          "chinese": "八点半开始。大家别迟到。",
+          "english": "It starts at eight thirty. Everyone, don't be late."
+        },
+        {
+          "chinese": "考多长时间？",
+          "english": "How long does the exam last?"
+        },
+        {
+          "chinese": "一个半小时。",
+          "english": "An hour and a half."
+        },
+        {
+          "chinese": "明天和后天我们考试。",
+          "english": "We have exams tomorrow and the day after tomorrow."
+        },
+        {
+          "chinese": "明天考读写，后天考听说。",
+          "english": "Tomorrow is the reading-and-writing test; the day after is the listening-and-speaking test."
+        },
+        {
+          "chinese": "今天晚上我要好好儿复习。",
+          "english": "Tonight I'm going to review carefully."
+        }
+      ]
+    }
+  ]
+}

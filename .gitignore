@@ -1,0 +1,7 @@
+.DS_Store
+tools/_listen_cache/
+tools/_tospeak.tsv
+tools/_drill.json
+tools/_listen_summary.json
+
+.claude/

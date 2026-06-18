@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audio drills · Ten-Level Chinese</title>
+<meta name="description" content="Hands-free Pimsleur-style audio drills: English prompt → pause → Chinese answer, twice. One tap, plays straight through.">
+<style>
+  :root { --bg:#FAF6EE; --ink:#1B1A18; --mute:#6E6A60; --accent:#B43A2E; --card:#FFFDF7; --rule:#E5DECF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1A1916; --ink:#F0EBDD; --mute:#98927F; --accent:#E07466; --card:#22211D; --rule:#36332B; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--ink);
+         margin: 0; padding: 24px 16px 140px; line-height: 1.55; }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .sub { color: var(--mute); font-size: .9rem; margin-bottom: 16px; }
+  .how { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 12px 16px; font-size: .9rem; margin-bottom: 16px; }
+  .how strong { color: var(--accent); }
+  .bigplay { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%;
+             background: var(--accent); color: #fff; border: 0; padding: 18px; border-radius: 14px;
+             font-size: 1.05rem; font-weight: 700; cursor: pointer; margin-bottom: 8px; }
+  .bigplay:active { filter: brightness(.92); }
+  .meta { text-align: center; color: var(--mute); font-size: .8rem; margin-bottom: 20px; }
+  .meta a { color: var(--accent); }
+  ol { list-style: none; padding: 0; margin: 0; }
+  li button { display: flex; width: 100%; justify-content: space-between; align-items: center; padding: 12px 14px;
+              background: var(--card); border: 1px solid var(--rule); border-radius: 10px; margin-bottom: 8px;
+              color: inherit; font: inherit; cursor: pointer; text-align: left; }
+  li button.playing { border-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); }
+  li button .dl { color: var(--mute); font-size: .8rem; text-decoration: none; padding: 4px 8px; }
+  .back { color: var(--mute); font-size: .85rem; text-decoration: none; display: inline-block; margin-bottom: 16px; }
+  .tip { color: var(--mute); font-size: .8rem; margin-top: 20px; }
+  .tip a { color: var(--accent); }
+
+  /* Sticky player bar */
+  #bar { position: fixed; left: 0; right: 0; bottom: 0; background: var(--card); border-top: 1px solid var(--rule);
+         padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); display: none; }
+  #bar.on { display: block; }
+  #bar .row { max-width: 640px; margin: 0 auto; display: flex; align-items: center; gap: 12px; }
+  #bar button { background: var(--accent); color: #fff; border: 0; border-radius: 50%; width: 48px; height: 48px;
+                font-size: 1.2rem; cursor: pointer; flex-shrink: 0; }
+  #bar .info { flex: 1; min-width: 0; }
+  #bar .title { font-weight: 600; font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #bar .time { color: var(--mute); font-size: .75rem; font-variant-numeric: tabular-nums; }
+  #bar input[type=range] { width: 100%; accent-color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../">← Back to flashcards</a>
+  <h1>🎧 Audio drills</h1>
+  <p class="sub">Hands-free vocabulary practice — one tap, plays straight through.</p>
+
+  <div class="how">
+    You hear the <strong>English</strong> → pause — <strong>say the Chinese out loud</strong> →
+    the Chinese answer plays <strong>twice</strong>. All 537 words, lessons 1–16.
+  </div>
+
+  <button class="bigplay" id="playAll">▶ &nbsp;Play everything (41 min)</button>
+  <p class="meta">Plays non-stop, screen can be locked.
+    <a href="all-vocab-drill.mp3" download>Download MP3 (8 MB)</a> for offline.</p>
+
+  <ol id="lessons"></ol>
+
+  <p class="tip">⚠️ On a bike: one earbud only (or bone-conduction), volume low enough to hear traffic.</p>
+  <p class="tip">Built from the <a href="../">Ten-Level Chinese flashcards</a> · by <a href="https://husanmavlonov.com">Husan Mavlonov</a></p>
+</main>
+
+<div id="bar">
+  <div class="row">
+    <button id="toggle" aria-label="Play or pause">⏸</button>
+    <div class="info">
+      <div class="title" id="nowTitle">—</div>
+      <input type="range" id="seek" min="0" max="100" value="0" step="0.1" aria-label="Seek">
+      <div class="time" id="nowTime">0:00 / 0:00</div>
+    </div>
+  </div>
+</div>
+
+<audio id="player" preload="none"></audio>
+
+<script>
+(() => {
+  const player = document.getElementById('player');
+  const bar = document.getElementById('bar');
+  const toggle = document.getElementById('toggle');
+  const nowTitle = document.getElementById('nowTitle');
+  const nowTime = document.getElementById('nowTime');
+  const seek = document.getElementById('seek');
+  const ol = document.getElementById('lessons');
+
+  // Playlist: per-lesson files. "Play everything" starts at lesson 1 and
+  // the 'ended' handler walks to lesson 16 with zero interaction.
+  const tracks = [];
+  for (let i = 1; i <= 16; i++) {
+    const n = String(i).padStart(2, '0');
+    tracks.push({ src: `lesson-${n}.mp3`, title: `Lesson ${i}` });
+  }
+  let cur = -1;
+  let playlistMode = false;   // true = auto-advance to the next lesson
+
+  // Build the lesson list (tap = play just that lesson, then continue on)
+  tracks.forEach((t, i) => {
+    const li = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.innerHTML = `<span>${t.title}</span><a class="dl" href="${t.src}" download onclick="event.stopPropagation()">⬇</a>`;
+    btn.addEventListener('click', () => { playlistMode = true; load(i, true); });
+    li.appendChild(btn);
+    ol.appendChild(li);
+    t.btn = btn;
+  });
+
+  function load(i, autoplay) {
+    cur = i;
+    const t = tracks[i];
+    player.src = t.src;
+    nowTitle.textContent = t.title + ' · 拾级汉语 drill';
+    tracks.forEach((x) => x.btn.classList.remove('playing'));
+    t.btn.classList.add('playing');
+    bar.classList.add('on');
+    if (autoplay) player.play().catch(() => {});
+    updateMediaSession(t);
+  }
+
+  // ONE TAP → whole thing. Starts lesson 1, auto-advances to 20.
+  document.getElementById('playAll').addEventListener('click', () => {
+    playlistMode = true;
+    load(0, true);
+  });
+
+  // Auto-advance — this is the "goes straight for 1:30" part.
+  player.addEventListener('ended', () => {
+    if (playlistMode && cur < tracks.length - 1) {
+      load(cur + 1, true);
+    } else {
+      toggle.textContent = '▶';
+    }
+  });
+
+  toggle.addEventListener('click', () => {
+    if (player.paused) player.play(); else player.pause();
+  });
+  player.addEventListener('play',  () => { toggle.textContent = '⏸'; });
+  player.addEventListener('pause', () => { toggle.textContent = '▶'; });
+
+  const fmt = (s) => { s = Math.max(0, s | 0); return `${(s / 60) | 0}:${String(s % 60).padStart(2, '0')}`; };
+  player.addEventListener('timeupdate', () => {
+    if (player.duration) {
+      seek.value = (player.currentTime / player.duration) * 100;
+      nowTime.textContent = `${fmt(player.currentTime)} / ${fmt(player.duration)}`;
+    }
+  });
+  seek.addEventListener('input', () => {
+    if (player.duration) player.currentTime = (seek.value / 100) * player.duration;
+  });
+
+  // Lock-screen / headphone controls (Media Session API)
+  function updateMediaSession(t) {
+    if (!('mediaSession' in navigator)) return;
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: t.title,
+      artist: '拾级汉语 audio drill',
+      album: 'Ten-Level Chinese',
+    });
+    navigator.mediaSession.setActionHandler('play',  () => player.play());
+    navigator.mediaSession.setActionHandler('pause', () => player.pause());
+    navigator.mediaSession.setActionHandler('nexttrack',     cur < tracks.length - 1 ? () => load(cur + 1, true) : null);
+    navigator.mediaSession.setActionHandler('previoustrack', cur > 0 ? () => load(cur - 1, true) : null);
+  }
+})();
+</script>
+</body>
+</html>

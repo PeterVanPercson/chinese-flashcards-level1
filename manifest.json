@@ -1,0 +1,19 @@
+{
+  "name": "Ten-Level Chinese — Flashcards (Level 1)",
+  "short_name": "拾级 Chinese",
+  "description": "Anki-style flashcards for 拾级汉语 综合课本 第1级 — vocabulary, sentences, and characters with audio and stroke-order practice.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF6EE",
+  "theme_color": "#B43A2E",
+  "categories": ["education"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
